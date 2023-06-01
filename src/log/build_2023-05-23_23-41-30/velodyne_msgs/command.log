@@ -1,0 +1,4 @@
+Invoking command in '/home/ulugbek/dev-ws/src/build/velodyne_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/ulugbek/dev-ws/src/build/velodyne_msgs -- -j16 -l16
+Invoked command in '/home/ulugbek/dev-ws/src/build/velodyne_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/ulugbek/dev-ws/src/build/velodyne_msgs -- -j16 -l16
+Invoking command in '/home/ulugbek/dev-ws/src/build/velodyne_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/ulugbek/dev-ws/src/build/velodyne_msgs
+Invoked command in '/home/ulugbek/dev-ws/src/build/velodyne_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/ulugbek/dev-ws/src/build/velodyne_msgs

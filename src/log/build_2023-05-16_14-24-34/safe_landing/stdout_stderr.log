@@ -1,0 +1,19 @@
+[100%] Built target safe_landing_node
+-- Install configuration: ""
+-- Installing: /home/ulugbek/dev-ws/src/install/safe_landing/lib/safe_landing/safe_landing_node
+-- Set runtime path of "/home/ulugbek/dev-ws/src/install/safe_landing/lib/safe_landing/safe_landing_node" to ""
+-- Installing: /home/ulugbek/dev-ws/src/install/safe_landing/share/ament_index/resource_index/package_run_dependencies/safe_landing
+-- Installing: /home/ulugbek/dev-ws/src/install/safe_landing/share/ament_index/resource_index/parent_prefix_path/safe_landing
+-- Installing: /home/ulugbek/dev-ws/src/install/safe_landing/share/safe_landing/environment/ament_prefix_path.sh
+-- Installing: /home/ulugbek/dev-ws/src/install/safe_landing/share/safe_landing/environment/ament_prefix_path.dsv
+-- Installing: /home/ulugbek/dev-ws/src/install/safe_landing/share/safe_landing/environment/path.sh
+-- Installing: /home/ulugbek/dev-ws/src/install/safe_landing/share/safe_landing/environment/path.dsv
+-- Installing: /home/ulugbek/dev-ws/src/install/safe_landing/share/safe_landing/local_setup.bash
+-- Installing: /home/ulugbek/dev-ws/src/install/safe_landing/share/safe_landing/local_setup.sh
+-- Installing: /home/ulugbek/dev-ws/src/install/safe_landing/share/safe_landing/local_setup.zsh
+-- Installing: /home/ulugbek/dev-ws/src/install/safe_landing/share/safe_landing/local_setup.dsv
+-- Installing: /home/ulugbek/dev-ws/src/install/safe_landing/share/safe_landing/package.dsv
+-- Installing: /home/ulugbek/dev-ws/src/install/safe_landing/share/ament_index/resource_index/packages/safe_landing
+-- Installing: /home/ulugbek/dev-ws/src/install/safe_landing/share/safe_landing/cmake/safe_landingConfig.cmake
+-- Installing: /home/ulugbek/dev-ws/src/install/safe_landing/share/safe_landing/cmake/safe_landingConfig-version.cmake
+-- Installing: /home/ulugbek/dev-ws/src/install/safe_landing/share/safe_landing/package.xml

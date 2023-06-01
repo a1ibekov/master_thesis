@@ -1,0 +1,16 @@
+/home/ulugbek/dev-ws/src/install/static_tf_publisher/lib/static_tf_publisher/static_tf_publisher_node
+/home/ulugbek/dev-ws/src/install/static_tf_publisher/share/ament_index/resource_index/package_run_dependencies/static_tf_publisher
+/home/ulugbek/dev-ws/src/install/static_tf_publisher/share/ament_index/resource_index/parent_prefix_path/static_tf_publisher
+/home/ulugbek/dev-ws/src/install/static_tf_publisher/share/static_tf_publisher/environment/ament_prefix_path.sh
+/home/ulugbek/dev-ws/src/install/static_tf_publisher/share/static_tf_publisher/environment/ament_prefix_path.dsv
+/home/ulugbek/dev-ws/src/install/static_tf_publisher/share/static_tf_publisher/environment/path.sh
+/home/ulugbek/dev-ws/src/install/static_tf_publisher/share/static_tf_publisher/environment/path.dsv
+/home/ulugbek/dev-ws/src/install/static_tf_publisher/share/static_tf_publisher/local_setup.bash
+/home/ulugbek/dev-ws/src/install/static_tf_publisher/share/static_tf_publisher/local_setup.sh
+/home/ulugbek/dev-ws/src/install/static_tf_publisher/share/static_tf_publisher/local_setup.zsh
+/home/ulugbek/dev-ws/src/install/static_tf_publisher/share/static_tf_publisher/local_setup.dsv
+/home/ulugbek/dev-ws/src/install/static_tf_publisher/share/static_tf_publisher/package.dsv
+/home/ulugbek/dev-ws/src/install/static_tf_publisher/share/ament_index/resource_index/packages/static_tf_publisher
+/home/ulugbek/dev-ws/src/install/static_tf_publisher/share/static_tf_publisher/cmake/static_tf_publisherConfig.cmake
+/home/ulugbek/dev-ws/src/install/static_tf_publisher/share/static_tf_publisher/cmake/static_tf_publisherConfig-version.cmake
+/home/ulugbek/dev-ws/src/install/static_tf_publisher/share/static_tf_publisher/package.xml

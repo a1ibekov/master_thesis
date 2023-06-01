@@ -1,0 +1,4 @@
+[35m[1mScanning dependencies of target altitude_publisher_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/altitude_publisher_node.dir/src/altitude_publisher_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable altitude_publisher_node[0m
+[100%] Built target altitude_publisher_node

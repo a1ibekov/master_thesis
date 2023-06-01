@@ -1,0 +1,2 @@
+Invoking command in '/home/ulugbek/dev-ws/src/build/static_tf_publisher': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/ulugbek/dev-ws/src/build/static_tf_publisher -- -j16 -l16
+Invoked command in '/home/ulugbek/dev-ws/src/build/static_tf_publisher' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/ulugbek/dev-ws/src/build/static_tf_publisher -- -j16 -l16

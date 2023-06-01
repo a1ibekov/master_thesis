@@ -1,0 +1,31 @@
+[0.135s] Invoking command in '/home/ulugbek/dev-ws/src/build/velodyne_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ulugbek/dev-ws/install/ros_tcp_endpoint:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/ulugbek/dev-ws/src/build/velodyne_msgs -- -j16 -l16
+[0.470s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[0.473s] [35m[1mScanning dependencies of target velodyne_msgs__cpp[0m
+[0.473s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[0.476s] Traceback (most recent call last):
+[0.476s]   File "/opt/ros/foxy/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c", line 8, in <module>
+[0.476s]     from rosidl_generator_c import generate_c
+[0.477s]   File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_generator_c/__init__.py", line 15, in <module>
+[0.477s]     from rosidl_cmake import convert_camel_case_to_lower_case_underscore
+[0.477s]   File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_cmake/__init__.py", line 24, in <module>
+[0.478s]     from rosidl_parser.parser import parse_idl_file
+[0.478s]   File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_parser/parser.py", line 20, in <module>
+[0.481s]     from lark import Lark
+[0.482s] ModuleNotFoundError: No module named 'lark'
+[0.482s] make[2]: *** [CMakeFiles/velodyne_msgs__rosidl_generator_c.dir/build.make:108: rosidl_generator_c/velodyne_msgs/msg/velodyne_packet.h] Error 1
+[0.482s] make[1]: *** [CMakeFiles/Makefile2:207: CMakeFiles/velodyne_msgs__rosidl_generator_c.dir/all] Error 2
+[0.482s] make[1]: *** Waiting for unfinished jobs....
+[0.482s] Traceback (most recent call last):
+[0.482s]   File "/opt/ros/foxy/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp", line 8, in <module>
+[0.482s]     from rosidl_generator_cpp import generate_cpp
+[0.482s]   File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_generator_cpp/__init__.py", line 17, in <module>
+[0.483s]     from rosidl_cmake import generate_files
+[0.483s]   File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_cmake/__init__.py", line 24, in <module>
+[0.483s]     from rosidl_parser.parser import parse_idl_file
+[0.483s]   File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_parser/parser.py", line 20, in <module>
+[0.484s]     from lark import Lark
+[0.484s] ModuleNotFoundError: No module named 'lark'
+[0.484s] make[2]: *** [CMakeFiles/velodyne_msgs__cpp.dir/build.make:116: rosidl_generator_cpp/velodyne_msgs/msg/velodyne_packet.hpp] Error 1
+[0.484s] make[1]: *** [CMakeFiles/Makefile2:291: CMakeFiles/velodyne_msgs__cpp.dir/all] Error 2
+[0.488s] make: *** [Makefile:141: all] Error 2
+[0.490s] Invoked command in '/home/ulugbek/dev-ws/src/build/velodyne_msgs' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ulugbek/dev-ws/install/ros_tcp_endpoint:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/ulugbek/dev-ws/src/build/velodyne_msgs -- -j16 -l16

@@ -1,0 +1,19 @@
+[100%] Built target feature_extraction_node
+-- Install configuration: ""
+-- Installing: /home/ulugbek/dev-ws/src/install/feature_extraction/lib/feature_extraction/feature_extraction_node
+-- Set runtime path of "/home/ulugbek/dev-ws/src/install/feature_extraction/lib/feature_extraction/feature_extraction_node" to ""
+-- Installing: /home/ulugbek/dev-ws/src/install/feature_extraction/share/ament_index/resource_index/package_run_dependencies/feature_extraction
+-- Installing: /home/ulugbek/dev-ws/src/install/feature_extraction/share/ament_index/resource_index/parent_prefix_path/feature_extraction
+-- Installing: /home/ulugbek/dev-ws/src/install/feature_extraction/share/feature_extraction/environment/ament_prefix_path.sh
+-- Installing: /home/ulugbek/dev-ws/src/install/feature_extraction/share/feature_extraction/environment/ament_prefix_path.dsv
+-- Installing: /home/ulugbek/dev-ws/src/install/feature_extraction/share/feature_extraction/environment/path.sh
+-- Installing: /home/ulugbek/dev-ws/src/install/feature_extraction/share/feature_extraction/environment/path.dsv
+-- Installing: /home/ulugbek/dev-ws/src/install/feature_extraction/share/feature_extraction/local_setup.bash
+-- Installing: /home/ulugbek/dev-ws/src/install/feature_extraction/share/feature_extraction/local_setup.sh
+-- Installing: /home/ulugbek/dev-ws/src/install/feature_extraction/share/feature_extraction/local_setup.zsh
+-- Installing: /home/ulugbek/dev-ws/src/install/feature_extraction/share/feature_extraction/local_setup.dsv
+-- Installing: /home/ulugbek/dev-ws/src/install/feature_extraction/share/feature_extraction/package.dsv
+-- Installing: /home/ulugbek/dev-ws/src/install/feature_extraction/share/ament_index/resource_index/packages/feature_extraction
+-- Installing: /home/ulugbek/dev-ws/src/install/feature_extraction/share/feature_extraction/cmake/feature_extractionConfig.cmake
+-- Installing: /home/ulugbek/dev-ws/src/install/feature_extraction/share/feature_extraction/cmake/feature_extractionConfig-version.cmake
+-- Installing: /home/ulugbek/dev-ws/src/install/feature_extraction/share/feature_extraction/package.xml

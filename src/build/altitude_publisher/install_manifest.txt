@@ -1,0 +1,16 @@
+/home/ulugbek/dev-ws/src/install/altitude_publisher/lib/altitude_publisher/altitude_publisher_node
+/home/ulugbek/dev-ws/src/install/altitude_publisher/share/ament_index/resource_index/package_run_dependencies/altitude_publisher
+/home/ulugbek/dev-ws/src/install/altitude_publisher/share/ament_index/resource_index/parent_prefix_path/altitude_publisher
+/home/ulugbek/dev-ws/src/install/altitude_publisher/share/altitude_publisher/environment/ament_prefix_path.sh
+/home/ulugbek/dev-ws/src/install/altitude_publisher/share/altitude_publisher/environment/ament_prefix_path.dsv
+/home/ulugbek/dev-ws/src/install/altitude_publisher/share/altitude_publisher/environment/path.sh
+/home/ulugbek/dev-ws/src/install/altitude_publisher/share/altitude_publisher/environment/path.dsv
+/home/ulugbek/dev-ws/src/install/altitude_publisher/share/altitude_publisher/local_setup.bash
+/home/ulugbek/dev-ws/src/install/altitude_publisher/share/altitude_publisher/local_setup.sh
+/home/ulugbek/dev-ws/src/install/altitude_publisher/share/altitude_publisher/local_setup.zsh
+/home/ulugbek/dev-ws/src/install/altitude_publisher/share/altitude_publisher/local_setup.dsv
+/home/ulugbek/dev-ws/src/install/altitude_publisher/share/altitude_publisher/package.dsv
+/home/ulugbek/dev-ws/src/install/altitude_publisher/share/ament_index/resource_index/packages/altitude_publisher
+/home/ulugbek/dev-ws/src/install/altitude_publisher/share/altitude_publisher/cmake/altitude_publisherConfig.cmake
+/home/ulugbek/dev-ws/src/install/altitude_publisher/share/altitude_publisher/cmake/altitude_publisherConfig-version.cmake
+/home/ulugbek/dev-ws/src/install/altitude_publisher/share/altitude_publisher/package.xml

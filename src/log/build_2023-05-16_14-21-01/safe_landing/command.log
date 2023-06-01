@@ -1,0 +1,1 @@
+Invoking command in '/home/ulugbek/dev-ws/src/build/safe_landing': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ulugbek/dev-ws/install/ros_tcp_endpoint:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/ulugbek/dev-ws/src/safe_landing -DCMAKE_INSTALL_PREFIX=/home/ulugbek/dev-ws/src/install/safe_landing

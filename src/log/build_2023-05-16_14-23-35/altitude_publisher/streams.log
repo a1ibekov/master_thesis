@@ -1,0 +1,5 @@
+[0.121s] Invoking command in '/home/ulugbek/dev-ws/src/build/altitude_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ulugbek/dev-ws/install/ros_tcp_endpoint:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/ulugbek/dev-ws/src/build/altitude_publisher -- -j16 -l16
+[0.433s] [35m[1mScanning dependencies of target altitude_publisher_node[0m
+[0.433s] [ 50%] [32mBuilding CXX object CMakeFiles/altitude_publisher_node.dir/src/altitude_publisher_node.cpp.o[0m
+[2.840s] [100%] [32m[1mLinking CXX executable altitude_publisher_node[0m
+[2.969s] [100%] Built target altitude_publisher_node

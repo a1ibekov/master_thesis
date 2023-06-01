@@ -1,0 +1,9 @@
+[35m[1mScanning dependencies of target static_tf_publisher_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/static_tf_publisher_node.dir/src/static_tf_publisher_node.cpp.o[0m
+[01m[K/home/ulugbek/dev-ws/src/static_tf_publisher/src/static_tf_publisher_node.cpp:[m[K In member function ‘[01m[Kvoid StaticTfPublisher::pointCloudCallback(sensor_msgs::msg::PointCloud2_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/ulugbek/dev-ws/src/static_tf_publisher/src/static_tf_publisher_node.cpp:41:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2_sensor_msgs[m[K’ has not been declared
+   41 |     [01;31m[Ktf2_sensor_msgs[m[K::doTransform(*msg, transformed_cloud, transform_);
+      |     [01;31m[K^~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/static_tf_publisher_node.dir/build.make:63: CMakeFiles/static_tf_publisher_node.dir/src/static_tf_publisher_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/static_tf_publisher_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

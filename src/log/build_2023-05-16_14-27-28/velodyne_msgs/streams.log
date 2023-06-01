@@ -1,0 +1,144 @@
+[0.154s] Invoking command in '/home/ulugbek/dev-ws/src/build/velodyne_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ulugbek/dev-ws/install/ros_tcp_endpoint:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/ulugbek/dev-ws/src/build/velodyne_msgs -- -j16 -l16
+[0.448s] [  2%] Built target velodyne_msgs__cpp
+[0.449s] [ 12%] Built target velodyne_msgs__rosidl_generator_c
+[0.449s] [ 23%] Built target velodyne_msgs__rosidl_typesupport_introspection_c
+[0.449s] [ 33%] Built target velodyne_msgs__rosidl_typesupport_introspection_cpp
+[0.449s] [ 43%] Built target velodyne_msgs__rosidl_typesupport_fastrtps_cpp
+[0.450s] [ 53%] Built target velodyne_msgs__rosidl_typesupport_c
+[0.450s] [ 64%] Built target velodyne_msgs__rosidl_typesupport_cpp
+[0.450s] [ 74%] Built target velodyne_msgs__rosidl_typesupport_fastrtps_c
+[0.450s] [ 74%] Built target velodyne_msgs
+[0.450s] [ 76%] Built target velodyne_msgs__py
+[0.450s] [ 84%] Built target velodyne_msgs__python
+[0.450s] [ 94%] Built target velodyne_msgs__rosidl_typesupport_introspection_c__pyext
+[0.450s] [ 94%] Built target velodyne_msgs__rosidl_typesupport_c__pyext
+[0.451s] [100%] Built target velodyne_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.464s] Invoked command in '/home/ulugbek/dev-ws/src/build/velodyne_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ulugbek/dev-ws/install/ros_tcp_endpoint:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/ulugbek/dev-ws/src/build/velodyne_msgs -- -j16 -l16
+[0.553s] Invoking command in '/home/ulugbek/dev-ws/src/build/velodyne_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ulugbek/dev-ws/install/ros_tcp_endpoint:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/ulugbek/dev-ws/src/build/velodyne_msgs
+[0.568s] -- Install configuration: ""
+[0.568s] -- Installing: /home/ulugbek/dev-ws/src/install/velodyne_msgs/share/ament_index/resource_index/rosidl_interfaces/velodyne_msgs
+[0.568s] -- Installing: /home/ulugbek/dev-ws/src/install/velodyne_msgs/include/velodyne_msgs
+[0.568s] -- Installing: /home/ulugbek/dev-ws/src/install/velodyne_msgs/include/velodyne_msgs/msg
+[0.569s] -- Installing: /home/ulugbek/dev-ws/src/install/velodyne_msgs/include/velodyne_msgs/msg/velodyne_packet.h
+[0.569s] -- Installing: /home/ulugbek/dev-ws/src/install/velodyne_msgs/include/velodyne_msgs/msg/velodyne_scan.h
+[0.569s] -- Installing: /home/ulugbek/dev-ws/src/install/velodyne_msgs/include/velodyne_msgs/msg/rosidl_generator_c__visibility_control.h
+[0.569s] -- Installing: /home/ulugbek/dev-ws/src/install/velodyne_msgs/include/velodyne_msgs/msg/detail
+[0.569s] -- Installing: /home/ulugbek/dev-ws/src/install/velodyne_msgs/include/velodyne_msgs/msg/detail/velodyne_scan__functions.c
+[0.569s] -- Installing: /home/ulugbek/dev-ws/src/install/velodyne_msgs/include/velodyne_msgs/msg/detail/velodyne_packet__struct.h
+[0.569s] -- Installing: /home/ulugbek/dev-ws/src/install/velodyne_msgs/include/velodyne_msgs/msg/detail/velodyne_scan__struct.h
+[0.569s] -- Installing: /home/ulugbek/dev-ws/src/install/velodyne_msgs/include/velodyne_msgs/msg/detail/velodyne_scan__functions.h
+[0.569s] -- Installing: /home/ulugbek/dev-ws/src/install/velodyne_msgs/include/velodyne_msgs/msg/detail/velodyne_scan__type_support.h
+[0.569s] -- Installing: /home/ulugbek/dev-ws/src/install/velodyne_msgs/include/velodyne_msgs/msg/detail/velodyne_packet__functions.h
+[0.570s] -- Installing: /home/ulugbek/dev-ws/src/install/velodyne_msgs/include/velodyne_msgs/msg/detail/velodyne_packet__functions.c
+[0.570s] -- Installing: /home/ulugbek/dev-ws/src/install/velodyne_msgs/include/velodyne_msgs/msg/detail/velodyne_packet__type_support.h
+[0.570s] -- Installing: /home/ulugbek/dev-ws/src/install/velodyne_msgs/share/velodyne_msgs/environment/library_path.sh
+[0.570s] -- Installing: /home/ulugbek/dev-ws/src/install/velodyne_msgs/share/velodyne_msgs/environment/library_path.dsv
+[0.570s] -- Installing: /home/ulugbek/dev-ws/src/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_generator_c.so
+[0.570s] -- Set runtime path of "/home/ulugbek/dev-ws/src/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_generator_c.so" to ""
+[0.570s] -- Up-to-date: /home/ulugbek/dev-ws/src/install/velodyne_msgs/include/velodyne_msgs
+[0.570s] -- Up-to-date: /home/ulugbek/dev-ws/src/install/velodyne_msgs/include/velodyne_msgs/msg
+[0.570s] -- Installing: /home/ulugbek/dev-ws/src/install/velodyne_msgs/include/velodyne_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.570s] -- Up-to-date: /home/ulugbek/dev-ws/src/install/velodyne_msgs/include/velodyne_msgs/msg/detail
+[0.571s] -- Installing: /home/ulugbek/dev-ws/src/install/velodyne_msgs/include/velodyne_msgs/msg/detail/velodyne_packet__rosidl_typesupport_fastrtps_c.h
+[0.571s] -- Installing: /home/ulugbek/dev-ws/src/install/velodyne_msgs/include/velodyne_msgs/msg/detail/velodyne_scan__rosidl_typesupport_fastrtps_c.h
+[0.571s] -- Installing: /home/ulugbek/dev-ws/src/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_typesupport_fastrtps_c.so
+[0.571s] -- Set runtime path of "/home/ulugbek/dev-ws/src/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[0.571s] -- Up-to-date: /home/ulugbek/dev-ws/src/install/velodyne_msgs/include/velodyne_msgs
+[0.571s] -- Up-to-date: /home/ulugbek/dev-ws/src/install/velodyne_msgs/include/velodyne_msgs/msg
+[0.571s] -- Installing: /home/ulugbek/dev-ws/src/install/velodyne_msgs/include/velodyne_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.571s] -- Up-to-date: /home/ulugbek/dev-ws/src/install/velodyne_msgs/include/velodyne_msgs/msg/detail
+[0.572s] -- Installing: /home/ulugbek/dev-ws/src/install/velodyne_msgs/include/velodyne_msgs/msg/detail/velodyne_packet__rosidl_typesupport_fastrtps_cpp.hpp
+[0.572s] -- Installing: /home/ulugbek/dev-ws/src/install/velodyne_msgs/include/velodyne_msgs/msg/detail/dds_fastrtps
+[0.572s] -- Installing: /home/ulugbek/dev-ws/src/install/velodyne_msgs/include/velodyne_msgs/msg/detail/velodyne_scan__rosidl_typesupport_fastrtps_cpp.hpp
+[0.572s] -- Installing: /home/ulugbek/dev-ws/src/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_typesupport_fastrtps_cpp.so
+[0.572s] -- Set runtime path of "/home/ulugbek/dev-ws/src/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[0.572s] -- Up-to-date: /home/ulugbek/dev-ws/src/install/velodyne_msgs/include/velodyne_msgs
+[0.572s] -- Up-to-date: /home/ulugbek/dev-ws/src/install/velodyne_msgs/include/velodyne_msgs/msg
+[0.572s] -- Installing: /home/ulugbek/dev-ws/src/install/velodyne_msgs/include/velodyne_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.572s] -- Up-to-date: /home/ulugbek/dev-ws/src/install/velodyne_msgs/include/velodyne_msgs/msg/detail
+[0.573s] -- Installing: /home/ulugbek/dev-ws/src/install/velodyne_msgs/include/velodyne_msgs/msg/detail/velodyne_scan__type_support.c
+[0.573s] -- Installing: /home/ulugbek/dev-ws/src/install/velodyne_msgs/include/velodyne_msgs/msg/detail/velodyne_packet__type_support.c
+[0.573s] -- Installing: /home/ulugbek/dev-ws/src/install/velodyne_msgs/include/velodyne_msgs/msg/detail/velodyne_scan__rosidl_typesupport_introspection_c.h
+[0.573s] -- Installing: /home/ulugbek/dev-ws/src/install/velodyne_msgs/include/velodyne_msgs/msg/detail/velodyne_packet__rosidl_typesupport_introspection_c.h
+[0.573s] -- Installing: /home/ulugbek/dev-ws/src/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_typesupport_introspection_c.so
+[0.573s] -- Set runtime path of "/home/ulugbek/dev-ws/src/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_typesupport_introspection_c.so" to ""
+[0.573s] -- Installing: /home/ulugbek/dev-ws/src/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_typesupport_c.so
+[0.573s] -- Set runtime path of "/home/ulugbek/dev-ws/src/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_typesupport_c.so" to ""
+[0.573s] -- Up-to-date: /home/ulugbek/dev-ws/src/install/velodyne_msgs/include/velodyne_msgs
+[0.573s] -- Up-to-date: /home/ulugbek/dev-ws/src/install/velodyne_msgs/include/velodyne_msgs/msg
+[0.573s] -- Installing: /home/ulugbek/dev-ws/src/install/velodyne_msgs/include/velodyne_msgs/msg/velodyne_scan.hpp
+[0.574s] -- Installing: /home/ulugbek/dev-ws/src/install/velodyne_msgs/include/velodyne_msgs/msg/velodyne_packet.hpp
+[0.574s] -- Up-to-date: /home/ulugbek/dev-ws/src/install/velodyne_msgs/include/velodyne_msgs/msg/detail
+[0.574s] -- Installing: /home/ulugbek/dev-ws/src/install/velodyne_msgs/include/velodyne_msgs/msg/detail/velodyne_scan__builder.hpp
+[0.574s] -- Installing: /home/ulugbek/dev-ws/src/install/velodyne_msgs/include/velodyne_msgs/msg/detail/velodyne_packet__builder.hpp
+[0.574s] -- Installing: /home/ulugbek/dev-ws/src/install/velodyne_msgs/include/velodyne_msgs/msg/detail/velodyne_packet__traits.hpp
+[0.574s] -- Installing: /home/ulugbek/dev-ws/src/install/velodyne_msgs/include/velodyne_msgs/msg/detail/velodyne_packet__struct.hpp
+[0.574s] -- Installing: /home/ulugbek/dev-ws/src/install/velodyne_msgs/include/velodyne_msgs/msg/detail/velodyne_scan__struct.hpp
+[0.574s] -- Installing: /home/ulugbek/dev-ws/src/install/velodyne_msgs/include/velodyne_msgs/msg/detail/velodyne_scan__traits.hpp
+[0.574s] -- Up-to-date: /home/ulugbek/dev-ws/src/install/velodyne_msgs/include/velodyne_msgs
+[0.574s] -- Up-to-date: /home/ulugbek/dev-ws/src/install/velodyne_msgs/include/velodyne_msgs/msg
+[0.574s] -- Up-to-date: /home/ulugbek/dev-ws/src/install/velodyne_msgs/include/velodyne_msgs/msg/detail
+[0.575s] -- Installing: /home/ulugbek/dev-ws/src/install/velodyne_msgs/include/velodyne_msgs/msg/detail/velodyne_scan__rosidl_typesupport_introspection_cpp.hpp
+[0.575s] -- Installing: /home/ulugbek/dev-ws/src/install/velodyne_msgs/include/velodyne_msgs/msg/detail/velodyne_packet__rosidl_typesupport_introspection_cpp.hpp
+[0.575s] -- Installing: /home/ulugbek/dev-ws/src/install/velodyne_msgs/include/velodyne_msgs/msg/detail/velodyne_packet__type_support.cpp
+[0.575s] -- Installing: /home/ulugbek/dev-ws/src/install/velodyne_msgs/include/velodyne_msgs/msg/detail/velodyne_scan__type_support.cpp
+[0.575s] -- Installing: /home/ulugbek/dev-ws/src/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_typesupport_introspection_cpp.so
+[0.575s] -- Set runtime path of "/home/ulugbek/dev-ws/src/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[0.575s] -- Installing: /home/ulugbek/dev-ws/src/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_typesupport_cpp.so
+[0.575s] -- Set runtime path of "/home/ulugbek/dev-ws/src/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_typesupport_cpp.so" to ""
+[0.575s] -- Installing: /home/ulugbek/dev-ws/src/install/velodyne_msgs/share/velodyne_msgs/environment/pythonpath.sh
+[0.575s] -- Installing: /home/ulugbek/dev-ws/src/install/velodyne_msgs/share/velodyne_msgs/environment/pythonpath.dsv
+[0.575s] -- Installing: /home/ulugbek/dev-ws/src/install/velodyne_msgs/lib/python3.9/site-packages/velodyne_msgs/__init__.py
+[0.614s] Compiling '/home/ulugbek/dev-ws/src/install/velodyne_msgs/lib/python3.9/site-packages/velodyne_msgs/__init__.py'...
+[0.614s] -- Installing: /home/ulugbek/dev-ws/src/install/velodyne_msgs/lib/python3.9/site-packages/velodyne_msgs/msg
+[0.614s] -- Installing: /home/ulugbek/dev-ws/src/install/velodyne_msgs/lib/python3.9/site-packages/velodyne_msgs/msg/_velodyne_packet.py
+[0.614s] -- Installing: /home/ulugbek/dev-ws/src/install/velodyne_msgs/lib/python3.9/site-packages/velodyne_msgs/msg/_velodyne_scan.py
+[0.615s] -- Installing: /home/ulugbek/dev-ws/src/install/velodyne_msgs/lib/python3.9/site-packages/velodyne_msgs/msg/_velodyne_scan_s.c
+[0.615s] -- Installing: /home/ulugbek/dev-ws/src/install/velodyne_msgs/lib/python3.9/site-packages/velodyne_msgs/msg/__init__.py
+[0.615s] -- Installing: /home/ulugbek/dev-ws/src/install/velodyne_msgs/lib/python3.9/site-packages/velodyne_msgs/msg/_velodyne_packet_s.c
+[0.615s] -- Installing: /home/ulugbek/dev-ws/src/install/velodyne_msgs/lib/python3.9/site-packages/velodyne_msgs/velodyne_msgs_s__rosidl_typesupport_fastrtps_c.cpython-39-x86_64-linux-gnu.so
+[0.615s] -- Set runtime path of "/home/ulugbek/dev-ws/src/install/velodyne_msgs/lib/python3.9/site-packages/velodyne_msgs/velodyne_msgs_s__rosidl_typesupport_fastrtps_c.cpython-39-x86_64-linux-gnu.so" to ""
+[0.616s] -- Installing: /home/ulugbek/dev-ws/src/install/velodyne_msgs/lib/python3.9/site-packages/velodyne_msgs/velodyne_msgs_s__rosidl_typesupport_introspection_c.cpython-39-x86_64-linux-gnu.so
+[0.617s] -- Set runtime path of "/home/ulugbek/dev-ws/src/install/velodyne_msgs/lib/python3.9/site-packages/velodyne_msgs/velodyne_msgs_s__rosidl_typesupport_introspection_c.cpython-39-x86_64-linux-gnu.so" to ""
+[0.617s] -- Installing: /home/ulugbek/dev-ws/src/install/velodyne_msgs/lib/python3.9/site-packages/velodyne_msgs/velodyne_msgs_s__rosidl_typesupport_c.cpython-39-x86_64-linux-gnu.so
+[0.617s] -- Set runtime path of "/home/ulugbek/dev-ws/src/install/velodyne_msgs/lib/python3.9/site-packages/velodyne_msgs/velodyne_msgs_s__rosidl_typesupport_c.cpython-39-x86_64-linux-gnu.so" to ""
+[0.617s] -- Installing: /home/ulugbek/dev-ws/src/install/velodyne_msgs/lib/libvelodyne_msgs__python.so
+[0.618s] -- Set runtime path of "/home/ulugbek/dev-ws/src/install/velodyne_msgs/lib/libvelodyne_msgs__python.so" to ""
+[0.618s] -- Installing: /home/ulugbek/dev-ws/src/install/velodyne_msgs/share/velodyne_msgs/msg/VelodynePacket.idl
+[0.618s] -- Installing: /home/ulugbek/dev-ws/src/install/velodyne_msgs/share/velodyne_msgs/msg/VelodyneScan.idl
+[0.618s] -- Installing: /home/ulugbek/dev-ws/src/install/velodyne_msgs/share/velodyne_msgs/msg/VelodynePacket.msg
+[0.618s] -- Installing: /home/ulugbek/dev-ws/src/install/velodyne_msgs/share/velodyne_msgs/msg/VelodyneScan.msg
+[0.618s] -- Installing: /home/ulugbek/dev-ws/src/install/velodyne_msgs/share/ament_index/resource_index/package_run_dependencies/velodyne_msgs
+[0.618s] -- Installing: /home/ulugbek/dev-ws/src/install/velodyne_msgs/share/ament_index/resource_index/parent_prefix_path/velodyne_msgs
+[0.618s] -- Installing: /home/ulugbek/dev-ws/src/install/velodyne_msgs/share/velodyne_msgs/environment/ament_prefix_path.sh
+[0.619s] -- Installing: /home/ulugbek/dev-ws/src/install/velodyne_msgs/share/velodyne_msgs/environment/ament_prefix_path.dsv
+[0.619s] -- Installing: /home/ulugbek/dev-ws/src/install/velodyne_msgs/share/velodyne_msgs/environment/path.sh
+[0.619s] -- Installing: /home/ulugbek/dev-ws/src/install/velodyne_msgs/share/velodyne_msgs/environment/path.dsv
+[0.619s] -- Installing: /home/ulugbek/dev-ws/src/install/velodyne_msgs/share/velodyne_msgs/local_setup.bash
+[0.619s] -- Installing: /home/ulugbek/dev-ws/src/install/velodyne_msgs/share/velodyne_msgs/local_setup.sh
+[0.619s] -- Installing: /home/ulugbek/dev-ws/src/install/velodyne_msgs/share/velodyne_msgs/local_setup.zsh
+[0.619s] -- Installing: /home/ulugbek/dev-ws/src/install/velodyne_msgs/share/velodyne_msgs/local_setup.dsv
+[0.619s] -- Installing: /home/ulugbek/dev-ws/src/install/velodyne_msgs/share/velodyne_msgs/package.dsv
+[0.619s] -- Installing: /home/ulugbek/dev-ws/src/install/velodyne_msgs/share/ament_index/resource_index/packages/velodyne_msgs
+[0.619s] -- Installing: /home/ulugbek/dev-ws/src/install/velodyne_msgs/share/velodyne_msgs/cmake/velodyne_msgs__rosidl_generator_cExport.cmake
+[0.619s] -- Installing: /home/ulugbek/dev-ws/src/install/velodyne_msgs/share/velodyne_msgs/cmake/velodyne_msgs__rosidl_generator_cExport-noconfig.cmake
+[0.620s] -- Installing: /home/ulugbek/dev-ws/src/install/velodyne_msgs/share/velodyne_msgs/cmake/velodyne_msgs__rosidl_typesupport_introspection_cExport.cmake
+[0.620s] -- Installing: /home/ulugbek/dev-ws/src/install/velodyne_msgs/share/velodyne_msgs/cmake/velodyne_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.620s] -- Installing: /home/ulugbek/dev-ws/src/install/velodyne_msgs/share/velodyne_msgs/cmake/velodyne_msgs__rosidl_typesupport_cExport.cmake
+[0.620s] -- Installing: /home/ulugbek/dev-ws/src/install/velodyne_msgs/share/velodyne_msgs/cmake/velodyne_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[0.621s] -- Installing: /home/ulugbek/dev-ws/src/install/velodyne_msgs/share/velodyne_msgs/cmake/velodyne_msgs__rosidl_generator_cppExport.cmake
+[0.621s] -- Installing: /home/ulugbek/dev-ws/src/install/velodyne_msgs/share/velodyne_msgs/cmake/velodyne_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[0.622s] -- Installing: /home/ulugbek/dev-ws/src/install/velodyne_msgs/share/velodyne_msgs/cmake/velodyne_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.622s] -- Installing: /home/ulugbek/dev-ws/src/install/velodyne_msgs/share/velodyne_msgs/cmake/velodyne_msgs__rosidl_typesupport_cppExport.cmake
+[0.622s] -- Installing: /home/ulugbek/dev-ws/src/install/velodyne_msgs/share/velodyne_msgs/cmake/velodyne_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[0.622s] -- Installing: /home/ulugbek/dev-ws/src/install/velodyne_msgs/share/velodyne_msgs/cmake/rosidl_cmake-extras.cmake
+[0.622s] -- Installing: /home/ulugbek/dev-ws/src/install/velodyne_msgs/share/velodyne_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.622s] -- Installing: /home/ulugbek/dev-ws/src/install/velodyne_msgs/share/velodyne_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[0.622s] -- Installing: /home/ulugbek/dev-ws/src/install/velodyne_msgs/share/velodyne_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[0.622s] -- Installing: /home/ulugbek/dev-ws/src/install/velodyne_msgs/share/velodyne_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.623s] -- Installing: /home/ulugbek/dev-ws/src/install/velodyne_msgs/share/velodyne_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.623s] -- Installing: /home/ulugbek/dev-ws/src/install/velodyne_msgs/share/velodyne_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.623s] -- Installing: /home/ulugbek/dev-ws/src/install/velodyne_msgs/share/velodyne_msgs/cmake/velodyne_msgsConfig.cmake
+[0.623s] -- Installing: /home/ulugbek/dev-ws/src/install/velodyne_msgs/share/velodyne_msgs/cmake/velodyne_msgsConfig-version.cmake
+[0.623s] -- Installing: /home/ulugbek/dev-ws/src/install/velodyne_msgs/share/velodyne_msgs/package.xml
+[0.718s] Invoked command in '/home/ulugbek/dev-ws/src/build/velodyne_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ulugbek/dev-ws/install/ros_tcp_endpoint:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/ulugbek/dev-ws/src/build/velodyne_msgs

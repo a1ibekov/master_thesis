@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/ulugbek/dev-ws/src/build/velodyne_subscriber/velodyne_subscriber_node" "TARGETS" "velodyne_subscriber_node" "DESTINATION" "lib/velodyne_subscriber")

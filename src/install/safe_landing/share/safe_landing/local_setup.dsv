@@ -1,0 +1,2 @@
+source;share/safe_landing/environment/ament_prefix_path.sh
+source;share/safe_landing/environment/path.sh

@@ -1,0 +1,51 @@
+[0.089s] Invoking command in '/home/ulugbek/dev-ws/src/build/my_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ulugbek/dev-ws/install/ros_tcp_endpoint:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/ulugbek/dev-ws/src/my_package -DCMAKE_INSTALL_PREFIX=/home/ulugbek/dev-ws/src/install/my_package
+[0.477s] -- The C compiler identification is GNU 9.4.0
+[0.477s] -- The CXX compiler identification is GNU 9.4.0
+[0.477s] -- Check for working C compiler: /usr/bin/cc
+[0.477s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.477s] -- Detecting C compiler ABI info
+[0.477s] -- Detecting C compiler ABI info - done
+[0.478s] -- Detecting C compile features
+[0.485s] -- Detecting C compile features - done
+[0.493s] -- Check for working CXX compiler: /usr/bin/c++
+[0.604s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.605s] -- Detecting CXX compiler ABI info
+[0.698s] -- Detecting CXX compiler ABI info - done
+[0.720s] -- Detecting CXX compile features
+[0.720s] -- Detecting CXX compile features - done
+[0.724s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.764s] -- Found PythonInterp: /home/ulugbek/anaconda3/bin/python3 (found suitable version "3.9.12", minimum required is "3") 
+[0.764s] -- Using PYTHON_EXECUTABLE: /home/ulugbek/anaconda3/bin/python3
+[1.087s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.242s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.245s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.246s] -- Added test 'lint_cmake' to check CMake code style
+[1.247s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.249s] -- Added test 'xmllint' to check XML markup files
+[1.253s] -- Configuring done
+[1.257s] -- Generating done
+[1.259s] -- Build files have been written to: /home/ulugbek/dev-ws/src/build/my_package
+[1.265s] Invoked command in '/home/ulugbek/dev-ws/src/build/my_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ulugbek/dev-ws/install/ros_tcp_endpoint:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/ulugbek/dev-ws/src/my_package -DCMAKE_INSTALL_PREFIX=/home/ulugbek/dev-ws/src/install/my_package
+[1.270s] Invoking command in '/home/ulugbek/dev-ws/src/build/my_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ulugbek/dev-ws/install/ros_tcp_endpoint:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/ulugbek/dev-ws/src/build/my_package -- -j16 -l16
+[1.311s] Invoked command in '/home/ulugbek/dev-ws/src/build/my_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ulugbek/dev-ws/install/ros_tcp_endpoint:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/ulugbek/dev-ws/src/build/my_package -- -j16 -l16
+[1.355s] Invoking command in '/home/ulugbek/dev-ws/src/build/my_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ulugbek/dev-ws/install/ros_tcp_endpoint:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/ulugbek/dev-ws/src/build/my_package
+[1.364s] -- Install configuration: ""
+[1.364s] -- Installing: /home/ulugbek/dev-ws/src/install/my_package/share/my_package/launch
+[1.365s] -- Installing: /home/ulugbek/dev-ws/src/install/my_package/share/my_package/launch/talker.launch.py
+[1.365s] -- Installing: /home/ulugbek/dev-ws/src/install/my_package/share/my_package/launch/listener.launch.py
+[1.365s] -- Installing: /home/ulugbek/dev-ws/src/install/my_package/share/ament_index/resource_index/package_run_dependencies/my_package
+[1.365s] -- Installing: /home/ulugbek/dev-ws/src/install/my_package/share/ament_index/resource_index/parent_prefix_path/my_package
+[1.365s] -- Installing: /home/ulugbek/dev-ws/src/install/my_package/share/my_package/environment/ament_prefix_path.sh
+[1.365s] -- Installing: /home/ulugbek/dev-ws/src/install/my_package/share/my_package/environment/ament_prefix_path.dsv
+[1.366s] -- Installing: /home/ulugbek/dev-ws/src/install/my_package/share/my_package/environment/path.sh
+[1.366s] -- Installing: /home/ulugbek/dev-ws/src/install/my_package/share/my_package/environment/path.dsv
+[1.366s] -- Installing: /home/ulugbek/dev-ws/src/install/my_package/share/my_package/local_setup.bash
+[1.366s] -- Installing: /home/ulugbek/dev-ws/src/install/my_package/share/my_package/local_setup.sh
+[1.366s] -- Installing: /home/ulugbek/dev-ws/src/install/my_package/share/my_package/local_setup.zsh
+[1.366s] -- Installing: /home/ulugbek/dev-ws/src/install/my_package/share/my_package/local_setup.dsv
+[1.366s] -- Installing: /home/ulugbek/dev-ws/src/install/my_package/share/my_package/package.dsv
+[1.367s] -- Installing: /home/ulugbek/dev-ws/src/install/my_package/share/ament_index/resource_index/packages/my_package
+[1.367s] -- Installing: /home/ulugbek/dev-ws/src/install/my_package/share/my_package/cmake/my_packageConfig.cmake
+[1.367s] -- Installing: /home/ulugbek/dev-ws/src/install/my_package/share/my_package/cmake/my_packageConfig-version.cmake
+[1.367s] -- Installing: /home/ulugbek/dev-ws/src/install/my_package/share/my_package/package.xml
+[1.371s] Invoked command in '/home/ulugbek/dev-ws/src/build/my_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ulugbek/dev-ws/install/ros_tcp_endpoint:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/ulugbek/dev-ws/src/build/my_package

@@ -1,0 +1,58 @@
+[0.086s] Invoking command in '/home/ulugbek/dev-ws/src/build/velodyne_pointcloud': AMENT_PREFIX_PATH=/home/ulugbek/dev-ws/src/install/velodyne_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ulugbek/dev-ws/src/install/velodyne_msgs:/home/ulugbek/dev-ws/install/velodyne_subscriber:/home/ulugbek/dev-ws/install/velodyne:/home/ulugbek/dev-ws/install/velodyne_pointcloud:/home/ulugbek/dev-ws/install/velodyne_driver:/home/ulugbek/dev-ws/install/velodyne_msgs:/home/ulugbek/dev-ws/install/velodyne_laserscan:/home/ulugbek/dev-ws/install/unity_robotics_demo:/home/ulugbek/dev-ws/install/ros_tcp_endpoint:/opt/ros/foxy:/home/ulugbek/dev-ws/install/unity_robotics_demo_msgs:/home/ulugbek/dev-ws/install/static_tf_publisher:/home/ulugbek/dev-ws/install/safe_landing:/home/ulugbek/dev-ws/install/my_package:/home/ulugbek/dev-ws/install/feature_extraction:/home/ulugbek/dev-ws/install/altitude_publisher CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/ulugbek/dev-ws/src/install/velodyne_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ulugbek/dev-ws/src/install/velodyne_msgs/lib/python3.9/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ulugbek/dev-ws/src/build/velodyne_pointcloud -- -j16 -l16
+[0.151s] [ 22%] Built target gtest
+[0.151s] [ 22%] Built target gtest_main
+[0.190s] [ 38%] Built target velodyne_cloud_types
+[0.191s] [ 55%] Built target velodyne_rawdata
+[0.205s] [ 66%] Built target test_row_step
+[0.205s] [ 77%] Built target test_calibration
+[0.220s] [ 88%] Built target transform
+[0.259s] [100%] Built target velodyne_transform_node
+[0.320s] Invoked command in '/home/ulugbek/dev-ws/src/build/velodyne_pointcloud' returned '0': AMENT_PREFIX_PATH=/home/ulugbek/dev-ws/src/install/velodyne_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ulugbek/dev-ws/src/install/velodyne_msgs:/home/ulugbek/dev-ws/install/velodyne_subscriber:/home/ulugbek/dev-ws/install/velodyne:/home/ulugbek/dev-ws/install/velodyne_pointcloud:/home/ulugbek/dev-ws/install/velodyne_driver:/home/ulugbek/dev-ws/install/velodyne_msgs:/home/ulugbek/dev-ws/install/velodyne_laserscan:/home/ulugbek/dev-ws/install/unity_robotics_demo:/home/ulugbek/dev-ws/install/ros_tcp_endpoint:/opt/ros/foxy:/home/ulugbek/dev-ws/install/unity_robotics_demo_msgs:/home/ulugbek/dev-ws/install/static_tf_publisher:/home/ulugbek/dev-ws/install/safe_landing:/home/ulugbek/dev-ws/install/my_package:/home/ulugbek/dev-ws/install/feature_extraction:/home/ulugbek/dev-ws/install/altitude_publisher CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/ulugbek/dev-ws/src/install/velodyne_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ulugbek/dev-ws/src/install/velodyne_msgs/lib/python3.9/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ulugbek/dev-ws/src/build/velodyne_pointcloud -- -j16 -l16
+[0.395s] Invoking command in '/home/ulugbek/dev-ws/src/build/velodyne_pointcloud': AMENT_PREFIX_PATH=/home/ulugbek/dev-ws/src/install/velodyne_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ulugbek/dev-ws/src/install/velodyne_msgs:/home/ulugbek/dev-ws/install/velodyne_subscriber:/home/ulugbek/dev-ws/install/velodyne:/home/ulugbek/dev-ws/install/velodyne_pointcloud:/home/ulugbek/dev-ws/install/velodyne_driver:/home/ulugbek/dev-ws/install/velodyne_msgs:/home/ulugbek/dev-ws/install/velodyne_laserscan:/home/ulugbek/dev-ws/install/unity_robotics_demo:/home/ulugbek/dev-ws/install/ros_tcp_endpoint:/opt/ros/foxy:/home/ulugbek/dev-ws/install/unity_robotics_demo_msgs:/home/ulugbek/dev-ws/install/static_tf_publisher:/home/ulugbek/dev-ws/install/safe_landing:/home/ulugbek/dev-ws/install/my_package:/home/ulugbek/dev-ws/install/feature_extraction:/home/ulugbek/dev-ws/install/altitude_publisher CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/ulugbek/dev-ws/src/install/velodyne_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ulugbek/dev-ws/src/install/velodyne_msgs/lib/python3.9/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ulugbek/dev-ws/src/build/velodyne_pointcloud
+[0.409s] -- Install configuration: ""
+[0.409s] -- Up-to-date: /home/ulugbek/dev-ws/src/install/velodyne_pointcloud/lib/libtransform.so
+[0.410s] -- Up-to-date: /home/ulugbek/dev-ws/src/install/velodyne_pointcloud/lib/velodyne_pointcloud/velodyne_transform_node
+[0.413s] -- Up-to-date: /home/ulugbek/dev-ws/src/install/velodyne_pointcloud/include/velodyne_pointcloud
+[0.413s] -- Up-to-date: /home/ulugbek/dev-ws/src/install/velodyne_pointcloud/include/velodyne_pointcloud/datacontainerbase.hpp
+[0.413s] -- Up-to-date: /home/ulugbek/dev-ws/src/install/velodyne_pointcloud/include/velodyne_pointcloud/calibration.hpp
+[0.413s] -- Up-to-date: /home/ulugbek/dev-ws/src/install/velodyne_pointcloud/include/velodyne_pointcloud/rawdata.hpp
+[0.414s] -- Up-to-date: /home/ulugbek/dev-ws/src/install/velodyne_pointcloud/include/velodyne_pointcloud/pointcloudXYZIRT.hpp
+[0.414s] -- Up-to-date: /home/ulugbek/dev-ws/src/install/velodyne_pointcloud/include/velodyne_pointcloud/transform.hpp
+[0.414s] -- Up-to-date: /home/ulugbek/dev-ws/src/install/velodyne_pointcloud/include/velodyne_pointcloud/organized_cloudXYZIRT.hpp
+[0.414s] -- Up-to-date: /home/ulugbek/dev-ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/config
+[0.414s] -- Up-to-date: /home/ulugbek/dev-ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/config/VLP16-velodyne_transform_node-params.yaml
+[0.414s] -- Up-to-date: /home/ulugbek/dev-ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/config/VLP32C-velodyne_transform_node-params.yaml
+[0.414s] -- Up-to-date: /home/ulugbek/dev-ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/launch
+[0.414s] -- Up-to-date: /home/ulugbek/dev-ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/launch/velodyne_transform_node-VLP32C-launch.py
+[0.414s] -- Up-to-date: /home/ulugbek/dev-ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/launch/velodyne_transform_node-VLP16-composed-launch.py
+[0.414s] -- Up-to-date: /home/ulugbek/dev-ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/launch/velodyne_transform_node-VLP16-launch.py
+[0.415s] -- Up-to-date: /home/ulugbek/dev-ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/launch/velodyne_transform_node-VLP32C-composed-launch.py
+[0.415s] -- Up-to-date: /home/ulugbek/dev-ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/params
+[0.415s] -- Up-to-date: /home/ulugbek/dev-ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/params/VLP16_hires_db.yaml
+[0.415s] -- Up-to-date: /home/ulugbek/dev-ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/params/VLP16db.yaml
+[0.415s] -- Up-to-date: /home/ulugbek/dev-ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/params/32db.yaml
+[0.415s] -- Up-to-date: /home/ulugbek/dev-ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/params/VeloView-VLP-32C.yaml
+[0.415s] -- Up-to-date: /home/ulugbek/dev-ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/params/64e_utexas.yaml
+[0.415s] -- Up-to-date: /home/ulugbek/dev-ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/params/issue_84_float_intensities.yaml
+[0.416s] -- Up-to-date: /home/ulugbek/dev-ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/params/64e_s2.1-sztaki.yaml
+[0.416s] -- Up-to-date: /home/ulugbek/dev-ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/params/64e_s3-xiesc.yaml
+[0.416s] -- Up-to-date: /home/ulugbek/dev-ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/params/rviz_points.vcg
+[0.416s] -- Up-to-date: /home/ulugbek/dev-ws/src/install/velodyne_pointcloud/share/ament_index/resource_index/package_run_dependencies/velodyne_pointcloud
+[0.416s] -- Up-to-date: /home/ulugbek/dev-ws/src/install/velodyne_pointcloud/share/ament_index/resource_index/parent_prefix_path/velodyne_pointcloud
+[0.416s] -- Up-to-date: /home/ulugbek/dev-ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/environment/ament_prefix_path.sh
+[0.416s] -- Up-to-date: /home/ulugbek/dev-ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/environment/ament_prefix_path.dsv
+[0.416s] -- Up-to-date: /home/ulugbek/dev-ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/environment/path.sh
+[0.416s] -- Up-to-date: /home/ulugbek/dev-ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/environment/path.dsv
+[0.417s] -- Up-to-date: /home/ulugbek/dev-ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/local_setup.bash
+[0.417s] -- Up-to-date: /home/ulugbek/dev-ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/local_setup.sh
+[0.417s] -- Up-to-date: /home/ulugbek/dev-ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/local_setup.zsh
+[0.417s] -- Up-to-date: /home/ulugbek/dev-ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/local_setup.dsv
+[0.417s] -- Installing: /home/ulugbek/dev-ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/package.dsv
+[0.417s] -- Up-to-date: /home/ulugbek/dev-ws/src/install/velodyne_pointcloud/share/ament_index/resource_index/packages/velodyne_pointcloud
+[0.417s] -- Up-to-date: /home/ulugbek/dev-ws/src/install/velodyne_pointcloud/share/ament_index/resource_index/rclcpp_components/velodyne_pointcloud
+[0.417s] -- Up-to-date: /home/ulugbek/dev-ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/cmake/velodyne_pointcloudConfig.cmake
+[0.417s] -- Up-to-date: /home/ulugbek/dev-ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/cmake/velodyne_pointcloudConfig-version.cmake
+[0.418s] -- Up-to-date: /home/ulugbek/dev-ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/package.xml
+[0.418s] -- Up-to-date: /home/ulugbek/dev-ws/src/install/velodyne_pointcloud/lib/libvelodyne_cloud_types.so
+[0.418s] -- Up-to-date: /home/ulugbek/dev-ws/src/install/velodyne_pointcloud/lib/libvelodyne_rawdata.so
+[0.489s] Invoked command in '/home/ulugbek/dev-ws/src/build/velodyne_pointcloud' returned '0': AMENT_PREFIX_PATH=/home/ulugbek/dev-ws/src/install/velodyne_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ulugbek/dev-ws/src/install/velodyne_msgs:/home/ulugbek/dev-ws/install/velodyne_subscriber:/home/ulugbek/dev-ws/install/velodyne:/home/ulugbek/dev-ws/install/velodyne_pointcloud:/home/ulugbek/dev-ws/install/velodyne_driver:/home/ulugbek/dev-ws/install/velodyne_msgs:/home/ulugbek/dev-ws/install/velodyne_laserscan:/home/ulugbek/dev-ws/install/unity_robotics_demo:/home/ulugbek/dev-ws/install/ros_tcp_endpoint:/opt/ros/foxy:/home/ulugbek/dev-ws/install/unity_robotics_demo_msgs:/home/ulugbek/dev-ws/install/static_tf_publisher:/home/ulugbek/dev-ws/install/safe_landing:/home/ulugbek/dev-ws/install/my_package:/home/ulugbek/dev-ws/install/feature_extraction:/home/ulugbek/dev-ws/install/altitude_publisher CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/ulugbek/dev-ws/src/install/velodyne_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ulugbek/dev-ws/src/install/velodyne_msgs/lib/python3.9/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ulugbek/dev-ws/src/build/velodyne_pointcloud

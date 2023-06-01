@@ -1,0 +1,19 @@
+[100%] Built target static_tf_publisher_node
+-- Install configuration: ""
+-- Installing: /home/ulugbek/dev-ws/src/install/static_tf_publisher/lib/static_tf_publisher/static_tf_publisher_node
+-- Set runtime path of "/home/ulugbek/dev-ws/src/install/static_tf_publisher/lib/static_tf_publisher/static_tf_publisher_node" to ""
+-- Installing: /home/ulugbek/dev-ws/src/install/static_tf_publisher/share/ament_index/resource_index/package_run_dependencies/static_tf_publisher
+-- Installing: /home/ulugbek/dev-ws/src/install/static_tf_publisher/share/ament_index/resource_index/parent_prefix_path/static_tf_publisher
+-- Installing: /home/ulugbek/dev-ws/src/install/static_tf_publisher/share/static_tf_publisher/environment/ament_prefix_path.sh
+-- Installing: /home/ulugbek/dev-ws/src/install/static_tf_publisher/share/static_tf_publisher/environment/ament_prefix_path.dsv
+-- Installing: /home/ulugbek/dev-ws/src/install/static_tf_publisher/share/static_tf_publisher/environment/path.sh
+-- Installing: /home/ulugbek/dev-ws/src/install/static_tf_publisher/share/static_tf_publisher/environment/path.dsv
+-- Installing: /home/ulugbek/dev-ws/src/install/static_tf_publisher/share/static_tf_publisher/local_setup.bash
+-- Installing: /home/ulugbek/dev-ws/src/install/static_tf_publisher/share/static_tf_publisher/local_setup.sh
+-- Installing: /home/ulugbek/dev-ws/src/install/static_tf_publisher/share/static_tf_publisher/local_setup.zsh
+-- Installing: /home/ulugbek/dev-ws/src/install/static_tf_publisher/share/static_tf_publisher/local_setup.dsv
+-- Installing: /home/ulugbek/dev-ws/src/install/static_tf_publisher/share/static_tf_publisher/package.dsv
+-- Installing: /home/ulugbek/dev-ws/src/install/static_tf_publisher/share/ament_index/resource_index/packages/static_tf_publisher
+-- Installing: /home/ulugbek/dev-ws/src/install/static_tf_publisher/share/static_tf_publisher/cmake/static_tf_publisherConfig.cmake
+-- Installing: /home/ulugbek/dev-ws/src/install/static_tf_publisher/share/static_tf_publisher/cmake/static_tf_publisherConfig-version.cmake
+-- Installing: /home/ulugbek/dev-ws/src/install/static_tf_publisher/share/static_tf_publisher/package.xml

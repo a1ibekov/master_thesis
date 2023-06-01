@@ -1,0 +1,23 @@
+[0.052s] Invoking command in '/home/ulugbek/dev-ws/src/build/velodyne_subscriber': AMENT_PREFIX_PATH=/home/ulugbek/dev-ws/src/install/velodyne_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ulugbek/dev-ws/src/install/velodyne_msgs:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/ulugbek/dev-ws/src/install/velodyne_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ulugbek/dev-ws/src/install/velodyne_msgs/lib/python3.9/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ulugbek/dev-ws/src/build/velodyne_subscriber -- -j16 -l16
+[0.101s] [100%] Built target velodyne_subscriber_node
+[0.110s] Invoked command in '/home/ulugbek/dev-ws/src/build/velodyne_subscriber' returned '0': AMENT_PREFIX_PATH=/home/ulugbek/dev-ws/src/install/velodyne_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ulugbek/dev-ws/src/install/velodyne_msgs:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/ulugbek/dev-ws/src/install/velodyne_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ulugbek/dev-ws/src/install/velodyne_msgs/lib/python3.9/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ulugbek/dev-ws/src/build/velodyne_subscriber -- -j16 -l16
+[0.141s] Invoking command in '/home/ulugbek/dev-ws/src/build/velodyne_subscriber': AMENT_PREFIX_PATH=/home/ulugbek/dev-ws/src/install/velodyne_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ulugbek/dev-ws/src/install/velodyne_msgs:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/ulugbek/dev-ws/src/install/velodyne_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ulugbek/dev-ws/src/install/velodyne_msgs/lib/python3.9/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ulugbek/dev-ws/src/build/velodyne_subscriber
+[0.147s] -- Install configuration: ""
+[0.147s] -- Execute custom install script
+[0.147s] -- Up-to-date symlink: /home/ulugbek/dev-ws/src/install/velodyne_subscriber/lib/velodyne_subscriber/velodyne_subscriber_node
+[0.148s] -- Up-to-date symlink: /home/ulugbek/dev-ws/src/install/velodyne_subscriber/share/ament_index/resource_index/package_run_dependencies/velodyne_subscriber
+[0.148s] -- Up-to-date symlink: /home/ulugbek/dev-ws/src/install/velodyne_subscriber/share/ament_index/resource_index/parent_prefix_path/velodyne_subscriber
+[0.148s] -- Up-to-date symlink: /home/ulugbek/dev-ws/src/install/velodyne_subscriber/share/velodyne_subscriber/environment/ament_prefix_path.sh
+[0.148s] -- Up-to-date symlink: /home/ulugbek/dev-ws/src/install/velodyne_subscriber/share/velodyne_subscriber/environment/ament_prefix_path.dsv
+[0.149s] -- Up-to-date symlink: /home/ulugbek/dev-ws/src/install/velodyne_subscriber/share/velodyne_subscriber/environment/path.sh
+[0.149s] -- Up-to-date symlink: /home/ulugbek/dev-ws/src/install/velodyne_subscriber/share/velodyne_subscriber/environment/path.dsv
+[0.149s] -- Up-to-date symlink: /home/ulugbek/dev-ws/src/install/velodyne_subscriber/share/velodyne_subscriber/local_setup.bash
+[0.149s] -- Up-to-date symlink: /home/ulugbek/dev-ws/src/install/velodyne_subscriber/share/velodyne_subscriber/local_setup.sh
+[0.150s] -- Up-to-date symlink: /home/ulugbek/dev-ws/src/install/velodyne_subscriber/share/velodyne_subscriber/local_setup.zsh
+[0.150s] -- Up-to-date symlink: /home/ulugbek/dev-ws/src/install/velodyne_subscriber/share/velodyne_subscriber/local_setup.dsv
+[0.150s] -- Symlinking: /home/ulugbek/dev-ws/src/install/velodyne_subscriber/share/velodyne_subscriber/package.dsv
+[0.156s] -- Up-to-date symlink: /home/ulugbek/dev-ws/src/install/velodyne_subscriber/share/ament_index/resource_index/packages/velodyne_subscriber
+[0.157s] -- Up-to-date symlink: /home/ulugbek/dev-ws/src/install/velodyne_subscriber/share/velodyne_subscriber/cmake/velodyne_subscriberConfig.cmake
+[0.157s] -- Up-to-date symlink: /home/ulugbek/dev-ws/src/install/velodyne_subscriber/share/velodyne_subscriber/cmake/velodyne_subscriberConfig-version.cmake
+[0.157s] -- Up-to-date symlink: /home/ulugbek/dev-ws/src/install/velodyne_subscriber/share/velodyne_subscriber/package.xml
+[0.166s] Invoked command in '/home/ulugbek/dev-ws/src/build/velodyne_subscriber' returned '0': AMENT_PREFIX_PATH=/home/ulugbek/dev-ws/src/install/velodyne_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ulugbek/dev-ws/src/install/velodyne_msgs:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/ulugbek/dev-ws/src/install/velodyne_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ulugbek/dev-ws/src/install/velodyne_msgs/lib/python3.9/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ulugbek/dev-ws/src/build/velodyne_subscriber

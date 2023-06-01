@@ -1,0 +1,25 @@
+[0.056s] Invoking command in '/home/ulugbek/dev-ws/src/build/velodyne_driver': AMENT_PREFIX_PATH=/home/ulugbek/dev-ws/src/install/velodyne_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ulugbek/dev-ws/src/install/velodyne_msgs:/home/ulugbek/dev-ws/install/velodyne:/home/ulugbek/dev-ws/install/velodyne_pointcloud:/home/ulugbek/dev-ws/install/velodyne_driver:/home/ulugbek/dev-ws/install/velodyne_msgs:/home/ulugbek/dev-ws/install/velodyne_laserscan:/home/ulugbek/dev-ws/install/safe_landing:/home/ulugbek/dev-ws/install/my_package:/home/ulugbek/dev-ws/install/feature_extraction:/home/ulugbek/dev-ws/install/altitude_publisher:/home/ulugbek/dev-ws/install/ros_tcp_endpoint:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/ulugbek/dev-ws/src/install/velodyne_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ulugbek/dev-ws/src/install/velodyne_msgs/lib/python3.9/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ulugbek/dev-ws/src/build/velodyne_driver -- -j16 -l16
+[0.098s] [35m[1mScanning dependencies of target velodyne_input[0m
+[0.098s] [35m[1mScanning dependencies of target gtest[0m
+[0.099s] [35m[1mScanning dependencies of target gtest_main[0m
+[0.118s] [  8%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[0.122s] [ 16%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[0.153s] [ 25%] [32mBuilding CXX object src/lib/CMakeFiles/velodyne_input.dir/input.cpp.o[0m
+[1.089s] [ 33%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[1.124s] [ 33%] Built target gtest_main
+[1.921s] [ 41%] [32m[1mLinking CXX shared library libvelodyne_input.so[0m
+[2.049s] [ 41%] Built target velodyne_input
+[2.061s] [35m[1mScanning dependencies of target velodyne_driver[0m
+[2.102s] [ 50%] [32mBuilding CXX object CMakeFiles/velodyne_driver.dir/src/driver/driver.cpp.o[0m
+[3.078s] [ 58%] [32m[1mLinking CXX static library libgtest.a[0m
+[3.128s] [ 58%] Built target gtest
+[3.138s] [35m[1mScanning dependencies of target time_test[0m
+[3.184s] [ 66%] [32mBuilding CXX object CMakeFiles/time_test.dir/tests/timeconversiontest.cpp.o[0m
+[5.293s] [ 75%] [32m[1mLinking CXX executable time_test[0m
+[5.464s] [ 75%] Built target time_test
+[6.242s] [ 83%] [32m[1mLinking CXX shared library libvelodyne_driver.so[0m
+[6.458s] [ 83%] Built target velodyne_driver
+[6.467s] [35m[1mScanning dependencies of target velodyne_driver_node[0m
+[6.497s] [ 91%] [32mBuilding CXX object CMakeFiles/velodyne_driver_node.dir/src/driver/velodyne_node.cpp.o[0m
+[8.380s] [100%] [32m[1mLinking CXX executable velodyne_driver_node[0m
+[8.518s] [100%] Built target velodyne_driver_node

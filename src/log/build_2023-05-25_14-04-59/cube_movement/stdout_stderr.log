@@ -1,0 +1,58 @@
+[35m[1mScanning dependencies of target cube_movement_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/cube_movement_node.dir/src/cube_movement_node.cpp.o[0m
+[01m[K/home/ulugbek/dev-ws/src/cube_movement/src/cube_movement_node.cpp:[m[K In member function ‘[01m[Kvoid CubeMovementNode::timerCallback()[m[K’:
+[01m[K/home/ulugbek/dev-ws/src/cube_movement/src/cube_movement_node.cpp:36:9:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator![m[K’ (operand type is ‘[01m[Kgeometry_msgs::msg::Point[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::Point_<std::allocator<void> >[m[K’})
+   36 |     if ([01;31m[K!final_position_[m[K || !initial_position_) {
+      |         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ulugbek/dev-ws/src/cube_movement/src/cube_movement_node.cpp:36:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Koperator!(bool)[m[K’ <built-in>
+[01m[K/home/ulugbek/dev-ws/src/cube_movement/src/cube_movement_node.cpp:36:9:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kgeometry_msgs::msg::Point[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::Point_<std::allocator<void> >[m[K’} to ‘[01m[Kbool[m[K’
+In file included from [01m[K/opt/ros/foxy/include/libstatistics_collector/moving_average_statistics/moving_average.hpp:30[m[K,
+                 from [01m[K/opt/ros/foxy/include/libstatistics_collector/collector/collector.hpp:22[m[K,
+                 from [01m[K/opt/ros/foxy/include/libstatistics_collector/topic_statistics_collector/topic_statistics_collector.hpp:24[m[K,
+                 from [01m[K/opt/ros/foxy/include/libstatistics_collector/topic_statistics_collector/received_message_age.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/topic_statistics/subscription_topic_statistics.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/subscription.hpp:50[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:25[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/ulugbek/dev-ws/src/cube_movement/src/cube_movement_node.cpp:4[m[K:
+[01m[K/opt/ros/foxy/include/rcpputils/thread_safety_annotations.hpp:48:27:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst std::mutex& operator!(const std::mutex&)[m[K’
+   48 | inline const std::mutex & [01;36m[Koperator[m[K!(const std::mutex & a)
+      |                           [01;36m[K^~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/rcpputils/thread_safety_annotations.hpp:48:56:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kgeometry_msgs::msg::Point[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::Point_<std::allocator<void> >[m[K’} to ‘[01m[Kconst std::mutex&[m[K’
+   48 | inline const std::mutex & operator!([01;36m[Kconst std::mutex & a[m[K)
+      |                                     [01;36m[K~~~~~~~~~~~~~~~~~~~^[m[K
+[01m[K/home/ulugbek/dev-ws/src/cube_movement/src/cube_movement_node.cpp:36:29:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator![m[K’ (operand type is ‘[01m[Kgeometry_msgs::msg::Point[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::Point_<std::allocator<void> >[m[K’})
+   36 |     if (!final_position_ || [01;31m[K!initial_position_[m[K) {
+      |                             [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ulugbek/dev-ws/src/cube_movement/src/cube_movement_node.cpp:36:29:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Koperator!(bool)[m[K’ <built-in>
+[01m[K/home/ulugbek/dev-ws/src/cube_movement/src/cube_movement_node.cpp:36:29:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kgeometry_msgs::msg::Point[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::Point_<std::allocator<void> >[m[K’} to ‘[01m[Kbool[m[K’
+In file included from [01m[K/opt/ros/foxy/include/libstatistics_collector/moving_average_statistics/moving_average.hpp:30[m[K,
+                 from [01m[K/opt/ros/foxy/include/libstatistics_collector/collector/collector.hpp:22[m[K,
+                 from [01m[K/opt/ros/foxy/include/libstatistics_collector/topic_statistics_collector/topic_statistics_collector.hpp:24[m[K,
+                 from [01m[K/opt/ros/foxy/include/libstatistics_collector/topic_statistics_collector/received_message_age.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/topic_statistics/subscription_topic_statistics.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/subscription.hpp:50[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:25[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/ulugbek/dev-ws/src/cube_movement/src/cube_movement_node.cpp:4[m[K:
+[01m[K/opt/ros/foxy/include/rcpputils/thread_safety_annotations.hpp:48:27:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst std::mutex& operator!(const std::mutex&)[m[K’
+   48 | inline const std::mutex & [01;36m[Koperator[m[K!(const std::mutex & a)
+      |                           [01;36m[K^~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/rcpputils/thread_safety_annotations.hpp:48:56:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kgeometry_msgs::msg::Point[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::Point_<std::allocator<void> >[m[K’} to ‘[01m[Kconst std::mutex&[m[K’
+   48 | inline const std::mutex & operator!([01;36m[Kconst std::mutex & a[m[K)
+      |                                     [01;36m[K~~~~~~~~~~~~~~~~~~~^[m[K
+make[2]: *** [CMakeFiles/cube_movement_node.dir/build.make:63: CMakeFiles/cube_movement_node.dir/src/cube_movement_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/cube_movement_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

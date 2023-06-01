@@ -1,0 +1,32 @@
+[0.279s] Invoking command in '/home/ulugbek/dev-ws/src/build/velodyne_subscriber': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ulugbek/dev-ws/install/ros_tcp_endpoint:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/ulugbek/dev-ws/src/velodyne_subscriber -DCMAKE_INSTALL_PREFIX=/home/ulugbek/dev-ws/src/install/velodyne_subscriber
+[0.292s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.338s] -- Using PYTHON_EXECUTABLE: /home/ulugbek/anaconda3/bin/python3
+[0.576s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.605s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.608s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.713s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.751s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.752s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.873s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[0.966s] -- Found pcl_conversions: 2.2.1 (/opt/ros/foxy/share/pcl_conversions/cmake)
+[1.111s] CMake Error at CMakeLists.txt:23 (find_package):
+[1.112s]   By not providing "Findpcl_ros.cmake" in CMAKE_MODULE_PATH this project has
+[1.112s]   asked CMake to find a package configuration file provided by "pcl_ros", but
+[1.112s]   CMake did not find one.
+[1.112s] 
+[1.112s]   Could not find a package configuration file provided by "pcl_ros" with any
+[1.112s]   of the following names:
+[1.112s] 
+[1.112s]     pcl_rosConfig.cmake
+[1.112s]     pcl_ros-config.cmake
+[1.113s] 
+[1.113s]   Add the installation prefix of "pcl_ros" to CMAKE_PREFIX_PATH or set
+[1.113s]   "pcl_ros_DIR" to a directory containing one of the above files.  If
+[1.113s]   "pcl_ros" provides a separate development package or SDK, be sure it has
+[1.113s]   been installed.
+[1.113s] 
+[1.113s] 
+[1.113s] -- Configuring incomplete, errors occurred!
+[1.113s] See also "/home/ulugbek/dev-ws/src/build/velodyne_subscriber/CMakeFiles/CMakeOutput.log".
+[1.113s] See also "/home/ulugbek/dev-ws/src/build/velodyne_subscriber/CMakeFiles/CMakeError.log".
+[1.118s] Invoked command in '/home/ulugbek/dev-ws/src/build/velodyne_subscriber' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ulugbek/dev-ws/install/ros_tcp_endpoint:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/ulugbek/dev-ws/src/velodyne_subscriber -DCMAKE_INSTALL_PREFIX=/home/ulugbek/dev-ws/src/install/velodyne_subscriber

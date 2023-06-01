@@ -1,0 +1,19 @@
+[100%] Built target velodyne_subscriber_node
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/ulugbek/dev-ws/src/install/velodyne_subscriber/lib/velodyne_subscriber/velodyne_subscriber_node
+-- Symlinking: /home/ulugbek/dev-ws/src/install/velodyne_subscriber/share/ament_index/resource_index/package_run_dependencies/velodyne_subscriber
+-- Symlinking: /home/ulugbek/dev-ws/src/install/velodyne_subscriber/share/ament_index/resource_index/parent_prefix_path/velodyne_subscriber
+-- Symlinking: /home/ulugbek/dev-ws/src/install/velodyne_subscriber/share/velodyne_subscriber/environment/ament_prefix_path.sh
+-- Symlinking: /home/ulugbek/dev-ws/src/install/velodyne_subscriber/share/velodyne_subscriber/environment/ament_prefix_path.dsv
+-- Symlinking: /home/ulugbek/dev-ws/src/install/velodyne_subscriber/share/velodyne_subscriber/environment/path.sh
+-- Symlinking: /home/ulugbek/dev-ws/src/install/velodyne_subscriber/share/velodyne_subscriber/environment/path.dsv
+-- Symlinking: /home/ulugbek/dev-ws/src/install/velodyne_subscriber/share/velodyne_subscriber/local_setup.bash
+-- Symlinking: /home/ulugbek/dev-ws/src/install/velodyne_subscriber/share/velodyne_subscriber/local_setup.sh
+-- Symlinking: /home/ulugbek/dev-ws/src/install/velodyne_subscriber/share/velodyne_subscriber/local_setup.zsh
+-- Symlinking: /home/ulugbek/dev-ws/src/install/velodyne_subscriber/share/velodyne_subscriber/local_setup.dsv
+-- Symlinking: /home/ulugbek/dev-ws/src/install/velodyne_subscriber/share/velodyne_subscriber/package.dsv
+-- Symlinking: /home/ulugbek/dev-ws/src/install/velodyne_subscriber/share/ament_index/resource_index/packages/velodyne_subscriber
+-- Symlinking: /home/ulugbek/dev-ws/src/install/velodyne_subscriber/share/velodyne_subscriber/cmake/velodyne_subscriberConfig.cmake
+-- Symlinking: /home/ulugbek/dev-ws/src/install/velodyne_subscriber/share/velodyne_subscriber/cmake/velodyne_subscriberConfig-version.cmake
+-- Symlinking: /home/ulugbek/dev-ws/src/install/velodyne_subscriber/share/velodyne_subscriber/package.xml

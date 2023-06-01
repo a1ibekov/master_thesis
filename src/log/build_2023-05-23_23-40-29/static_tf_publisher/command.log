@@ -1,0 +1,2 @@
+Invoking command in '/home/ulugbek/dev-ws/src/build/static_tf_publisher': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/ulugbek/dev-ws/src/static_tf_publisher -DCMAKE_INSTALL_PREFIX=/home/ulugbek/dev-ws/src/install/static_tf_publisher
+Invoked command in '/home/ulugbek/dev-ws/src/build/static_tf_publisher' returned '1': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/ulugbek/dev-ws/src/static_tf_publisher -DCMAKE_INSTALL_PREFIX=/home/ulugbek/dev-ws/src/install/static_tf_publisher

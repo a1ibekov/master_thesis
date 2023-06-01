@@ -1,0 +1,22 @@
+[0.080s] Invoking command in '/home/ulugbek/dev-ws/src/build/altitude_publisher': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/ulugbek/dev-ws/src/build/altitude_publisher -- -j16 -l16
+[0.288s] [100%] Built target altitude_publisher_node
+[0.294s] Invoked command in '/home/ulugbek/dev-ws/src/build/altitude_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/ulugbek/dev-ws/src/build/altitude_publisher -- -j16 -l16
+[0.328s] Invoking command in '/home/ulugbek/dev-ws/src/build/altitude_publisher': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/ulugbek/dev-ws/src/build/altitude_publisher
+[0.341s] -- Install configuration: ""
+[0.341s] -- Up-to-date: /home/ulugbek/dev-ws/src/install/altitude_publisher/lib/altitude_publisher/altitude_publisher_node
+[0.341s] -- Up-to-date: /home/ulugbek/dev-ws/src/install/altitude_publisher/share/ament_index/resource_index/package_run_dependencies/altitude_publisher
+[0.341s] -- Up-to-date: /home/ulugbek/dev-ws/src/install/altitude_publisher/share/ament_index/resource_index/parent_prefix_path/altitude_publisher
+[0.341s] -- Up-to-date: /home/ulugbek/dev-ws/src/install/altitude_publisher/share/altitude_publisher/environment/ament_prefix_path.sh
+[0.343s] -- Up-to-date: /home/ulugbek/dev-ws/src/install/altitude_publisher/share/altitude_publisher/environment/ament_prefix_path.dsv
+[0.343s] -- Up-to-date: /home/ulugbek/dev-ws/src/install/altitude_publisher/share/altitude_publisher/environment/path.sh
+[0.343s] -- Up-to-date: /home/ulugbek/dev-ws/src/install/altitude_publisher/share/altitude_publisher/environment/path.dsv
+[0.343s] -- Up-to-date: /home/ulugbek/dev-ws/src/install/altitude_publisher/share/altitude_publisher/local_setup.bash
+[0.343s] -- Up-to-date: /home/ulugbek/dev-ws/src/install/altitude_publisher/share/altitude_publisher/local_setup.sh
+[0.343s] -- Up-to-date: /home/ulugbek/dev-ws/src/install/altitude_publisher/share/altitude_publisher/local_setup.zsh
+[0.343s] -- Up-to-date: /home/ulugbek/dev-ws/src/install/altitude_publisher/share/altitude_publisher/local_setup.dsv
+[0.343s] -- Installing: /home/ulugbek/dev-ws/src/install/altitude_publisher/share/altitude_publisher/package.dsv
+[0.343s] -- Up-to-date: /home/ulugbek/dev-ws/src/install/altitude_publisher/share/ament_index/resource_index/packages/altitude_publisher
+[0.343s] -- Up-to-date: /home/ulugbek/dev-ws/src/install/altitude_publisher/share/altitude_publisher/cmake/altitude_publisherConfig.cmake
+[0.344s] -- Up-to-date: /home/ulugbek/dev-ws/src/install/altitude_publisher/share/altitude_publisher/cmake/altitude_publisherConfig-version.cmake
+[0.344s] -- Up-to-date: /home/ulugbek/dev-ws/src/install/altitude_publisher/share/altitude_publisher/package.xml
+[0.390s] Invoked command in '/home/ulugbek/dev-ws/src/build/altitude_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/ulugbek/dev-ws/src/build/altitude_publisher

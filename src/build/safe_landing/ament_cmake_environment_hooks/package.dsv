@@ -1,0 +1,4 @@
+source;share/safe_landing/local_setup.bash
+source;share/safe_landing/local_setup.dsv
+source;share/safe_landing/local_setup.sh
+source;share/safe_landing/local_setup.zsh

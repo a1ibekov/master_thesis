@@ -1,0 +1,22 @@
+[1.265s] Invoking command in '/home/ulugbek/dev-ws/src/unity_robotics_demo': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/ulugbek/dev-ws/src/build/unity_robotics_demo/prefix_override:/home/ulugbek/dev-ws/src/install/unity_robotics_demo/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/unity_robotics_demo build --build-base /home/ulugbek/dev-ws/src/build/unity_robotics_demo/build install --record /home/ulugbek/dev-ws/src/build/unity_robotics_demo/install.log --install-scripts $base/lib/unity_robotics_demo --single-version-externally-managed
+[1.520s] running egg_info
+[1.520s] writing ../build/unity_robotics_demo/unity_robotics_demo.egg-info/PKG-INFO
+[1.520s] writing dependency_links to ../build/unity_robotics_demo/unity_robotics_demo.egg-info/dependency_links.txt
+[1.520s] writing entry points to ../build/unity_robotics_demo/unity_robotics_demo.egg-info/entry_points.txt
+[1.521s] writing requirements to ../build/unity_robotics_demo/unity_robotics_demo.egg-info/requires.txt
+[1.521s] writing top-level names to ../build/unity_robotics_demo/unity_robotics_demo.egg-info/top_level.txt
+[1.562s] reading manifest file '../build/unity_robotics_demo/unity_robotics_demo.egg-info/SOURCES.txt'
+[1.566s] writing manifest file '../build/unity_robotics_demo/unity_robotics_demo.egg-info/SOURCES.txt'
+[1.566s] running build
+[1.566s] running build_py
+[1.566s] running install
+[1.566s] running install_lib
+[1.566s] running install_data
+[1.567s] running install_egg_info
+[1.567s] removing '/home/ulugbek/dev-ws/src/install/unity_robotics_demo/lib/python3.8/site-packages/unity_robotics_demo-0.0.1-py3.8.egg-info' (and everything under it)
+[1.567s] Copying ../build/unity_robotics_demo/unity_robotics_demo.egg-info to /home/ulugbek/dev-ws/src/install/unity_robotics_demo/lib/python3.8/site-packages/unity_robotics_demo-0.0.1-py3.8.egg-info
+[1.567s] running install_scripts
+[1.576s] Installing color_publisher script to /home/ulugbek/dev-ws/src/install/unity_robotics_demo/lib/unity_robotics_demo
+[1.576s] Installing position_service script to /home/ulugbek/dev-ws/src/install/unity_robotics_demo/lib/unity_robotics_demo
+[1.576s] writing list of installed files to '/home/ulugbek/dev-ws/src/build/unity_robotics_demo/install.log'
+[1.679s] Invoked command in '/home/ulugbek/dev-ws/src/unity_robotics_demo' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/ulugbek/dev-ws/src/build/unity_robotics_demo/prefix_override:/home/ulugbek/dev-ws/src/install/unity_robotics_demo/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/unity_robotics_demo build --build-base /home/ulugbek/dev-ws/src/build/unity_robotics_demo/build install --record /home/ulugbek/dev-ws/src/build/unity_robotics_demo/install.log --install-scripts $base/lib/unity_robotics_demo --single-version-externally-managed

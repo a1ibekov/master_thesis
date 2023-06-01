@@ -1,0 +1,14 @@
+[0.031s] Invoking command in '/home/ulugbek/dev-ws/src/build/velodyne_pointcloud': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ulugbek/dev-ws/src/install/ros_tcp_endpoint:/home/ulugbek/dev-ws/install/ros_tcp_endpoint:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/ulugbek/dev-ws/src/build/velodyne_pointcloud -- -j16 -l16
+[0.079s] [ 22%] Built target gtest_main
+[0.079s] [ 16%] Built target gtest
+[0.094s] [ 38%] Built target velodyne_rawdata
+[0.095s] [ 55%] Built target velodyne_cloud_types
+[0.113s] [ 66%] Built target test_row_step
+[0.120s] [ 77%] Built target test_calibration
+[0.133s] [ 83%] [32mBuilding CXX object CMakeFiles/transform.dir/src/conversions/transform.cpp.o[0m
+[6.523s] [ 88%] [32m[1mLinking CXX shared library libtransform.so[0m
+[6.821s] [ 88%] Built target transform
+[6.838s] [35m[1mScanning dependencies of target velodyne_transform_node[0m
+[6.886s] [ 94%] [32mBuilding CXX object CMakeFiles/velodyne_transform_node.dir/src/conversions/transform_node.cpp.o[0m
+[9.720s] [100%] [32m[1mLinking CXX executable velodyne_transform_node[0m
+[9.942s] [100%] Built target velodyne_transform_node

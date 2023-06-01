@@ -1,0 +1,22 @@
+[0.253s] Invoking command in '/home/ulugbek/dev-ws/src/build/safe_landing': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/ulugbek/dev-ws/src/build/safe_landing -- -j16 -l16
+[0.342s] [100%] Built target safe_landing_node
+[0.489s] Invoked command in '/home/ulugbek/dev-ws/src/build/safe_landing' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/ulugbek/dev-ws/src/build/safe_landing -- -j16 -l16
+[0.646s] Invoking command in '/home/ulugbek/dev-ws/src/build/safe_landing': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/ulugbek/dev-ws/src/build/safe_landing
+[0.684s] -- Install configuration: ""
+[0.685s] -- Up-to-date: /home/ulugbek/dev-ws/src/install/safe_landing/lib/safe_landing/safe_landing_node
+[0.685s] -- Up-to-date: /home/ulugbek/dev-ws/src/install/safe_landing/share/ament_index/resource_index/package_run_dependencies/safe_landing
+[0.685s] -- Up-to-date: /home/ulugbek/dev-ws/src/install/safe_landing/share/ament_index/resource_index/parent_prefix_path/safe_landing
+[0.685s] -- Up-to-date: /home/ulugbek/dev-ws/src/install/safe_landing/share/safe_landing/environment/ament_prefix_path.sh
+[0.685s] -- Up-to-date: /home/ulugbek/dev-ws/src/install/safe_landing/share/safe_landing/environment/ament_prefix_path.dsv
+[0.685s] -- Up-to-date: /home/ulugbek/dev-ws/src/install/safe_landing/share/safe_landing/environment/path.sh
+[0.685s] -- Up-to-date: /home/ulugbek/dev-ws/src/install/safe_landing/share/safe_landing/environment/path.dsv
+[0.685s] -- Up-to-date: /home/ulugbek/dev-ws/src/install/safe_landing/share/safe_landing/local_setup.bash
+[0.685s] -- Up-to-date: /home/ulugbek/dev-ws/src/install/safe_landing/share/safe_landing/local_setup.sh
+[0.685s] -- Up-to-date: /home/ulugbek/dev-ws/src/install/safe_landing/share/safe_landing/local_setup.zsh
+[0.685s] -- Up-to-date: /home/ulugbek/dev-ws/src/install/safe_landing/share/safe_landing/local_setup.dsv
+[0.685s] -- Installing: /home/ulugbek/dev-ws/src/install/safe_landing/share/safe_landing/package.dsv
+[0.686s] -- Up-to-date: /home/ulugbek/dev-ws/src/install/safe_landing/share/ament_index/resource_index/packages/safe_landing
+[0.686s] -- Up-to-date: /home/ulugbek/dev-ws/src/install/safe_landing/share/safe_landing/cmake/safe_landingConfig.cmake
+[0.686s] -- Up-to-date: /home/ulugbek/dev-ws/src/install/safe_landing/share/safe_landing/cmake/safe_landingConfig-version.cmake
+[0.686s] -- Up-to-date: /home/ulugbek/dev-ws/src/install/safe_landing/share/safe_landing/package.xml
+[0.757s] Invoked command in '/home/ulugbek/dev-ws/src/build/safe_landing' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/ulugbek/dev-ws/src/build/safe_landing

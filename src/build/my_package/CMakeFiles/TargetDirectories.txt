@@ -1,0 +1,9 @@
+/home/ulugbek/dev-ws/src/build/my_package/CMakeFiles/install/strip.dir
+/home/ulugbek/dev-ws/src/build/my_package/CMakeFiles/install/local.dir
+/home/ulugbek/dev-ws/src/build/my_package/CMakeFiles/install.dir
+/home/ulugbek/dev-ws/src/build/my_package/CMakeFiles/list_install_components.dir
+/home/ulugbek/dev-ws/src/build/my_package/CMakeFiles/rebuild_cache.dir
+/home/ulugbek/dev-ws/src/build/my_package/CMakeFiles/edit_cache.dir
+/home/ulugbek/dev-ws/src/build/my_package/CMakeFiles/test.dir
+/home/ulugbek/dev-ws/src/build/my_package/CMakeFiles/my_package_uninstall.dir
+/home/ulugbek/dev-ws/src/build/my_package/CMakeFiles/uninstall.dir

@@ -1,0 +1,48 @@
+[0.152s] Invoking command in '/home/ulugbek/dev-ws/src/build/velodyne_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ulugbek/dev-ws/install/ros_tcp_endpoint:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/ulugbek/dev-ws/src/velodyne/velodyne_msgs -DCMAKE_INSTALL_PREFIX=/home/ulugbek/dev-ws/src/install/velodyne_msgs
+[0.473s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.473s] -- Found PythonInterp: /home/ulugbek/anaconda3/bin/python3 (found suitable version "3.9.12", minimum required is "3") 
+[0.473s] -- Using PYTHON_EXECUTABLE: /home/ulugbek/anaconda3/bin/python3
+[0.551s] -- Found builtin_interfaces: 1.0.0 (/opt/ros/foxy/share/builtin_interfaces/cmake)
+[0.586s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.590s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.791s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.812s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.820s] -- Found std_msgs: 2.0.5 (/opt/ros/foxy/share/std_msgs/cmake)
+[0.869s] -- Found PythonInterp: /home/ulugbek/anaconda3/bin/python3 (found version "3.9.12") 
+[0.916s] CMake Error at /opt/ros/foxy/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:60 (message):
+[0.917s]   execute_process(/home/ulugbek/anaconda3/bin/python3 -m rosidl_adapter
+[0.917s]   --package-name velodyne_msgs --arguments-file
+[0.917s]   /home/ulugbek/dev-ws/src/build/velodyne_msgs/rosidl_adapter__arguments__velodyne_msgs.json
+[0.917s]   --output-dir
+[0.917s]   /home/ulugbek/dev-ws/src/build/velodyne_msgs/rosidl_adapter/velodyne_msgs
+[0.917s]   --output-file
+[0.917s]   /home/ulugbek/dev-ws/src/build/velodyne_msgs/rosidl_adapter/velodyne_msgs.idls)
+[0.917s]   returned error code 1:
+[0.918s] 
+[0.918s]   Traceback (most recent call last):
+[0.918s] 
+[0.918s]     File "/home/ulugbek/anaconda3/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+[0.918s]       return _run_code(code, main_globals, None,
+[0.918s]     File "/home/ulugbek/anaconda3/lib/python3.9/runpy.py", line 87, in _run_code
+[0.918s]       exec(code, run_globals)
+[0.918s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[0.918s]       sys.exit(main())
+[0.919s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/main.py", line 53, in main
+[0.919s]       abs_idl_file = convert_to_idl(
+[0.919s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__init__.py", line 18, in convert_to_idl
+[0.919s]       from rosidl_adapter.msg import convert_msg_to_idl
+[0.919s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/msg/__init__.py", line 16, in <module>
+[0.919s]       from rosidl_adapter.resource import expand_template
+[0.919s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/resource/__init__.py", line 19, in <module>
+[0.919s]       import em
+[0.919s] 
+[0.919s]   ModuleNotFoundError: No module named 'em'
+[0.919s] 
+[0.920s] Call Stack (most recent call first):
+[0.920s]   /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[0.920s]   CMakeLists.txt:19 (rosidl_generate_interfaces)
+[0.920s] 
+[0.920s] 
+[0.920s] -- Configuring incomplete, errors occurred!
+[0.920s] See also "/home/ulugbek/dev-ws/src/build/velodyne_msgs/CMakeFiles/CMakeOutput.log".
+[0.925s] Invoked command in '/home/ulugbek/dev-ws/src/build/velodyne_msgs' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ulugbek/dev-ws/install/ros_tcp_endpoint:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/ulugbek/dev-ws/src/velodyne/velodyne_msgs -DCMAKE_INSTALL_PREFIX=/home/ulugbek/dev-ws/src/install/velodyne_msgs

@@ -1,0 +1,21 @@
+[0.698s] Invoking command in '/home/ulugbek/dev-ws/src/ROS-TCP-Endpoint-ROS2v0.7.0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/ulugbek/dev-ws/src/build/ros_tcp_endpoint/prefix_override:/home/ulugbek/dev-ws/src/install/ros_tcp_endpoint/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/ros_tcp_endpoint build --build-base /home/ulugbek/dev-ws/src/build/ros_tcp_endpoint/build install --record /home/ulugbek/dev-ws/src/build/ros_tcp_endpoint/install.log --install-scripts $base/lib/ros_tcp_endpoint --single-version-externally-managed
+[0.887s] running egg_info
+[0.887s] writing ../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/PKG-INFO
+[0.888s] writing dependency_links to ../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/dependency_links.txt
+[0.888s] writing entry points to ../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/entry_points.txt
+[0.888s] writing requirements to ../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/requires.txt
+[0.888s] writing top-level names to ../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/top_level.txt
+[0.926s] reading manifest file '../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/SOURCES.txt'
+[0.927s] writing manifest file '../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/SOURCES.txt'
+[0.927s] running build
+[0.927s] running build_py
+[0.928s] running install
+[0.929s] running install_lib
+[0.932s] running install_data
+[0.932s] running install_egg_info
+[0.934s] removing '/home/ulugbek/dev-ws/src/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint-0.0.1-py3.8.egg-info' (and everything under it)
+[0.935s] Copying ../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info to /home/ulugbek/dev-ws/src/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint-0.0.1-py3.8.egg-info
+[0.936s] running install_scripts
+[0.960s] Installing default_server_endpoint script to /home/ulugbek/dev-ws/src/install/ros_tcp_endpoint/lib/ros_tcp_endpoint
+[0.960s] writing list of installed files to '/home/ulugbek/dev-ws/src/build/ros_tcp_endpoint/install.log'
+[1.054s] Invoked command in '/home/ulugbek/dev-ws/src/ROS-TCP-Endpoint-ROS2v0.7.0' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/ulugbek/dev-ws/src/build/ros_tcp_endpoint/prefix_override:/home/ulugbek/dev-ws/src/install/ros_tcp_endpoint/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/ros_tcp_endpoint build --build-base /home/ulugbek/dev-ws/src/build/ros_tcp_endpoint/build install --record /home/ulugbek/dev-ws/src/build/ros_tcp_endpoint/install.log --install-scripts $base/lib/ros_tcp_endpoint --single-version-externally-managed

@@ -1,0 +1,41 @@
+[1.228s] Invoking command in '/home/ulugbek/dev-ws/src/unity_robotics_demo': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/ulugbek/dev-ws/src/build/unity_robotics_demo/prefix_override:/home/ulugbek/dev-ws/src/install/unity_robotics_demo/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/unity_robotics_demo build --build-base /home/ulugbek/dev-ws/src/build/unity_robotics_demo/build install --record /home/ulugbek/dev-ws/src/build/unity_robotics_demo/install.log --install-scripts $base/lib/unity_robotics_demo --single-version-externally-managed
+[1.450s] running egg_info
+[1.451s] creating ../build/unity_robotics_demo/unity_robotics_demo.egg-info
+[1.451s] writing ../build/unity_robotics_demo/unity_robotics_demo.egg-info/PKG-INFO
+[1.451s] writing dependency_links to ../build/unity_robotics_demo/unity_robotics_demo.egg-info/dependency_links.txt
+[1.451s] writing entry points to ../build/unity_robotics_demo/unity_robotics_demo.egg-info/entry_points.txt
+[1.451s] writing requirements to ../build/unity_robotics_demo/unity_robotics_demo.egg-info/requires.txt
+[1.451s] writing top-level names to ../build/unity_robotics_demo/unity_robotics_demo.egg-info/top_level.txt
+[1.454s] writing manifest file '../build/unity_robotics_demo/unity_robotics_demo.egg-info/SOURCES.txt'
+[1.500s] reading manifest file '../build/unity_robotics_demo/unity_robotics_demo.egg-info/SOURCES.txt'
+[1.501s] writing manifest file '../build/unity_robotics_demo/unity_robotics_demo.egg-info/SOURCES.txt'
+[1.501s] running build
+[1.501s] running build_py
+[1.501s] creating /home/ulugbek/dev-ws/src/build/unity_robotics_demo/build
+[1.501s] creating /home/ulugbek/dev-ws/src/build/unity_robotics_demo/build/lib
+[1.501s] creating /home/ulugbek/dev-ws/src/build/unity_robotics_demo/build/lib/unity_robotics_demo
+[1.501s] copying unity_robotics_demo/__init__.py -> /home/ulugbek/dev-ws/src/build/unity_robotics_demo/build/lib/unity_robotics_demo
+[1.501s] copying unity_robotics_demo/color_publisher.py -> /home/ulugbek/dev-ws/src/build/unity_robotics_demo/build/lib/unity_robotics_demo
+[1.502s] copying unity_robotics_demo/position_service.py -> /home/ulugbek/dev-ws/src/build/unity_robotics_demo/build/lib/unity_robotics_demo
+[1.502s] running install
+[1.502s] running install_lib
+[1.502s] creating /home/ulugbek/dev-ws/src/install/unity_robotics_demo/lib/python3.8/site-packages/unity_robotics_demo
+[1.502s] copying /home/ulugbek/dev-ws/src/build/unity_robotics_demo/build/lib/unity_robotics_demo/__init__.py -> /home/ulugbek/dev-ws/src/install/unity_robotics_demo/lib/python3.8/site-packages/unity_robotics_demo
+[1.502s] copying /home/ulugbek/dev-ws/src/build/unity_robotics_demo/build/lib/unity_robotics_demo/color_publisher.py -> /home/ulugbek/dev-ws/src/install/unity_robotics_demo/lib/python3.8/site-packages/unity_robotics_demo
+[1.502s] copying /home/ulugbek/dev-ws/src/build/unity_robotics_demo/build/lib/unity_robotics_demo/position_service.py -> /home/ulugbek/dev-ws/src/install/unity_robotics_demo/lib/python3.8/site-packages/unity_robotics_demo
+[1.502s] byte-compiling /home/ulugbek/dev-ws/src/install/unity_robotics_demo/lib/python3.8/site-packages/unity_robotics_demo/__init__.py to __init__.cpython-38.pyc
+[1.502s] byte-compiling /home/ulugbek/dev-ws/src/install/unity_robotics_demo/lib/python3.8/site-packages/unity_robotics_demo/color_publisher.py to color_publisher.cpython-38.pyc
+[1.502s] byte-compiling /home/ulugbek/dev-ws/src/install/unity_robotics_demo/lib/python3.8/site-packages/unity_robotics_demo/position_service.py to position_service.cpython-38.pyc
+[1.502s] running install_data
+[1.502s] creating /home/ulugbek/dev-ws/src/install/unity_robotics_demo/share/ament_index
+[1.502s] creating /home/ulugbek/dev-ws/src/install/unity_robotics_demo/share/ament_index/resource_index
+[1.502s] creating /home/ulugbek/dev-ws/src/install/unity_robotics_demo/share/ament_index/resource_index/packages
+[1.503s] copying resource/unity_robotics_demo -> /home/ulugbek/dev-ws/src/install/unity_robotics_demo/share/ament_index/resource_index/packages
+[1.503s] copying package.xml -> /home/ulugbek/dev-ws/src/install/unity_robotics_demo/share/unity_robotics_demo
+[1.503s] running install_egg_info
+[1.503s] Copying ../build/unity_robotics_demo/unity_robotics_demo.egg-info to /home/ulugbek/dev-ws/src/install/unity_robotics_demo/lib/python3.8/site-packages/unity_robotics_demo-0.0.1-py3.8.egg-info
+[1.503s] running install_scripts
+[1.521s] Installing color_publisher script to /home/ulugbek/dev-ws/src/install/unity_robotics_demo/lib/unity_robotics_demo
+[1.521s] Installing position_service script to /home/ulugbek/dev-ws/src/install/unity_robotics_demo/lib/unity_robotics_demo
+[1.521s] writing list of installed files to '/home/ulugbek/dev-ws/src/build/unity_robotics_demo/install.log'
+[1.644s] Invoked command in '/home/ulugbek/dev-ws/src/unity_robotics_demo' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/ulugbek/dev-ws/src/build/unity_robotics_demo/prefix_override:/home/ulugbek/dev-ws/src/install/unity_robotics_demo/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/unity_robotics_demo build --build-base /home/ulugbek/dev-ws/src/build/unity_robotics_demo/build install --record /home/ulugbek/dev-ws/src/build/unity_robotics_demo/install.log --install-scripts $base/lib/unity_robotics_demo --single-version-externally-managed

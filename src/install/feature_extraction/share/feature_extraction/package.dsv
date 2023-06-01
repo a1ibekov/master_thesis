@@ -1,0 +1,8 @@
+source;share/feature_extraction/hook/cmake_prefix_path.ps1
+source;share/feature_extraction/hook/cmake_prefix_path.dsv
+source;share/feature_extraction/hook/cmake_prefix_path.sh
+source;share/feature_extraction/local_setup.bash
+source;share/feature_extraction/local_setup.dsv
+source;share/feature_extraction/local_setup.ps1
+source;share/feature_extraction/local_setup.sh
+source;share/feature_extraction/local_setup.zsh

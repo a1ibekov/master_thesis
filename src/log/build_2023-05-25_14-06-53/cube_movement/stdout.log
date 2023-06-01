@@ -1,0 +1,22 @@
+[35m[1mScanning dependencies of target cube_movement_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/cube_movement_node.dir/src/cube_movement_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable cube_movement_node[0m
+[100%] Built target cube_movement_node
+-- Install configuration: ""
+-- Installing: /home/ulugbek/dev-ws/src/install/cube_movement/lib/cube_movement/cube_movement_node
+-- Set runtime path of "/home/ulugbek/dev-ws/src/install/cube_movement/lib/cube_movement/cube_movement_node" to ""
+-- Installing: /home/ulugbek/dev-ws/src/install/cube_movement/share/ament_index/resource_index/package_run_dependencies/cube_movement
+-- Installing: /home/ulugbek/dev-ws/src/install/cube_movement/share/ament_index/resource_index/parent_prefix_path/cube_movement
+-- Installing: /home/ulugbek/dev-ws/src/install/cube_movement/share/cube_movement/environment/ament_prefix_path.sh
+-- Installing: /home/ulugbek/dev-ws/src/install/cube_movement/share/cube_movement/environment/ament_prefix_path.dsv
+-- Installing: /home/ulugbek/dev-ws/src/install/cube_movement/share/cube_movement/environment/path.sh
+-- Installing: /home/ulugbek/dev-ws/src/install/cube_movement/share/cube_movement/environment/path.dsv
+-- Installing: /home/ulugbek/dev-ws/src/install/cube_movement/share/cube_movement/local_setup.bash
+-- Installing: /home/ulugbek/dev-ws/src/install/cube_movement/share/cube_movement/local_setup.sh
+-- Installing: /home/ulugbek/dev-ws/src/install/cube_movement/share/cube_movement/local_setup.zsh
+-- Installing: /home/ulugbek/dev-ws/src/install/cube_movement/share/cube_movement/local_setup.dsv
+-- Installing: /home/ulugbek/dev-ws/src/install/cube_movement/share/cube_movement/package.dsv
+-- Installing: /home/ulugbek/dev-ws/src/install/cube_movement/share/ament_index/resource_index/packages/cube_movement
+-- Installing: /home/ulugbek/dev-ws/src/install/cube_movement/share/cube_movement/cmake/cube_movementConfig.cmake
+-- Installing: /home/ulugbek/dev-ws/src/install/cube_movement/share/cube_movement/cmake/cube_movementConfig-version.cmake
+-- Installing: /home/ulugbek/dev-ws/src/install/cube_movement/share/cube_movement/package.xml

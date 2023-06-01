@@ -1,0 +1,4 @@
+[01m[K/home/ulugbek/dev-ws/src/cube_movement/src/cube_movement_node.cpp:[m[K In member function ‘[01m[Kvoid CubeMovementNode::timerCallback()[m[K’:
+[01m[K/home/ulugbek/dev-ws/src/cube_movement/src/cube_movement_node.cpp:36:58:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around ‘[01m[K&&[m[K’ within ‘[01m[K||[m[K’ [[01;35m[K-Wparentheses[m[K]
+   36 |     if ([01;35m[Kfinal_position_.x == 0 && final_position_.y == 0 && final_position_.z == 0[m[K ||
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K

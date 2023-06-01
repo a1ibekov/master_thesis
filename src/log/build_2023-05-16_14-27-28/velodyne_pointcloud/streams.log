@@ -1,0 +1,72 @@
+[0.050s] Invoking command in '/home/ulugbek/dev-ws/src/build/velodyne_pointcloud': AMENT_PREFIX_PATH=/home/ulugbek/dev-ws/src/install/velodyne_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ulugbek/dev-ws/src/install/velodyne_msgs:/home/ulugbek/dev-ws/install/velodyne:/home/ulugbek/dev-ws/install/velodyne_pointcloud:/home/ulugbek/dev-ws/install/velodyne_driver:/home/ulugbek/dev-ws/install/velodyne_msgs:/home/ulugbek/dev-ws/install/velodyne_laserscan:/home/ulugbek/dev-ws/install/safe_landing:/home/ulugbek/dev-ws/install/my_package:/home/ulugbek/dev-ws/install/feature_extraction:/home/ulugbek/dev-ws/install/altitude_publisher:/home/ulugbek/dev-ws/install/ros_tcp_endpoint:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/ulugbek/dev-ws/src/install/velodyne_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ulugbek/dev-ws/src/install/velodyne_msgs/lib/python3.9/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ulugbek/dev-ws/src/velodyne/velodyne_pointcloud -DCMAKE_INSTALL_PREFIX=/home/ulugbek/dev-ws/src/install/velodyne_pointcloud
+[0.098s] -- The C compiler identification is GNU 9.4.0
+[0.151s] -- The CXX compiler identification is GNU 9.4.0
+[0.156s] -- Check for working C compiler: /usr/bin/cc
+[0.214s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.215s] -- Detecting C compiler ABI info
+[0.275s] -- Detecting C compiler ABI info - done
+[0.292s] -- Detecting C compile features
+[0.293s] -- Detecting C compile features - done
+[0.296s] -- Check for working CXX compiler: /usr/bin/c++
+[0.372s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.373s] -- Detecting CXX compiler ABI info
+[0.446s] -- Detecting CXX compiler ABI info - done
+[0.458s] -- Detecting CXX compile features
+[0.458s] -- Detecting CXX compile features - done
+[0.460s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.493s] -- Found PythonInterp: /home/ulugbek/anaconda3/bin/python3 (found suitable version "3.9.12", minimum required is "3") 
+[0.493s] -- Using PYTHON_EXECUTABLE: /home/ulugbek/anaconda3/bin/python3
+[0.753s] -- Found angles: 1.12.6 (/opt/ros/foxy/share/angles/cmake)
+[0.756s] -- Found diagnostic_updater: 2.0.8 (/opt/ros/foxy/share/diagnostic_updater/cmake)
+[0.790s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.796s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.868s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.895s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.966s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.106s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.108s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.109s] -- Looking for pthread.h
+[1.179s] -- Looking for pthread.h - found
+[1.179s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.247s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.248s] -- Looking for pthread_create in pthreads
+[1.304s] -- Looking for pthread_create in pthreads - not found
+[1.304s] -- Looking for pthread_create in pthread
+[1.371s] -- Looking for pthread_create in pthread - found
+[1.372s] -- Found Threads: TRUE  
+[1.516s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[1.547s] -- Found message_filters: 3.2.5 (/opt/ros/foxy/share/message_filters/cmake)
+[1.560s] -- Checking for module 'eigen3'
+[1.571s] --   Found eigen3, version 3.3.7
+[1.601s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[1.601s] -- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+[1.647s] -- Found Boost: /usr/include (found suitable version "1.71.0", minimum required is "1.55.0") found components: system filesystem date_time iostreams regex 
+[1.648s] -- looking for PCL_COMMON
+[1.648s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[1.649s] -- Found PCL: pcl_common;/usr/lib/x86_64-linux-gnu/libboost_system.so;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;/usr/lib/x86_64-linux-gnu/libboost_iostreams.so;/usr/lib/x86_64-linux-gnu/libboost_regex.so  
+[1.651s] -- Found rclcpp_components: 2.4.2 (/opt/ros/foxy/share/rclcpp_components/cmake)
+[1.699s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[1.761s] -- Found tf2: 0.13.13 (/opt/ros/foxy/share/tf2/cmake)
+[1.770s] -- Found tf2_ros: 0.13.13 (/opt/ros/foxy/share/tf2_ros/cmake)
+[2.006s] -- Found velodyne_msgs: 2.3.0 (/home/ulugbek/dev-ws/src/install/velodyne_msgs/share/velodyne_msgs/cmake)
+[2.042s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+[2.043s] -- Checking for module 'yaml-cpp'
+[2.057s] --   Found yaml-cpp, version 0.6.2
+[2.115s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.231s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.233s] -- Check if compiler accepts -pthread
+[2.318s] -- Check if compiler accepts -pthread - yes
+[2.328s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.330s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.330s] -- Configured cppcheck include dirs: /home/ulugbek/dev-ws/src/velodyne/velodyne_pointcloud/include
+[2.330s] -- Configured cppcheck exclude dirs and/or files: 
+[2.332s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.332s] -- Configured cpplint exclude dirs and/or files: 
+[2.332s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.333s] -- Added test 'lint_cmake' to check CMake code style
+[2.333s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[2.335s] -- Added test 'uncrustify' to check C / C++ code style
+[2.335s] -- Configured uncrustify additional arguments: 
+[2.338s] -- Configuring done
+[2.381s] -- Generating done
+[2.383s] -- Build files have been written to: /home/ulugbek/dev-ws/src/build/velodyne_pointcloud

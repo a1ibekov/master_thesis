@@ -1,0 +1,2 @@
+source;share/altitude_publisher/environment/ament_prefix_path.sh
+source;share/altitude_publisher/environment/path.sh

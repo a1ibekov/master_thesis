@@ -1,0 +1,10 @@
+/home/ulugbek/dev-ws/src/build/feature_extraction/CMakeFiles/install/strip.dir
+/home/ulugbek/dev-ws/src/build/feature_extraction/CMakeFiles/install/local.dir
+/home/ulugbek/dev-ws/src/build/feature_extraction/CMakeFiles/install.dir
+/home/ulugbek/dev-ws/src/build/feature_extraction/CMakeFiles/list_install_components.dir
+/home/ulugbek/dev-ws/src/build/feature_extraction/CMakeFiles/rebuild_cache.dir
+/home/ulugbek/dev-ws/src/build/feature_extraction/CMakeFiles/edit_cache.dir
+/home/ulugbek/dev-ws/src/build/feature_extraction/CMakeFiles/test.dir
+/home/ulugbek/dev-ws/src/build/feature_extraction/CMakeFiles/feature_extraction_node.dir
+/home/ulugbek/dev-ws/src/build/feature_extraction/CMakeFiles/feature_extraction_uninstall.dir
+/home/ulugbek/dev-ws/src/build/feature_extraction/CMakeFiles/uninstall.dir

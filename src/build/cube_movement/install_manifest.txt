@@ -1,0 +1,16 @@
+/home/ulugbek/dev-ws/src/install/cube_movement/lib/cube_movement/cube_movement_node
+/home/ulugbek/dev-ws/src/install/cube_movement/share/ament_index/resource_index/package_run_dependencies/cube_movement
+/home/ulugbek/dev-ws/src/install/cube_movement/share/ament_index/resource_index/parent_prefix_path/cube_movement
+/home/ulugbek/dev-ws/src/install/cube_movement/share/cube_movement/environment/ament_prefix_path.sh
+/home/ulugbek/dev-ws/src/install/cube_movement/share/cube_movement/environment/ament_prefix_path.dsv
+/home/ulugbek/dev-ws/src/install/cube_movement/share/cube_movement/environment/path.sh
+/home/ulugbek/dev-ws/src/install/cube_movement/share/cube_movement/environment/path.dsv
+/home/ulugbek/dev-ws/src/install/cube_movement/share/cube_movement/local_setup.bash
+/home/ulugbek/dev-ws/src/install/cube_movement/share/cube_movement/local_setup.sh
+/home/ulugbek/dev-ws/src/install/cube_movement/share/cube_movement/local_setup.zsh
+/home/ulugbek/dev-ws/src/install/cube_movement/share/cube_movement/local_setup.dsv
+/home/ulugbek/dev-ws/src/install/cube_movement/share/cube_movement/package.dsv
+/home/ulugbek/dev-ws/src/install/cube_movement/share/ament_index/resource_index/packages/cube_movement
+/home/ulugbek/dev-ws/src/install/cube_movement/share/cube_movement/cmake/cube_movementConfig.cmake
+/home/ulugbek/dev-ws/src/install/cube_movement/share/cube_movement/cmake/cube_movementConfig-version.cmake
+/home/ulugbek/dev-ws/src/install/cube_movement/share/cube_movement/package.xml

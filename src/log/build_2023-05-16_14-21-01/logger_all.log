@@ -1,0 +1,415 @@
+[0.348s] DEBUG:colcon:Command line arguments: ['/home/ulugbek/.local/bin/colcon', 'build']
+[0.348s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fbe1a55cd30>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=16, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fbe1a55cd30>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fbe1a5682e0>)
+[0.376s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.376s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.377s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.377s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.377s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.377s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.377s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ulugbek/dev-ws/src'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(ROS-TCP-Endpoint-ROS2v0.7.0) by extensions ['ignore', 'ignore_ament_install']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(ROS-TCP-Endpoint-ROS2v0.7.0) by extension 'ignore'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(ROS-TCP-Endpoint-ROS2v0.7.0) by extension 'ignore_ament_install'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(ROS-TCP-Endpoint-ROS2v0.7.0) by extensions ['colcon_pkg']
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(ROS-TCP-Endpoint-ROS2v0.7.0) by extension 'colcon_pkg'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(ROS-TCP-Endpoint-ROS2v0.7.0) by extensions ['colcon_meta']
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(ROS-TCP-Endpoint-ROS2v0.7.0) by extension 'colcon_meta'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(ROS-TCP-Endpoint-ROS2v0.7.0) by extensions ['ros']
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(ROS-TCP-Endpoint-ROS2v0.7.0) by extension 'ros'
+[0.387s] DEBUG:colcon.colcon_core.package_identification:Package 'ROS-TCP-Endpoint-ROS2v0.7.0' with type 'ros.ament_python' and name 'ros_tcp_endpoint'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(altitude_publisher) by extensions ['ignore', 'ignore_ament_install']
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(altitude_publisher) by extension 'ignore'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(altitude_publisher) by extension 'ignore_ament_install'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(altitude_publisher) by extensions ['colcon_pkg']
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(altitude_publisher) by extension 'colcon_pkg'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(altitude_publisher) by extensions ['colcon_meta']
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(altitude_publisher) by extension 'colcon_meta'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(altitude_publisher) by extensions ['ros']
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(altitude_publisher) by extension 'ros'
+[0.387s] DEBUG:colcon.colcon_core.package_identification:Package 'altitude_publisher' with type 'ros.ament_cmake' and name 'altitude_publisher'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(feature_extraction) by extensions ['ignore', 'ignore_ament_install']
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(feature_extraction) by extension 'ignore'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(feature_extraction) by extension 'ignore_ament_install'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(feature_extraction) by extensions ['colcon_pkg']
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(feature_extraction) by extension 'colcon_pkg'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(feature_extraction) by extensions ['colcon_meta']
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(feature_extraction) by extension 'colcon_meta'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(feature_extraction) by extensions ['ros']
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(feature_extraction) by extension 'ros'
+[0.388s] DEBUG:colcon.colcon_core.package_identification:Package 'feature_extraction' with type 'ros.ament_cmake' and name 'feature_extraction'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(my_package) by extensions ['ignore', 'ignore_ament_install']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(my_package) by extension 'ignore'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(my_package) by extension 'ignore_ament_install'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(my_package) by extensions ['colcon_pkg']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(my_package) by extension 'colcon_pkg'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(my_package) by extensions ['colcon_meta']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(my_package) by extension 'colcon_meta'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(my_package) by extensions ['ros']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(my_package) by extension 'ros'
+[0.389s] DEBUG:colcon.colcon_core.package_identification:Package 'my_package' with type 'ros.ament_cmake' and name 'my_package'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(safe_landing) by extensions ['ignore', 'ignore_ament_install']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(safe_landing) by extension 'ignore'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(safe_landing) by extension 'ignore_ament_install'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(safe_landing) by extensions ['colcon_pkg']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(safe_landing) by extension 'colcon_pkg'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(safe_landing) by extensions ['colcon_meta']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(safe_landing) by extension 'colcon_meta'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(safe_landing) by extensions ['ros']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(safe_landing) by extension 'ros'
+[0.390s] DEBUG:colcon.colcon_core.package_identification:Package 'safe_landing' with type 'ros.ament_cmake' and name 'safe_landing'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(velodyne) by extensions ['ignore', 'ignore_ament_install']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(velodyne) by extension 'ignore'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(velodyne) by extension 'ignore_ament_install'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(velodyne) by extensions ['colcon_pkg']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(velodyne) by extension 'colcon_pkg'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(velodyne) by extensions ['colcon_meta']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(velodyne) by extension 'colcon_meta'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(velodyne) by extensions ['ros']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(velodyne) by extension 'ros'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(velodyne) by extensions ['cmake', 'python']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(velodyne) by extension 'cmake'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(velodyne) by extension 'python'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(velodyne) by extensions ['python_setup_py']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(velodyne) by extension 'python_setup_py'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(velodyne/velodyne) by extensions ['ignore', 'ignore_ament_install']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(velodyne/velodyne) by extension 'ignore'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(velodyne/velodyne) by extension 'ignore_ament_install'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(velodyne/velodyne) by extensions ['colcon_pkg']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(velodyne/velodyne) by extension 'colcon_pkg'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(velodyne/velodyne) by extensions ['colcon_meta']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(velodyne/velodyne) by extension 'colcon_meta'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(velodyne/velodyne) by extensions ['ros']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(velodyne/velodyne) by extension 'ros'
+[0.391s] DEBUG:colcon.colcon_core.package_identification:Package 'velodyne/velodyne' with type 'ros.ament_cmake' and name 'velodyne'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(velodyne/velodyne_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(velodyne/velodyne_driver) by extension 'ignore'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(velodyne/velodyne_driver) by extension 'ignore_ament_install'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(velodyne/velodyne_driver) by extensions ['colcon_pkg']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(velodyne/velodyne_driver) by extension 'colcon_pkg'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(velodyne/velodyne_driver) by extensions ['colcon_meta']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(velodyne/velodyne_driver) by extension 'colcon_meta'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(velodyne/velodyne_driver) by extensions ['ros']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(velodyne/velodyne_driver) by extension 'ros'
+[0.392s] DEBUG:colcon.colcon_core.package_identification:Package 'velodyne/velodyne_driver' with type 'ros.ament_cmake' and name 'velodyne_driver'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(velodyne/velodyne_laserscan) by extensions ['ignore', 'ignore_ament_install']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(velodyne/velodyne_laserscan) by extension 'ignore'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(velodyne/velodyne_laserscan) by extension 'ignore_ament_install'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(velodyne/velodyne_laserscan) by extensions ['colcon_pkg']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(velodyne/velodyne_laserscan) by extension 'colcon_pkg'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(velodyne/velodyne_laserscan) by extensions ['colcon_meta']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(velodyne/velodyne_laserscan) by extension 'colcon_meta'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(velodyne/velodyne_laserscan) by extensions ['ros']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(velodyne/velodyne_laserscan) by extension 'ros'
+[0.393s] DEBUG:colcon.colcon_core.package_identification:Package 'velodyne/velodyne_laserscan' with type 'ros.ament_cmake' and name 'velodyne_laserscan'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(velodyne/velodyne_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(velodyne/velodyne_msgs) by extension 'ignore'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(velodyne/velodyne_msgs) by extension 'ignore_ament_install'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(velodyne/velodyne_msgs) by extensions ['colcon_pkg']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(velodyne/velodyne_msgs) by extension 'colcon_pkg'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(velodyne/velodyne_msgs) by extensions ['colcon_meta']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(velodyne/velodyne_msgs) by extension 'colcon_meta'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(velodyne/velodyne_msgs) by extensions ['ros']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(velodyne/velodyne_msgs) by extension 'ros'
+[0.394s] DEBUG:colcon.colcon_core.package_identification:Package 'velodyne/velodyne_msgs' with type 'ros.ament_cmake' and name 'velodyne_msgs'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(velodyne/velodyne_pointcloud) by extensions ['ignore', 'ignore_ament_install']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(velodyne/velodyne_pointcloud) by extension 'ignore'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(velodyne/velodyne_pointcloud) by extension 'ignore_ament_install'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(velodyne/velodyne_pointcloud) by extensions ['colcon_pkg']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(velodyne/velodyne_pointcloud) by extension 'colcon_pkg'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(velodyne/velodyne_pointcloud) by extensions ['colcon_meta']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(velodyne/velodyne_pointcloud) by extension 'colcon_meta'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(velodyne/velodyne_pointcloud) by extensions ['ros']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(velodyne/velodyne_pointcloud) by extension 'ros'
+[0.395s] DEBUG:colcon.colcon_core.package_identification:Package 'velodyne/velodyne_pointcloud' with type 'ros.ament_cmake' and name 'velodyne_pointcloud'
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(velodyne_subscriber) by extensions ['ignore', 'ignore_ament_install']
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(velodyne_subscriber) by extension 'ignore'
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(velodyne_subscriber) by extension 'ignore_ament_install'
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(velodyne_subscriber) by extensions ['colcon_pkg']
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(velodyne_subscriber) by extension 'colcon_pkg'
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(velodyne_subscriber) by extensions ['colcon_meta']
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(velodyne_subscriber) by extension 'colcon_meta'
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(velodyne_subscriber) by extensions ['ros']
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(velodyne_subscriber) by extension 'ros'
+[0.396s] DEBUG:colcon.colcon_core.package_identification:Package 'velodyne_subscriber' with type 'ros.ament_cmake' and name 'velodyne_subscriber'
+[0.396s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.396s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.396s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.396s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.396s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.418s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.418s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.424s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 10 installed packages in /home/ulugbek/dev-ws/install
+[0.427s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 265 installed packages in /opt/ros/foxy
+[0.430s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.494s] Level 5:colcon.colcon_core.verb:set package 'altitude_publisher' build argument 'cmake_args' from command line to 'None'
+[0.494s] Level 5:colcon.colcon_core.verb:set package 'altitude_publisher' build argument 'cmake_target' from command line to 'None'
+[0.494s] Level 5:colcon.colcon_core.verb:set package 'altitude_publisher' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.494s] Level 5:colcon.colcon_core.verb:set package 'altitude_publisher' build argument 'cmake_clean_cache' from command line to 'False'
+[0.494s] Level 5:colcon.colcon_core.verb:set package 'altitude_publisher' build argument 'cmake_clean_first' from command line to 'False'
+[0.494s] Level 5:colcon.colcon_core.verb:set package 'altitude_publisher' build argument 'cmake_force_configure' from command line to 'False'
+[0.494s] Level 5:colcon.colcon_core.verb:set package 'altitude_publisher' build argument 'ament_cmake_args' from command line to 'None'
+[0.494s] Level 5:colcon.colcon_core.verb:set package 'altitude_publisher' build argument 'catkin_cmake_args' from command line to 'None'
+[0.494s] Level 5:colcon.colcon_core.verb:set package 'altitude_publisher' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.495s] DEBUG:colcon.colcon_core.verb:Building package 'altitude_publisher' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ulugbek/dev-ws/src/build/altitude_publisher', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ulugbek/dev-ws/src/install/altitude_publisher', 'merge_install': False, 'path': '/home/ulugbek/dev-ws/src/altitude_publisher', 'symlink_install': False, 'test_result_base': None}
+[0.500s] Level 5:colcon.colcon_core.verb:set package 'feature_extraction' build argument 'cmake_args' from command line to 'None'
+[0.500s] Level 5:colcon.colcon_core.verb:set package 'feature_extraction' build argument 'cmake_target' from command line to 'None'
+[0.500s] Level 5:colcon.colcon_core.verb:set package 'feature_extraction' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.500s] Level 5:colcon.colcon_core.verb:set package 'feature_extraction' build argument 'cmake_clean_cache' from command line to 'False'
+[0.500s] Level 5:colcon.colcon_core.verb:set package 'feature_extraction' build argument 'cmake_clean_first' from command line to 'False'
+[0.500s] Level 5:colcon.colcon_core.verb:set package 'feature_extraction' build argument 'cmake_force_configure' from command line to 'False'
+[0.500s] Level 5:colcon.colcon_core.verb:set package 'feature_extraction' build argument 'ament_cmake_args' from command line to 'None'
+[0.500s] Level 5:colcon.colcon_core.verb:set package 'feature_extraction' build argument 'catkin_cmake_args' from command line to 'None'
+[0.500s] Level 5:colcon.colcon_core.verb:set package 'feature_extraction' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.500s] DEBUG:colcon.colcon_core.verb:Building package 'feature_extraction' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ulugbek/dev-ws/src/build/feature_extraction', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ulugbek/dev-ws/src/install/feature_extraction', 'merge_install': False, 'path': '/home/ulugbek/dev-ws/src/feature_extraction', 'symlink_install': False, 'test_result_base': None}
+[0.508s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_args' from command line to 'None'
+[0.508s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_target' from command line to 'None'
+[0.508s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.508s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_clean_cache' from command line to 'False'
+[0.508s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_clean_first' from command line to 'False'
+[0.508s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_force_configure' from command line to 'False'
+[0.508s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'ament_cmake_args' from command line to 'None'
+[0.509s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'catkin_cmake_args' from command line to 'None'
+[0.509s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.509s] DEBUG:colcon.colcon_core.verb:Building package 'my_package' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ulugbek/dev-ws/src/build/my_package', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ulugbek/dev-ws/src/install/my_package', 'merge_install': False, 'path': '/home/ulugbek/dev-ws/src/my_package', 'symlink_install': False, 'test_result_base': None}
+[0.514s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'cmake_args' from command line to 'None'
+[0.514s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'cmake_target' from command line to 'None'
+[0.514s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.514s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'cmake_clean_cache' from command line to 'False'
+[0.514s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'cmake_clean_first' from command line to 'False'
+[0.514s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'cmake_force_configure' from command line to 'False'
+[0.514s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'ament_cmake_args' from command line to 'None'
+[0.514s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'catkin_cmake_args' from command line to 'None'
+[0.514s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.514s] DEBUG:colcon.colcon_core.verb:Building package 'ros_tcp_endpoint' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ulugbek/dev-ws/src/build/ros_tcp_endpoint', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ulugbek/dev-ws/src/install/ros_tcp_endpoint', 'merge_install': False, 'path': '/home/ulugbek/dev-ws/src/ROS-TCP-Endpoint-ROS2v0.7.0', 'symlink_install': False, 'test_result_base': None}
+[0.520s] Level 5:colcon.colcon_core.verb:set package 'safe_landing' build argument 'cmake_args' from command line to 'None'
+[0.520s] Level 5:colcon.colcon_core.verb:set package 'safe_landing' build argument 'cmake_target' from command line to 'None'
+[0.520s] Level 5:colcon.colcon_core.verb:set package 'safe_landing' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.520s] Level 5:colcon.colcon_core.verb:set package 'safe_landing' build argument 'cmake_clean_cache' from command line to 'False'
+[0.520s] Level 5:colcon.colcon_core.verb:set package 'safe_landing' build argument 'cmake_clean_first' from command line to 'False'
+[0.520s] Level 5:colcon.colcon_core.verb:set package 'safe_landing' build argument 'cmake_force_configure' from command line to 'False'
+[0.520s] Level 5:colcon.colcon_core.verb:set package 'safe_landing' build argument 'ament_cmake_args' from command line to 'None'
+[0.520s] Level 5:colcon.colcon_core.verb:set package 'safe_landing' build argument 'catkin_cmake_args' from command line to 'None'
+[0.520s] Level 5:colcon.colcon_core.verb:set package 'safe_landing' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.520s] DEBUG:colcon.colcon_core.verb:Building package 'safe_landing' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ulugbek/dev-ws/src/build/safe_landing', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ulugbek/dev-ws/src/install/safe_landing', 'merge_install': False, 'path': '/home/ulugbek/dev-ws/src/safe_landing', 'symlink_install': False, 'test_result_base': None}
+[0.525s] Level 5:colcon.colcon_core.verb:set package 'velodyne_laserscan' build argument 'cmake_args' from command line to 'None'
+[0.525s] Level 5:colcon.colcon_core.verb:set package 'velodyne_laserscan' build argument 'cmake_target' from command line to 'None'
+[0.525s] Level 5:colcon.colcon_core.verb:set package 'velodyne_laserscan' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.525s] Level 5:colcon.colcon_core.verb:set package 'velodyne_laserscan' build argument 'cmake_clean_cache' from command line to 'False'
+[0.525s] Level 5:colcon.colcon_core.verb:set package 'velodyne_laserscan' build argument 'cmake_clean_first' from command line to 'False'
+[0.525s] Level 5:colcon.colcon_core.verb:set package 'velodyne_laserscan' build argument 'cmake_force_configure' from command line to 'False'
+[0.525s] Level 5:colcon.colcon_core.verb:set package 'velodyne_laserscan' build argument 'ament_cmake_args' from command line to 'None'
+[0.525s] Level 5:colcon.colcon_core.verb:set package 'velodyne_laserscan' build argument 'catkin_cmake_args' from command line to 'None'
+[0.525s] Level 5:colcon.colcon_core.verb:set package 'velodyne_laserscan' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.525s] DEBUG:colcon.colcon_core.verb:Building package 'velodyne_laserscan' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ulugbek/dev-ws/src/build/velodyne_laserscan', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ulugbek/dev-ws/src/install/velodyne_laserscan', 'merge_install': False, 'path': '/home/ulugbek/dev-ws/src/velodyne/velodyne_laserscan', 'symlink_install': False, 'test_result_base': None}
+[0.530s] Level 5:colcon.colcon_core.verb:set package 'velodyne_msgs' build argument 'cmake_args' from command line to 'None'
+[0.530s] Level 5:colcon.colcon_core.verb:set package 'velodyne_msgs' build argument 'cmake_target' from command line to 'None'
+[0.530s] Level 5:colcon.colcon_core.verb:set package 'velodyne_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.530s] Level 5:colcon.colcon_core.verb:set package 'velodyne_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.530s] Level 5:colcon.colcon_core.verb:set package 'velodyne_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.530s] Level 5:colcon.colcon_core.verb:set package 'velodyne_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.530s] Level 5:colcon.colcon_core.verb:set package 'velodyne_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.530s] Level 5:colcon.colcon_core.verb:set package 'velodyne_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.530s] Level 5:colcon.colcon_core.verb:set package 'velodyne_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.530s] DEBUG:colcon.colcon_core.verb:Building package 'velodyne_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ulugbek/dev-ws/src/build/velodyne_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ulugbek/dev-ws/src/install/velodyne_msgs', 'merge_install': False, 'path': '/home/ulugbek/dev-ws/src/velodyne/velodyne_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.535s] Level 5:colcon.colcon_core.verb:set package 'velodyne_subscriber' build argument 'cmake_args' from command line to 'None'
+[0.535s] Level 5:colcon.colcon_core.verb:set package 'velodyne_subscriber' build argument 'cmake_target' from command line to 'None'
+[0.535s] Level 5:colcon.colcon_core.verb:set package 'velodyne_subscriber' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.535s] Level 5:colcon.colcon_core.verb:set package 'velodyne_subscriber' build argument 'cmake_clean_cache' from command line to 'False'
+[0.535s] Level 5:colcon.colcon_core.verb:set package 'velodyne_subscriber' build argument 'cmake_clean_first' from command line to 'False'
+[0.535s] Level 5:colcon.colcon_core.verb:set package 'velodyne_subscriber' build argument 'cmake_force_configure' from command line to 'False'
+[0.535s] Level 5:colcon.colcon_core.verb:set package 'velodyne_subscriber' build argument 'ament_cmake_args' from command line to 'None'
+[0.535s] Level 5:colcon.colcon_core.verb:set package 'velodyne_subscriber' build argument 'catkin_cmake_args' from command line to 'None'
+[0.535s] Level 5:colcon.colcon_core.verb:set package 'velodyne_subscriber' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.535s] DEBUG:colcon.colcon_core.verb:Building package 'velodyne_subscriber' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ulugbek/dev-ws/src/build/velodyne_subscriber', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ulugbek/dev-ws/src/install/velodyne_subscriber', 'merge_install': False, 'path': '/home/ulugbek/dev-ws/src/velodyne_subscriber', 'symlink_install': False, 'test_result_base': None}
+[0.540s] Level 5:colcon.colcon_core.verb:set package 'velodyne_driver' build argument 'cmake_args' from command line to 'None'
+[0.540s] Level 5:colcon.colcon_core.verb:set package 'velodyne_driver' build argument 'cmake_target' from command line to 'None'
+[0.540s] Level 5:colcon.colcon_core.verb:set package 'velodyne_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.540s] Level 5:colcon.colcon_core.verb:set package 'velodyne_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[0.540s] Level 5:colcon.colcon_core.verb:set package 'velodyne_driver' build argument 'cmake_clean_first' from command line to 'False'
+[0.540s] Level 5:colcon.colcon_core.verb:set package 'velodyne_driver' build argument 'cmake_force_configure' from command line to 'False'
+[0.540s] Level 5:colcon.colcon_core.verb:set package 'velodyne_driver' build argument 'ament_cmake_args' from command line to 'None'
+[0.540s] Level 5:colcon.colcon_core.verb:set package 'velodyne_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[0.540s] Level 5:colcon.colcon_core.verb:set package 'velodyne_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.540s] DEBUG:colcon.colcon_core.verb:Building package 'velodyne_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ulugbek/dev-ws/src/build/velodyne_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ulugbek/dev-ws/src/install/velodyne_driver', 'merge_install': False, 'path': '/home/ulugbek/dev-ws/src/velodyne/velodyne_driver', 'symlink_install': False, 'test_result_base': None}
+[0.545s] Level 5:colcon.colcon_core.verb:set package 'velodyne_pointcloud' build argument 'cmake_args' from command line to 'None'
+[0.545s] Level 5:colcon.colcon_core.verb:set package 'velodyne_pointcloud' build argument 'cmake_target' from command line to 'None'
+[0.545s] Level 5:colcon.colcon_core.verb:set package 'velodyne_pointcloud' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.545s] Level 5:colcon.colcon_core.verb:set package 'velodyne_pointcloud' build argument 'cmake_clean_cache' from command line to 'False'
+[0.545s] Level 5:colcon.colcon_core.verb:set package 'velodyne_pointcloud' build argument 'cmake_clean_first' from command line to 'False'
+[0.545s] Level 5:colcon.colcon_core.verb:set package 'velodyne_pointcloud' build argument 'cmake_force_configure' from command line to 'False'
+[0.545s] Level 5:colcon.colcon_core.verb:set package 'velodyne_pointcloud' build argument 'ament_cmake_args' from command line to 'None'
+[0.545s] Level 5:colcon.colcon_core.verb:set package 'velodyne_pointcloud' build argument 'catkin_cmake_args' from command line to 'None'
+[0.545s] Level 5:colcon.colcon_core.verb:set package 'velodyne_pointcloud' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.545s] DEBUG:colcon.colcon_core.verb:Building package 'velodyne_pointcloud' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ulugbek/dev-ws/src/build/velodyne_pointcloud', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ulugbek/dev-ws/src/install/velodyne_pointcloud', 'merge_install': False, 'path': '/home/ulugbek/dev-ws/src/velodyne/velodyne_pointcloud', 'symlink_install': False, 'test_result_base': None}
+[0.550s] Level 5:colcon.colcon_core.verb:set package 'velodyne' build argument 'cmake_args' from command line to 'None'
+[0.550s] Level 5:colcon.colcon_core.verb:set package 'velodyne' build argument 'cmake_target' from command line to 'None'
+[0.550s] Level 5:colcon.colcon_core.verb:set package 'velodyne' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.550s] Level 5:colcon.colcon_core.verb:set package 'velodyne' build argument 'cmake_clean_cache' from command line to 'False'
+[0.550s] Level 5:colcon.colcon_core.verb:set package 'velodyne' build argument 'cmake_clean_first' from command line to 'False'
+[0.550s] Level 5:colcon.colcon_core.verb:set package 'velodyne' build argument 'cmake_force_configure' from command line to 'False'
+[0.550s] Level 5:colcon.colcon_core.verb:set package 'velodyne' build argument 'ament_cmake_args' from command line to 'None'
+[0.550s] Level 5:colcon.colcon_core.verb:set package 'velodyne' build argument 'catkin_cmake_args' from command line to 'None'
+[0.550s] Level 5:colcon.colcon_core.verb:set package 'velodyne' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.550s] DEBUG:colcon.colcon_core.verb:Building package 'velodyne' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ulugbek/dev-ws/src/build/velodyne', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ulugbek/dev-ws/src/install/velodyne', 'merge_install': False, 'path': '/home/ulugbek/dev-ws/src/velodyne/velodyne', 'symlink_install': False, 'test_result_base': None}
+[0.551s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.560s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.561s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ulugbek/dev-ws/src/velodyne/velodyne_msgs' with build type 'ament_cmake'
+[0.561s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ulugbek/dev-ws/src/velodyne/velodyne_msgs'
+[0.568s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.568s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.568s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.579s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ulugbek/dev-ws/src/velodyne/velodyne_laserscan' with build type 'ament_cmake'
+[0.579s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ulugbek/dev-ws/src/velodyne/velodyne_laserscan'
+[0.583s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.583s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.594s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ulugbek/dev-ws/src/altitude_publisher' with build type 'ament_cmake'
+[0.594s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ulugbek/dev-ws/src/altitude_publisher'
+[0.598s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.598s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.611s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ulugbek/dev-ws/src/feature_extraction' with build type 'ament_cmake'
+[0.611s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ulugbek/dev-ws/src/feature_extraction'
+[0.614s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.614s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.627s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ulugbek/dev-ws/src/my_package' with build type 'ament_cmake'
+[0.627s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ulugbek/dev-ws/src/my_package'
+[0.632s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.632s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.643s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ulugbek/dev-ws/src/ROS-TCP-Endpoint-ROS2v0.7.0' with build type 'ament_python'
+[0.644s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_tcp_endpoint', 'ament_prefix_path')
+[0.647s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ulugbek/dev-ws/src/install/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/ament_prefix_path.ps1'
+[0.649s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ulugbek/dev-ws/src/install/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/ament_prefix_path.dsv'
+[0.649s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ulugbek/dev-ws/src/install/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/ament_prefix_path.sh'
+[0.654s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.654s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.667s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ulugbek/dev-ws/src/safe_landing' with build type 'ament_cmake'
+[0.667s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ulugbek/dev-ws/src/safe_landing'
+[0.671s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.671s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.683s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ulugbek/dev-ws/src/velodyne_subscriber' with build type 'ament_cmake'
+[0.684s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ulugbek/dev-ws/src/velodyne_subscriber'
+[0.689s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.689s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.706s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ulugbek/dev-ws/src/build/velodyne_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ulugbek/dev-ws/install/ros_tcp_endpoint:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/ulugbek/dev-ws/src/velodyne/velodyne_msgs -DCMAKE_INSTALL_PREFIX=/home/ulugbek/dev-ws/src/install/velodyne_msgs
+[0.710s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ulugbek/dev-ws/src/build/velodyne_laserscan': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ulugbek/dev-ws/install/ros_tcp_endpoint:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/ulugbek/dev-ws/src/velodyne/velodyne_laserscan -DCMAKE_INSTALL_PREFIX=/home/ulugbek/dev-ws/src/install/velodyne_laserscan
+[0.716s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ulugbek/dev-ws/src/build/altitude_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ulugbek/dev-ws/install/ros_tcp_endpoint:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/ulugbek/dev-ws/src/altitude_publisher -DCMAKE_INSTALL_PREFIX=/home/ulugbek/dev-ws/src/install/altitude_publisher
+[0.719s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ulugbek/dev-ws/src/build/feature_extraction': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ulugbek/dev-ws/install/ros_tcp_endpoint:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/ulugbek/dev-ws/src/feature_extraction -DCMAKE_INSTALL_PREFIX=/home/ulugbek/dev-ws/src/install/feature_extraction
+[0.725s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ulugbek/dev-ws/src/build/my_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ulugbek/dev-ws/install/ros_tcp_endpoint:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/ulugbek/dev-ws/src/my_package -DCMAKE_INSTALL_PREFIX=/home/ulugbek/dev-ws/src/install/my_package
+[1.047s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ulugbek/dev-ws/src/ROS-TCP-Endpoint-ROS2v0.7.0'
+[1.055s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.055s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.100s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ulugbek/dev-ws/src/build/safe_landing': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ulugbek/dev-ws/install/ros_tcp_endpoint:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/ulugbek/dev-ws/src/safe_landing -DCMAKE_INSTALL_PREFIX=/home/ulugbek/dev-ws/src/install/safe_landing
+[1.125s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ulugbek/dev-ws/src/build/velodyne_subscriber': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ulugbek/dev-ws/install/ros_tcp_endpoint:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/ulugbek/dev-ws/src/velodyne_subscriber -DCMAKE_INSTALL_PREFIX=/home/ulugbek/dev-ws/src/install/velodyne_subscriber
+[1.637s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ulugbek/dev-ws/src/ROS-TCP-Endpoint-ROS2v0.7.0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/ulugbek/dev-ws/src/build/ros_tcp_endpoint/prefix_override:/home/ulugbek/dev-ws/src/install/ros_tcp_endpoint/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/ros_tcp_endpoint build --build-base /home/ulugbek/dev-ws/src/build/ros_tcp_endpoint/build install --record /home/ulugbek/dev-ws/src/build/ros_tcp_endpoint/install.log --install-scripts $base/lib/ros_tcp_endpoint --single-version-externally-managed
+[1.901s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ulugbek/dev-ws/src/build/my_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ulugbek/dev-ws/install/ros_tcp_endpoint:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/ulugbek/dev-ws/src/my_package -DCMAKE_INSTALL_PREFIX=/home/ulugbek/dev-ws/src/install/my_package
+[1.905s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ulugbek/dev-ws/src/build/my_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ulugbek/dev-ws/install/ros_tcp_endpoint:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/ulugbek/dev-ws/src/build/my_package -- -j16 -l16
+[1.947s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ulugbek/dev-ws/src/build/my_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ulugbek/dev-ws/install/ros_tcp_endpoint:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/ulugbek/dev-ws/src/build/my_package -- -j16 -l16
+[1.991s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ulugbek/dev-ws/src/build/my_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ulugbek/dev-ws/install/ros_tcp_endpoint:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/ulugbek/dev-ws/src/build/my_package
+[2.004s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_package)
+[2.006s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ulugbek/dev-ws/src/build/my_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ulugbek/dev-ws/install/ros_tcp_endpoint:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/ulugbek/dev-ws/src/build/my_package
+[2.014s] Level 1:colcon.colcon_core.environment:checking '/home/ulugbek/dev-ws/src/install/my_package' for CMake module files
+[2.015s] Level 1:colcon.colcon_core.environment:checking '/home/ulugbek/dev-ws/src/install/my_package' for CMake config files
+[2.015s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_package', 'cmake_prefix_path')
+[2.020s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ulugbek/dev-ws/src/install/my_package/share/my_package/hook/cmake_prefix_path.ps1'
+[2.021s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ulugbek/dev-ws/src/install/my_package/share/my_package/hook/cmake_prefix_path.dsv'
+[2.021s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ulugbek/dev-ws/src/install/my_package/share/my_package/hook/cmake_prefix_path.sh'
+[2.022s] Level 1:colcon.colcon_core.environment:checking '/home/ulugbek/dev-ws/src/install/my_package/bin'
+[2.022s] Level 1:colcon.colcon_core.environment:checking '/home/ulugbek/dev-ws/src/install/my_package/lib/pkgconfig/my_package.pc'
+[2.022s] Level 1:colcon.colcon_core.environment:checking '/home/ulugbek/dev-ws/src/install/my_package/lib/python3.8/site-packages'
+[2.023s] Level 1:colcon.colcon_core.environment:checking '/home/ulugbek/dev-ws/src/install/my_package/bin'
+[2.028s] INFO:colcon.colcon_core.shell:Creating package script '/home/ulugbek/dev-ws/src/install/my_package/share/my_package/package.ps1'
+[2.029s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ulugbek/dev-ws/src/install/my_package/share/my_package/package.dsv'
+[2.030s] INFO:colcon.colcon_core.shell:Creating package script '/home/ulugbek/dev-ws/src/install/my_package/share/my_package/package.sh'
+[2.030s] INFO:colcon.colcon_core.shell:Creating package script '/home/ulugbek/dev-ws/src/install/my_package/share/my_package/package.bash'
+[2.031s] INFO:colcon.colcon_core.shell:Creating package script '/home/ulugbek/dev-ws/src/install/my_package/share/my_package/package.zsh'
+[2.031s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ulugbek/dev-ws/src/install/my_package/share/colcon-core/packages/my_package)
+[2.042s] Level 1:colcon.colcon_core.environment:checking '/home/ulugbek/dev-ws/src/install/ros_tcp_endpoint' for CMake module files
+[2.043s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ulugbek/dev-ws/src/ROS-TCP-Endpoint-ROS2v0.7.0' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/ulugbek/dev-ws/src/build/ros_tcp_endpoint/prefix_override:/home/ulugbek/dev-ws/src/install/ros_tcp_endpoint/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/ros_tcp_endpoint build --build-base /home/ulugbek/dev-ws/src/build/ros_tcp_endpoint/build install --record /home/ulugbek/dev-ws/src/build/ros_tcp_endpoint/install.log --install-scripts $base/lib/ros_tcp_endpoint --single-version-externally-managed
+[2.043s] Level 1:colcon.colcon_core.environment:checking '/home/ulugbek/dev-ws/src/install/ros_tcp_endpoint' for CMake config files
+[2.044s] Level 1:colcon.colcon_core.environment:checking '/home/ulugbek/dev-ws/src/install/ros_tcp_endpoint/lib'
+[2.044s] Level 1:colcon.colcon_core.environment:checking '/home/ulugbek/dev-ws/src/install/ros_tcp_endpoint/bin'
+[2.045s] Level 1:colcon.colcon_core.environment:checking '/home/ulugbek/dev-ws/src/install/ros_tcp_endpoint/lib/pkgconfig/ros_tcp_endpoint.pc'
+[2.045s] Level 1:colcon.colcon_core.environment:checking '/home/ulugbek/dev-ws/src/install/ros_tcp_endpoint/lib/python3.8/site-packages'
+[2.045s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_tcp_endpoint', 'pythonpath')
+[2.053s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ulugbek/dev-ws/src/install/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/pythonpath.ps1'
+[2.054s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ulugbek/dev-ws/src/install/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/pythonpath.dsv'
+[2.055s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ulugbek/dev-ws/src/install/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/pythonpath.sh'
+[2.055s] Level 1:colcon.colcon_core.environment:checking '/home/ulugbek/dev-ws/src/install/ros_tcp_endpoint/bin'
+[2.055s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros_tcp_endpoint)
+[2.062s] INFO:colcon.colcon_core.shell:Creating package script '/home/ulugbek/dev-ws/src/install/ros_tcp_endpoint/share/ros_tcp_endpoint/package.ps1'
+[2.062s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ulugbek/dev-ws/src/install/ros_tcp_endpoint/share/ros_tcp_endpoint/package.dsv'
+[2.063s] INFO:colcon.colcon_core.shell:Creating package script '/home/ulugbek/dev-ws/src/install/ros_tcp_endpoint/share/ros_tcp_endpoint/package.sh'
+[2.063s] INFO:colcon.colcon_core.shell:Creating package script '/home/ulugbek/dev-ws/src/install/ros_tcp_endpoint/share/ros_tcp_endpoint/package.bash'
+[2.063s] INFO:colcon.colcon_core.shell:Creating package script '/home/ulugbek/dev-ws/src/install/ros_tcp_endpoint/share/ros_tcp_endpoint/package.zsh'
+[2.064s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ulugbek/dev-ws/src/install/ros_tcp_endpoint/share/colcon-core/packages/ros_tcp_endpoint)
+[2.070s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_package)
+[2.077s] Level 1:colcon.colcon_core.environment:checking '/home/ulugbek/dev-ws/src/install/my_package' for CMake module files
+[2.079s] Level 1:colcon.colcon_core.environment:checking '/home/ulugbek/dev-ws/src/install/my_package' for CMake config files
+[2.079s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_package', 'cmake_prefix_path')
+[2.085s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ulugbek/dev-ws/src/install/my_package/share/my_package/hook/cmake_prefix_path.ps1'
+[2.086s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ulugbek/dev-ws/src/install/my_package/share/my_package/hook/cmake_prefix_path.dsv'
+[2.086s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ulugbek/dev-ws/src/install/my_package/share/my_package/hook/cmake_prefix_path.sh'
+[2.087s] Level 1:colcon.colcon_core.environment:checking '/home/ulugbek/dev-ws/src/install/my_package/bin'
+[2.087s] Level 1:colcon.colcon_core.environment:checking '/home/ulugbek/dev-ws/src/install/my_package/lib/pkgconfig/my_package.pc'
+[2.087s] Level 1:colcon.colcon_core.environment:checking '/home/ulugbek/dev-ws/src/install/my_package/lib/python3.8/site-packages'
+[2.087s] Level 1:colcon.colcon_core.environment:checking '/home/ulugbek/dev-ws/src/install/my_package/bin'
+[2.094s] INFO:colcon.colcon_core.shell:Creating package script '/home/ulugbek/dev-ws/src/install/my_package/share/my_package/package.ps1'
+[2.095s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ulugbek/dev-ws/src/install/my_package/share/my_package/package.dsv'
+[2.096s] INFO:colcon.colcon_core.shell:Creating package script '/home/ulugbek/dev-ws/src/install/my_package/share/my_package/package.sh'
+[2.097s] INFO:colcon.colcon_core.shell:Creating package script '/home/ulugbek/dev-ws/src/install/my_package/share/my_package/package.bash'
+[2.097s] INFO:colcon.colcon_core.shell:Creating package script '/home/ulugbek/dev-ws/src/install/my_package/share/my_package/package.zsh'
+[2.098s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ulugbek/dev-ws/src/install/my_package/share/colcon-core/packages/my_package)
+[2.174s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ulugbek/dev-ws/src/build/velodyne_msgs' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ulugbek/dev-ws/install/ros_tcp_endpoint:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/ulugbek/dev-ws/src/velodyne/velodyne_msgs -DCMAKE_INSTALL_PREFIX=/home/ulugbek/dev-ws/src/install/velodyne_msgs
+[2.191s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(velodyne_msgs)
+[2.200s] Level 1:colcon.colcon_core.environment:checking '/home/ulugbek/dev-ws/src/install/velodyne_msgs' for CMake module files
+[2.201s] Level 1:colcon.colcon_core.environment:checking '/home/ulugbek/dev-ws/src/install/velodyne_msgs' for CMake config files
+[2.201s] Level 1:colcon.colcon_core.environment:checking '/home/ulugbek/dev-ws/src/install/velodyne_msgs/bin'
+[2.201s] Level 1:colcon.colcon_core.environment:checking '/home/ulugbek/dev-ws/src/install/velodyne_msgs/lib/pkgconfig/velodyne_msgs.pc'
+[2.201s] Level 1:colcon.colcon_core.environment:checking '/home/ulugbek/dev-ws/src/install/velodyne_msgs/lib/python3.8/site-packages'
+[2.201s] Level 1:colcon.colcon_core.environment:checking '/home/ulugbek/dev-ws/src/install/velodyne_msgs/bin'
+[2.207s] INFO:colcon.colcon_core.shell:Creating package script '/home/ulugbek/dev-ws/src/install/velodyne_msgs/share/velodyne_msgs/package.ps1'
+[2.207s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ulugbek/dev-ws/src/install/velodyne_msgs/share/velodyne_msgs/package.dsv'
+[2.208s] INFO:colcon.colcon_core.shell:Creating package script '/home/ulugbek/dev-ws/src/install/velodyne_msgs/share/velodyne_msgs/package.sh'
+[2.208s] INFO:colcon.colcon_core.shell:Creating package script '/home/ulugbek/dev-ws/src/install/velodyne_msgs/share/velodyne_msgs/package.bash'
+[2.208s] INFO:colcon.colcon_core.shell:Creating package script '/home/ulugbek/dev-ws/src/install/velodyne_msgs/share/velodyne_msgs/package.zsh'
+[2.209s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ulugbek/dev-ws/src/install/velodyne_msgs/share/colcon-core/packages/velodyne_msgs)
+[3.158s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.158s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.158s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[3.158s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.174s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.174s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.174s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.198s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.205s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ulugbek/dev-ws/src/install/local_setup.ps1'
+[3.206s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ulugbek/dev-ws/src/install/_local_setup_util_ps1.py'
+[3.208s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ulugbek/dev-ws/src/install/setup.ps1'
+[3.212s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ulugbek/dev-ws/src/install/local_setup.sh'
+[3.213s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ulugbek/dev-ws/src/install/_local_setup_util_sh.py'
+[3.213s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ulugbek/dev-ws/src/install/setup.sh'
+[3.217s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ulugbek/dev-ws/src/install/local_setup.bash'
+[3.218s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ulugbek/dev-ws/src/install/setup.bash'
+[3.222s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ulugbek/dev-ws/src/install/local_setup.zsh'
+[3.222s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ulugbek/dev-ws/src/install/setup.zsh'

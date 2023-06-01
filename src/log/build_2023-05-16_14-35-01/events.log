@@ -1,0 +1,205 @@
+[0.000000] (-) TimerEvent: {}
+[0.000206] (-) JobUnselected: {'identifier': 'altitude_publisher'}
+[0.000261] (-) JobUnselected: {'identifier': 'feature_extraction'}
+[0.000294] (-) JobUnselected: {'identifier': 'my_package'}
+[0.000326] (-) JobUnselected: {'identifier': 'ros_tcp_endpoint'}
+[0.000361] (-) JobUnselected: {'identifier': 'safe_landing'}
+[0.000385] (-) JobUnselected: {'identifier': 'velodyne'}
+[0.000414] (-) JobUnselected: {'identifier': 'velodyne_driver'}
+[0.000437] (-) JobUnselected: {'identifier': 'velodyne_laserscan'}
+[0.000463] (-) JobUnselected: {'identifier': 'velodyne_msgs'}
+[0.000490] (-) JobUnselected: {'identifier': 'velodyne_pointcloud'}
+[0.000515] (velodyne_subscriber) JobQueued: {'identifier': 'velodyne_subscriber', 'dependencies': OrderedDict()}
+[0.000542] (velodyne_subscriber) JobStarted: {'identifier': 'velodyne_subscriber'}
+[0.020223] (velodyne_subscriber) JobProgress: {'identifier': 'velodyne_subscriber', 'progress': 'cmake'}
+[0.020611] (velodyne_subscriber) Command: {'cmd': ['/usr/bin/cmake', '/home/ulugbek/dev-ws/src/velodyne_subscriber', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/ulugbek/dev-ws/src/install/velodyne_subscriber'], 'cwd': '/home/ulugbek/dev-ws/src/build/velodyne_subscriber', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('USER', 'ulugbek'), ('LC_TIME', 'sv_SE.UTF-8'), ('SSH_AGENT_PID', '2050'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ulugbek/dev-ws/src/install/velodyne_msgs/lib:/home/ulugbek/dev-ws/src/install/velodyne_laserscan/lib:/home/ulugbek/dev-ws/install/velodyne_pointcloud/lib:/home/ulugbek/dev-ws/install/velodyne_driver/lib:/home/ulugbek/dev-ws/install/velodyne_msgs/lib:/home/ulugbek/dev-ws/install/velodyne_laserscan/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ulugbek'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/ulugbek/dev-ws'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'sv_SE.UTF-8'), ('MANAGERPID', '1776'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5096'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/ulugbek/dev-ws/src/install:/home/ulugbek/dev-ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ulugbek'), ('JOURNAL_STREAM', '8:50815'), ('_', '/home/ulugbek/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ulugbek'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/ulugbek/anaconda3/bin:/home/ulugbek/anaconda3/condabin:/opt/ros/foxy/bin:/home/ulugbek/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ulugbek-Legion-S7-15ACH6:@/tmp/.ICE-unix/2086,unix/ulugbek-Legion-S7-15ACH6:/tmp/.ICE-unix/2086'), ('INVOCATION_ID', '4d8e0dc70fa84581b4fa0793054ead4b'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'sv_SE.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'sv_SE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ulugbek/dev-ws/src/install/velodyne_msgs:/home/ulugbek/dev-ws/src/install/velodyne_laserscan:/home/ulugbek/dev-ws/src/install/safe_landing:/home/ulugbek/dev-ws/src/install/ros_tcp_endpoint:/home/ulugbek/dev-ws/src/install/my_package:/home/ulugbek/dev-ws/src/install/feature_extraction:/home/ulugbek/dev-ws/src/install/altitude_publisher:/home/ulugbek/dev-ws/install/velodyne:/home/ulugbek/dev-ws/install/velodyne_pointcloud:/home/ulugbek/dev-ws/install/velodyne_driver:/home/ulugbek/dev-ws/install/velodyne_msgs:/home/ulugbek/dev-ws/install/velodyne_laserscan:/home/ulugbek/dev-ws/install/safe_landing:/home/ulugbek/dev-ws/install/ros_tcp_endpoint:/home/ulugbek/dev-ws/install/my_package:/home/ulugbek/dev-ws/install/feature_extraction:/home/ulugbek/dev-ws/install/altitude_publisher:/opt/ros/foxy'), ('CONDA_PYTHON_EXE', '/home/ulugbek/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'sv_SE.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:5eede432-5253-4854-a08a-920f623d6dcd'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('LC_MEASUREMENT', 'sv_SE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'sv_SE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ulugbek/dev-ws/src/build/velodyne_subscriber'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/ulugbek/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ulugbek/dev-ws/src/install/velodyne_msgs/lib/python3.9/site-packages:/home/ulugbek/dev-ws/src/install/ros_tcp_endpoint/lib/python3.8/site-packages:/home/ulugbek/dev-ws/install/velodyne_msgs/lib/python3.8/site-packages:/home/ulugbek/dev-ws/install/ros_tcp_endpoint/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'sv_SE.UTF-8'), ('CONDA_PREFIX', '/home/ulugbek/anaconda3'), ('LC_PAPER', 'sv_SE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/ulugbek/dev-ws/src/install/velodyne_msgs:/home/ulugbek/dev-ws/src/install/velodyne_laserscan:/home/ulugbek/dev-ws/src/install/safe_landing:/home/ulugbek/dev-ws/src/install/my_package:/home/ulugbek/dev-ws/src/install/feature_extraction:/home/ulugbek/dev-ws/src/install/altitude_publisher:/home/ulugbek/dev-ws/install/velodyne:/home/ulugbek/dev-ws/install/velodyne_pointcloud:/home/ulugbek/dev-ws/install/velodyne_driver:/home/ulugbek/dev-ws/install/velodyne_msgs:/home/ulugbek/dev-ws/install/velodyne_laserscan:/home/ulugbek/dev-ws/install/safe_landing:/home/ulugbek/dev-ws/install/my_package:/home/ulugbek/dev-ws/install/feature_extraction:/home/ulugbek/dev-ws/install/altitude_publisher:/home/ulugbek/dev-ws/src/install/ros_tcp_endpoint:/home/ulugbek/dev-ws/install/ros_tcp_endpoint:/opt/ros/foxy')]), 'shell': False}
+[0.095544] (velodyne_subscriber) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.098029] (-) TimerEvent: {}
+[0.165106] (velodyne_subscriber) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.171887] (velodyne_subscriber) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.198258] (-) TimerEvent: {}
+[0.266109] (velodyne_subscriber) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.268028] (velodyne_subscriber) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.298379] (-) TimerEvent: {}
+[0.360754] (velodyne_subscriber) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.374040] (velodyne_subscriber) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.374226] (velodyne_subscriber) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.375786] (velodyne_subscriber) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.398480] (-) TimerEvent: {}
+[0.473145] (velodyne_subscriber) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.474286] (velodyne_subscriber) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.498685] (-) TimerEvent: {}
+[0.562704] (velodyne_subscriber) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.570843] (velodyne_subscriber) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.571183] (velodyne_subscriber) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.573584] (velodyne_subscriber) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.598763] (-) TimerEvent: {}
+[0.605722] (velodyne_subscriber) StdoutLine: {'line': b'-- Found PythonInterp: /home/ulugbek/anaconda3/bin/python3 (found suitable version "3.9.12", minimum required is "3") \n'}
+[0.605886] (velodyne_subscriber) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /home/ulugbek/anaconda3/bin/python3\n'}
+[0.698880] (-) TimerEvent: {}
+[0.784269] (velodyne_subscriber) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.799040] (-) TimerEvent: {}
+[0.811652] (velodyne_subscriber) StdoutLine: {'line': b'-- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.848498] (velodyne_subscriber) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.856651] (velodyne_subscriber) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.899518] (-) TimerEvent: {}
+[0.950182] (velodyne_subscriber) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[0.971348] (velodyne_subscriber) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[0.999600] (-) TimerEvent: {}
+[1.029761] (velodyne_subscriber) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.074649] (velodyne_subscriber) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[1.075928] (velodyne_subscriber) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.076507] (velodyne_subscriber) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.099770] (-) TimerEvent: {}
+[1.150974] (velodyne_subscriber) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.151428] (velodyne_subscriber) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.199967] (-) TimerEvent: {}
+[1.235416] (velodyne_subscriber) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[1.235977] (velodyne_subscriber) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[1.300150] (-) TimerEvent: {}
+[1.317000] (velodyne_subscriber) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[1.317434] (velodyne_subscriber) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[1.398297] (velodyne_subscriber) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[1.400288] (-) TimerEvent: {}
+[1.400679] (velodyne_subscriber) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.500432] (-) TimerEvent: {}
+[1.519386] (velodyne_subscriber) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[1.600752] (-) TimerEvent: {}
+[1.606707] (velodyne_subscriber) StdoutLine: {'line': b'-- Found pcl_conversions: 2.2.1 (/opt/ros/foxy/share/pcl_conversions/cmake)\n'}
+[1.700859] (-) TimerEvent: {}
+[1.730189] (velodyne_subscriber) StdoutLine: {'line': b'-- Found pcl_ros: 2.2.1 (/opt/ros/foxy/share/pcl_ros/cmake)\n'}
+[1.800977] (-) TimerEvent: {}
+[1.801438] (velodyne_subscriber) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)\n'}
+[1.804424] (velodyne_subscriber) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.3.7") \n'}
+[1.901170] (-) TimerEvent: {}
+[2.001582] (-) TimerEvent: {}
+[2.101848] (-) TimerEvent: {}
+[2.104848] (velodyne_subscriber) StdoutLine: {'line': b"-- Checking for module 'eigen3'\n"}
+[2.117063] (velodyne_subscriber) StdoutLine: {'line': b'--   Found eigen3, version 3.3.7\n'}
+[2.139861] (velodyne_subscriber) StdoutLine: {'line': b'-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") \n'}
+[2.140113] (velodyne_subscriber) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.3.7)\n'}
+[2.201398] (velodyne_subscriber) StdoutLine: {'line': b"-- Checking for module 'flann'\n"}
+[2.201938] (-) TimerEvent: {}
+[2.218790] (velodyne_subscriber) StdoutLine: {'line': b'--   Found flann, version 1.9.1\n'}
+[2.287000] (velodyne_subscriber) StdoutLine: {'line': b'-- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  \n'}
+[2.302044] (-) TimerEvent: {}
+[2.326308] (velodyne_subscriber) StdoutLine: {'line': b'-- The imported target "vtkParseOGLExt" references the file\n'}
+[2.326456] (velodyne_subscriber) StdoutLine: {'line': b'   "/usr/bin/vtkParseOGLExt-7.1"\n'}
+[2.326539] (velodyne_subscriber) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[2.326611] (velodyne_subscriber) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[2.326679] (velodyne_subscriber) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[2.326743] (velodyne_subscriber) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[2.326807] (velodyne_subscriber) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[2.326870] (velodyne_subscriber) StdoutLine: {'line': b'but not all the files it references.\n'}
+[2.326931] (velodyne_subscriber) StdoutLine: {'line': b'\n'}
+[2.327084] (velodyne_subscriber) StdoutLine: {'line': b'-- The imported target "vtkRenderingPythonTkWidgets" references the file\n'}
+[2.327151] (velodyne_subscriber) StdoutLine: {'line': b'   "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"\n'}
+[2.327225] (velodyne_subscriber) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[2.327289] (velodyne_subscriber) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[2.327354] (velodyne_subscriber) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[2.327418] (velodyne_subscriber) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[2.327481] (velodyne_subscriber) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[2.327674] (velodyne_subscriber) StdoutLine: {'line': b'but not all the files it references.\n'}
+[2.327885] (velodyne_subscriber) StdoutLine: {'line': b'\n'}
+[2.327969] (velodyne_subscriber) StdoutLine: {'line': b'-- The imported target "vtk" references the file\n'}
+[2.328032] (velodyne_subscriber) StdoutLine: {'line': b'   "/usr/bin/vtk"\n'}
+[2.328089] (velodyne_subscriber) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[2.328145] (velodyne_subscriber) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[2.328204] (velodyne_subscriber) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[2.328259] (velodyne_subscriber) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[2.328311] (velodyne_subscriber) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[2.328363] (velodyne_subscriber) StdoutLine: {'line': b'but not all the files it references.\n'}
+[2.328424] (velodyne_subscriber) StdoutLine: {'line': b'\n'}
+[2.328503] (velodyne_subscriber) StdoutLine: {'line': b'-- The imported target "pvtk" references the file\n'}
+[2.328555] (velodyne_subscriber) StdoutLine: {'line': b'   "/usr/bin/pvtk"\n'}
+[2.328608] (velodyne_subscriber) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[2.328662] (velodyne_subscriber) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[2.328715] (velodyne_subscriber) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[2.328790] (velodyne_subscriber) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[2.328843] (velodyne_subscriber) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[2.328911] (velodyne_subscriber) StdoutLine: {'line': b'but not all the files it references.\n'}
+[2.328962] (velodyne_subscriber) StdoutLine: {'line': b'\n'}
+[2.343071] (velodyne_subscriber) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[2.346990] (velodyne_subscriber) StdoutLine: {'line': b"--   No package 'libusb-1.0' found\n"}
+[2.350729] (velodyne_subscriber) StdoutLine: {'line': b'-- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) \n'}
+[2.350955] (velodyne_subscriber) StdoutLine: {'line': b'-- OpenNI disabled because libusb-1.0 not found.\n'}
+[2.354590] (velodyne_subscriber) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[2.357986] (velodyne_subscriber) StdoutLine: {'line': b"--   No package 'libusb-1.0' found\n"}
+[2.360966] (velodyne_subscriber) StdoutLine: {'line': b'-- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) \n'}
+[2.361122] (velodyne_subscriber) StdoutLine: {'line': b'-- OpenNI 2 disabled because libusb-1.0 not found.\n'}
+[2.370740] (velodyne_subscriber) StdoutLine: {'line': b'-- LIBUSB_1_LIBRARY (missing: LIBUSB_1_INCLUDE_DIR) \n'}
+[2.373975] (velodyne_subscriber) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[2.376067] (velodyne_subscriber) StdoutLine: {'line': b"--   No package 'libusb-1.0' found\n"}
+[2.378045] (velodyne_subscriber) StdoutLine: {'line': b'-- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) \n'}
+[2.378245] (velodyne_subscriber) StdoutLine: {'line': b'-- OpenNI disabled because libusb-1.0 not found.\n'}
+[2.381187] (velodyne_subscriber) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[2.383481] (velodyne_subscriber) StdoutLine: {'line': b"--   No package 'libusb-1.0' found\n"}
+[2.386423] (velodyne_subscriber) StdoutLine: {'line': b'-- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) \n'}
+[2.386573] (velodyne_subscriber) StdoutLine: {'line': b'-- OpenNI 2 disabled because libusb-1.0 not found.\n'}
+[2.402151] (-) TimerEvent: {}
+[2.405269] (velodyne_subscriber) StdoutLine: {'line': b'-- Found Qhull: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so  \n'}
+[2.405402] (velodyne_subscriber) StdoutLine: {'line': b'-- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)\n'}
+[2.411033] (velodyne_subscriber) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[2.415130] (velodyne_subscriber) StdoutLine: {'line': b"--   No package 'libusb-1.0' found\n"}
+[2.418030] (velodyne_subscriber) StdoutLine: {'line': b'-- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) \n'}
+[2.418186] (velodyne_subscriber) StdoutLine: {'line': b'-- OpenNI disabled because libusb-1.0 not found.\n'}
+[2.427107] (velodyne_subscriber) StdoutLine: {'line': b'-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  \n'}
+[2.427955] (velodyne_subscriber) StdoutLine: {'line': b'-- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  \n'}
+[2.428840] (velodyne_subscriber) StdoutLine: {'line': b'-- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  \n'}
+[2.429714] (velodyne_subscriber) StdoutLine: {'line': b'-- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  \n'}
+[2.430578] (velodyne_subscriber) StdoutLine: {'line': b'-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  \n'}
+[2.431465] (velodyne_subscriber) StdoutLine: {'line': b'-- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  \n'}
+[2.431853] (velodyne_subscriber) StdoutLine: {'line': b'-- Found PCL_2D: /usr/include/pcl-1.10  \n'}
+[2.432177] (velodyne_subscriber) StdoutLine: {'line': b'-- Found PCL_GEOMETRY: /usr/include/pcl-1.10  \n'}
+[2.433065] (velodyne_subscriber) StdoutLine: {'line': b'-- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  \n'}
+[2.434130] (velodyne_subscriber) StdoutLine: {'line': b'-- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  \n'}
+[2.435004] (velodyne_subscriber) StdoutLine: {'line': b'-- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  \n'}
+[2.435837] (velodyne_subscriber) StdoutLine: {'line': b'-- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  \n'}
+[2.436822] (velodyne_subscriber) StdoutLine: {'line': b'-- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  \n'}
+[2.437782] (velodyne_subscriber) StdoutLine: {'line': b'-- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  \n'}
+[2.438657] (velodyne_subscriber) StdoutLine: {'line': b'-- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  \n'}
+[2.439753] (velodyne_subscriber) StdoutLine: {'line': b'-- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  \n'}
+[2.441064] (velodyne_subscriber) StdoutLine: {'line': b'-- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  \n'}
+[2.442259] (velodyne_subscriber) StdoutLine: {'line': b'-- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  \n'}
+[2.443241] (velodyne_subscriber) StdoutLine: {'line': b'-- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  \n'}
+[2.444102] (velodyne_subscriber) StdoutLine: {'line': b'-- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  \n'}
+[2.444881] (velodyne_subscriber) StdoutLine: {'line': b'-- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.10  \n'}
+[2.445260] (velodyne_subscriber) StdoutLine: {'line': b'-- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.10  \n'}
+[2.446056] (velodyne_subscriber) StdoutLine: {'line': b'-- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  \n'}
+[2.446974] (velodyne_subscriber) StdoutLine: {'line': b'-- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  \n'}
+[2.502252] (-) TimerEvent: {}
+[2.602494] (-) TimerEvent: {}
+[2.645484] (velodyne_subscriber) StdoutLine: {'line': b'-- Found OpenCV: /usr (found version "4.2.0") \n'}
+[2.686384] (velodyne_subscriber) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[2.702603] (-) TimerEvent: {}
+[2.794888] (velodyne_subscriber) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[2.795545] (velodyne_subscriber) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.795748] (velodyne_subscriber) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[2.795867] (velodyne_subscriber) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.796299] (velodyne_subscriber) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[2.796459] (velodyne_subscriber) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[2.796832] (velodyne_subscriber) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.797453] (velodyne_subscriber) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.797548] (velodyne_subscriber) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.797810] (velodyne_subscriber) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.800819] (velodyne_subscriber) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.802692] (-) TimerEvent: {}
+[2.829887] (velodyne_subscriber) StdoutLine: {'line': b'-- Generating done\n'}
+[2.831642] (velodyne_subscriber) StdoutLine: {'line': b'-- Build files have been written to: /home/ulugbek/dev-ws/src/build/velodyne_subscriber\n'}
+[2.842734] (velodyne_subscriber) CommandEnded: {'returncode': 0}
+[2.843610] (velodyne_subscriber) JobProgress: {'identifier': 'velodyne_subscriber', 'progress': 'build'}
+[2.845436] (velodyne_subscriber) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ulugbek/dev-ws/src/build/velodyne_subscriber', '--', '-j16', '-l16'], 'cwd': '/home/ulugbek/dev-ws/src/build/velodyne_subscriber', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('USER', 'ulugbek'), ('LC_TIME', 'sv_SE.UTF-8'), ('SSH_AGENT_PID', '2050'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ulugbek/dev-ws/src/install/velodyne_msgs/lib:/home/ulugbek/dev-ws/src/install/velodyne_laserscan/lib:/home/ulugbek/dev-ws/install/velodyne_pointcloud/lib:/home/ulugbek/dev-ws/install/velodyne_driver/lib:/home/ulugbek/dev-ws/install/velodyne_msgs/lib:/home/ulugbek/dev-ws/install/velodyne_laserscan/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ulugbek'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/ulugbek/dev-ws'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'sv_SE.UTF-8'), ('MANAGERPID', '1776'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5096'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/ulugbek/dev-ws/src/install:/home/ulugbek/dev-ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ulugbek'), ('JOURNAL_STREAM', '8:50815'), ('_', '/home/ulugbek/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ulugbek'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/ulugbek/anaconda3/bin:/home/ulugbek/anaconda3/condabin:/opt/ros/foxy/bin:/home/ulugbek/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ulugbek-Legion-S7-15ACH6:@/tmp/.ICE-unix/2086,unix/ulugbek-Legion-S7-15ACH6:/tmp/.ICE-unix/2086'), ('INVOCATION_ID', '4d8e0dc70fa84581b4fa0793054ead4b'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'sv_SE.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'sv_SE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ulugbek/dev-ws/src/install/velodyne_msgs:/home/ulugbek/dev-ws/src/install/velodyne_laserscan:/home/ulugbek/dev-ws/src/install/safe_landing:/home/ulugbek/dev-ws/src/install/ros_tcp_endpoint:/home/ulugbek/dev-ws/src/install/my_package:/home/ulugbek/dev-ws/src/install/feature_extraction:/home/ulugbek/dev-ws/src/install/altitude_publisher:/home/ulugbek/dev-ws/install/velodyne:/home/ulugbek/dev-ws/install/velodyne_pointcloud:/home/ulugbek/dev-ws/install/velodyne_driver:/home/ulugbek/dev-ws/install/velodyne_msgs:/home/ulugbek/dev-ws/install/velodyne_laserscan:/home/ulugbek/dev-ws/install/safe_landing:/home/ulugbek/dev-ws/install/ros_tcp_endpoint:/home/ulugbek/dev-ws/install/my_package:/home/ulugbek/dev-ws/install/feature_extraction:/home/ulugbek/dev-ws/install/altitude_publisher:/opt/ros/foxy'), ('CONDA_PYTHON_EXE', '/home/ulugbek/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'sv_SE.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:5eede432-5253-4854-a08a-920f623d6dcd'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('LC_MEASUREMENT', 'sv_SE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'sv_SE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ulugbek/dev-ws/src/build/velodyne_subscriber'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/ulugbek/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ulugbek/dev-ws/src/install/velodyne_msgs/lib/python3.9/site-packages:/home/ulugbek/dev-ws/src/install/ros_tcp_endpoint/lib/python3.8/site-packages:/home/ulugbek/dev-ws/install/velodyne_msgs/lib/python3.8/site-packages:/home/ulugbek/dev-ws/install/ros_tcp_endpoint/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'sv_SE.UTF-8'), ('CONDA_PREFIX', '/home/ulugbek/anaconda3'), ('LC_PAPER', 'sv_SE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/ulugbek/dev-ws/src/install/velodyne_msgs:/home/ulugbek/dev-ws/src/install/velodyne_laserscan:/home/ulugbek/dev-ws/src/install/safe_landing:/home/ulugbek/dev-ws/src/install/my_package:/home/ulugbek/dev-ws/src/install/feature_extraction:/home/ulugbek/dev-ws/src/install/altitude_publisher:/home/ulugbek/dev-ws/install/velodyne:/home/ulugbek/dev-ws/install/velodyne_pointcloud:/home/ulugbek/dev-ws/install/velodyne_driver:/home/ulugbek/dev-ws/install/velodyne_msgs:/home/ulugbek/dev-ws/install/velodyne_laserscan:/home/ulugbek/dev-ws/install/safe_landing:/home/ulugbek/dev-ws/install/my_package:/home/ulugbek/dev-ws/install/feature_extraction:/home/ulugbek/dev-ws/install/altitude_publisher:/home/ulugbek/dev-ws/src/install/ros_tcp_endpoint:/home/ulugbek/dev-ws/install/ros_tcp_endpoint:/opt/ros/foxy')]), 'shell': False}
+[2.901111] (velodyne_subscriber) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target velodyne_subscriber_node\x1b[0m\n'}
+[2.902784] (-) TimerEvent: {}
+[2.932380] (velodyne_subscriber) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/velodyne_subscriber_node.dir/src/velodyne_subscriber_node.cpp.o\x1b[0m\n'}
+[3.002926] (-) TimerEvent: {}
+[3.005619] (velodyne_subscriber) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ulugbek/dev-ws/src/velodyne_subscriber/src/velodyne_subscriber_node.cpp:2:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Ksensor_msgs/msg/PointCloud2.hpp: No such file or directory\n'}
+[3.005833] (velodyne_subscriber) StderrLine: {'line': b'    2 | #include \x1b[01;31m\x1b[K<sensor_msgs/msg/PointCloud2.hpp>\x1b[m\x1b[K\n'}
+[3.005942] (velodyne_subscriber) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.006034] (velodyne_subscriber) StderrLine: {'line': b'compilation terminated.\n'}
+[3.008386] (velodyne_subscriber) StderrLine: {'line': b'make[2]: *** [CMakeFiles/velodyne_subscriber_node.dir/build.make:63: CMakeFiles/velodyne_subscriber_node.dir/src/velodyne_subscriber_node.cpp.o] Error 1\n'}
+[3.009019] (velodyne_subscriber) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/velodyne_subscriber_node.dir/all] Error 2\n'}
+[3.009643] (velodyne_subscriber) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[3.011624] (velodyne_subscriber) CommandEnded: {'returncode': 2}
+[3.077501] (velodyne_subscriber) JobEnded: {'identifier': 'velodyne_subscriber', 'rc': 2}
+[3.078337] (-) EventReactorShutdown: {}

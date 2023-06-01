@@ -1,0 +1,5 @@
+[0.231s] Invoking command in '/home/ulugbek/dev-ws/src/build/safe_landing': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/ulugbek/dev-ws/src/build/safe_landing -- -j16 -l16
+[0.272s] [35m[1mScanning dependencies of target safe_landing_node[0m
+[0.302s] [ 50%] [32mBuilding CXX object CMakeFiles/safe_landing_node.dir/src/safe_landing_node.cpp.o[0m
+[6.142s] [100%] [32m[1mLinking CXX executable safe_landing_node[0m
+[6.732s] [100%] Built target safe_landing_node

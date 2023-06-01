@@ -1,0 +1,58 @@
+[ 11%] Built target gtest
+[ 22%] Built target gtest_main
+[ 38%] Built target velodyne_cloud_types
+[ 55%] Built target velodyne_rawdata
+[ 66%] Built target test_row_step
+[ 77%] Built target test_calibration
+[ 88%] Built target transform
+[100%] Built target velodyne_transform_node
+-- Install configuration: ""
+-- Installing: /home/ulugbek/dev-ws/src/install/velodyne_pointcloud/lib/libtransform.so
+-- Set runtime path of "/home/ulugbek/dev-ws/src/install/velodyne_pointcloud/lib/libtransform.so" to ""
+-- Installing: /home/ulugbek/dev-ws/src/install/velodyne_pointcloud/lib/velodyne_pointcloud/velodyne_transform_node
+-- Set runtime path of "/home/ulugbek/dev-ws/src/install/velodyne_pointcloud/lib/velodyne_pointcloud/velodyne_transform_node" to ""
+-- Installing: /home/ulugbek/dev-ws/src/install/velodyne_pointcloud/include/velodyne_pointcloud
+-- Installing: /home/ulugbek/dev-ws/src/install/velodyne_pointcloud/include/velodyne_pointcloud/datacontainerbase.hpp
+-- Installing: /home/ulugbek/dev-ws/src/install/velodyne_pointcloud/include/velodyne_pointcloud/calibration.hpp
+-- Installing: /home/ulugbek/dev-ws/src/install/velodyne_pointcloud/include/velodyne_pointcloud/rawdata.hpp
+-- Installing: /home/ulugbek/dev-ws/src/install/velodyne_pointcloud/include/velodyne_pointcloud/pointcloudXYZIRT.hpp
+-- Installing: /home/ulugbek/dev-ws/src/install/velodyne_pointcloud/include/velodyne_pointcloud/transform.hpp
+-- Installing: /home/ulugbek/dev-ws/src/install/velodyne_pointcloud/include/velodyne_pointcloud/organized_cloudXYZIRT.hpp
+-- Installing: /home/ulugbek/dev-ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/config
+-- Installing: /home/ulugbek/dev-ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/config/VLP16-velodyne_transform_node-params.yaml
+-- Installing: /home/ulugbek/dev-ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/config/VLP32C-velodyne_transform_node-params.yaml
+-- Installing: /home/ulugbek/dev-ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/launch
+-- Installing: /home/ulugbek/dev-ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/launch/velodyne_transform_node-VLP32C-launch.py
+-- Installing: /home/ulugbek/dev-ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/launch/velodyne_transform_node-VLP16-composed-launch.py
+-- Installing: /home/ulugbek/dev-ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/launch/velodyne_transform_node-VLP16-launch.py
+-- Installing: /home/ulugbek/dev-ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/launch/velodyne_transform_node-VLP32C-composed-launch.py
+-- Installing: /home/ulugbek/dev-ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/params
+-- Installing: /home/ulugbek/dev-ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/params/VLP16_hires_db.yaml
+-- Installing: /home/ulugbek/dev-ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/params/VLP16db.yaml
+-- Installing: /home/ulugbek/dev-ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/params/32db.yaml
+-- Installing: /home/ulugbek/dev-ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/params/VeloView-VLP-32C.yaml
+-- Installing: /home/ulugbek/dev-ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/params/64e_utexas.yaml
+-- Installing: /home/ulugbek/dev-ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/params/issue_84_float_intensities.yaml
+-- Installing: /home/ulugbek/dev-ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/params/64e_s2.1-sztaki.yaml
+-- Installing: /home/ulugbek/dev-ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/params/64e_s3-xiesc.yaml
+-- Installing: /home/ulugbek/dev-ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/params/rviz_points.vcg
+-- Installing: /home/ulugbek/dev-ws/src/install/velodyne_pointcloud/share/ament_index/resource_index/package_run_dependencies/velodyne_pointcloud
+-- Installing: /home/ulugbek/dev-ws/src/install/velodyne_pointcloud/share/ament_index/resource_index/parent_prefix_path/velodyne_pointcloud
+-- Installing: /home/ulugbek/dev-ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/environment/ament_prefix_path.sh
+-- Installing: /home/ulugbek/dev-ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/environment/ament_prefix_path.dsv
+-- Installing: /home/ulugbek/dev-ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/environment/path.sh
+-- Installing: /home/ulugbek/dev-ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/environment/path.dsv
+-- Installing: /home/ulugbek/dev-ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/local_setup.bash
+-- Installing: /home/ulugbek/dev-ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/local_setup.sh
+-- Installing: /home/ulugbek/dev-ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/local_setup.zsh
+-- Installing: /home/ulugbek/dev-ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/local_setup.dsv
+-- Installing: /home/ulugbek/dev-ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/package.dsv
+-- Installing: /home/ulugbek/dev-ws/src/install/velodyne_pointcloud/share/ament_index/resource_index/packages/velodyne_pointcloud
+-- Installing: /home/ulugbek/dev-ws/src/install/velodyne_pointcloud/share/ament_index/resource_index/rclcpp_components/velodyne_pointcloud
+-- Installing: /home/ulugbek/dev-ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/cmake/velodyne_pointcloudConfig.cmake
+-- Installing: /home/ulugbek/dev-ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/cmake/velodyne_pointcloudConfig-version.cmake
+-- Installing: /home/ulugbek/dev-ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/package.xml
+-- Installing: /home/ulugbek/dev-ws/src/install/velodyne_pointcloud/lib/libvelodyne_cloud_types.so
+-- Set runtime path of "/home/ulugbek/dev-ws/src/install/velodyne_pointcloud/lib/libvelodyne_cloud_types.so" to ""
+-- Installing: /home/ulugbek/dev-ws/src/install/velodyne_pointcloud/lib/libvelodyne_rawdata.so
+-- Set runtime path of "/home/ulugbek/dev-ws/src/install/velodyne_pointcloud/lib/libvelodyne_rawdata.so" to ""

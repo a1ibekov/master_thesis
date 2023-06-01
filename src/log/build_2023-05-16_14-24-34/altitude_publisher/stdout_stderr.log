@@ -1,0 +1,19 @@
+[100%] Built target altitude_publisher_node
+-- Install configuration: ""
+-- Installing: /home/ulugbek/dev-ws/src/install/altitude_publisher/lib/altitude_publisher/altitude_publisher_node
+-- Set runtime path of "/home/ulugbek/dev-ws/src/install/altitude_publisher/lib/altitude_publisher/altitude_publisher_node" to ""
+-- Installing: /home/ulugbek/dev-ws/src/install/altitude_publisher/share/ament_index/resource_index/package_run_dependencies/altitude_publisher
+-- Installing: /home/ulugbek/dev-ws/src/install/altitude_publisher/share/ament_index/resource_index/parent_prefix_path/altitude_publisher
+-- Installing: /home/ulugbek/dev-ws/src/install/altitude_publisher/share/altitude_publisher/environment/ament_prefix_path.sh
+-- Installing: /home/ulugbek/dev-ws/src/install/altitude_publisher/share/altitude_publisher/environment/ament_prefix_path.dsv
+-- Installing: /home/ulugbek/dev-ws/src/install/altitude_publisher/share/altitude_publisher/environment/path.sh
+-- Installing: /home/ulugbek/dev-ws/src/install/altitude_publisher/share/altitude_publisher/environment/path.dsv
+-- Installing: /home/ulugbek/dev-ws/src/install/altitude_publisher/share/altitude_publisher/local_setup.bash
+-- Installing: /home/ulugbek/dev-ws/src/install/altitude_publisher/share/altitude_publisher/local_setup.sh
+-- Installing: /home/ulugbek/dev-ws/src/install/altitude_publisher/share/altitude_publisher/local_setup.zsh
+-- Installing: /home/ulugbek/dev-ws/src/install/altitude_publisher/share/altitude_publisher/local_setup.dsv
+-- Installing: /home/ulugbek/dev-ws/src/install/altitude_publisher/share/altitude_publisher/package.dsv
+-- Installing: /home/ulugbek/dev-ws/src/install/altitude_publisher/share/ament_index/resource_index/packages/altitude_publisher
+-- Installing: /home/ulugbek/dev-ws/src/install/altitude_publisher/share/altitude_publisher/cmake/altitude_publisherConfig.cmake
+-- Installing: /home/ulugbek/dev-ws/src/install/altitude_publisher/share/altitude_publisher/cmake/altitude_publisherConfig-version.cmake
+-- Installing: /home/ulugbek/dev-ws/src/install/altitude_publisher/share/altitude_publisher/package.xml

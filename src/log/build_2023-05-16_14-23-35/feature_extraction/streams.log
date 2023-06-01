@@ -1,0 +1,5 @@
+[0.108s] Invoking command in '/home/ulugbek/dev-ws/src/build/feature_extraction': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ulugbek/dev-ws/install/ros_tcp_endpoint:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/ulugbek/dev-ws/src/build/feature_extraction -- -j16 -l16
+[0.418s] [35m[1mScanning dependencies of target feature_extraction_node[0m
+[0.420s] [ 50%] [32mBuilding CXX object CMakeFiles/feature_extraction_node.dir/src/feature_extraction_node.cpp.o[0m
+[5.855s] [100%] [32m[1mLinking CXX executable feature_extraction_node[0m
+[6.435s] [100%] Built target feature_extraction_node

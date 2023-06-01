@@ -1,0 +1,8 @@
+source;share/safe_landing/hook/cmake_prefix_path.ps1
+source;share/safe_landing/hook/cmake_prefix_path.dsv
+source;share/safe_landing/hook/cmake_prefix_path.sh
+source;share/safe_landing/local_setup.bash
+source;share/safe_landing/local_setup.dsv
+source;share/safe_landing/local_setup.ps1
+source;share/safe_landing/local_setup.sh
+source;share/safe_landing/local_setup.zsh

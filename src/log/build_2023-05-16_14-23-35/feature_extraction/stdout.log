@@ -1,0 +1,4 @@
+[35m[1mScanning dependencies of target feature_extraction_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/feature_extraction_node.dir/src/feature_extraction_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable feature_extraction_node[0m
+[100%] Built target feature_extraction_node

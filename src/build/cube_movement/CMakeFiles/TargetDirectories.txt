@@ -1,0 +1,10 @@
+/home/ulugbek/dev-ws/src/build/cube_movement/CMakeFiles/install/strip.dir
+/home/ulugbek/dev-ws/src/build/cube_movement/CMakeFiles/install/local.dir
+/home/ulugbek/dev-ws/src/build/cube_movement/CMakeFiles/install.dir
+/home/ulugbek/dev-ws/src/build/cube_movement/CMakeFiles/list_install_components.dir
+/home/ulugbek/dev-ws/src/build/cube_movement/CMakeFiles/rebuild_cache.dir
+/home/ulugbek/dev-ws/src/build/cube_movement/CMakeFiles/edit_cache.dir
+/home/ulugbek/dev-ws/src/build/cube_movement/CMakeFiles/test.dir
+/home/ulugbek/dev-ws/src/build/cube_movement/CMakeFiles/cube_movement_node.dir
+/home/ulugbek/dev-ws/src/build/cube_movement/CMakeFiles/cube_movement_uninstall.dir
+/home/ulugbek/dev-ws/src/build/cube_movement/CMakeFiles/uninstall.dir

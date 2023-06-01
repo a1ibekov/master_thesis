@@ -1,0 +1,9 @@
+[0.131s] Invoking command in '/home/ulugbek/dev-ws/src/build/velodyne_laserscan': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ulugbek/dev-ws/install/ros_tcp_endpoint:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/ulugbek/dev-ws/src/build/velodyne_laserscan -- -j16 -l16
+[0.448s] [35m[1mScanning dependencies of target velodyne_laserscan[0m
+[0.448s] [ 25%] [32mBuilding CXX object CMakeFiles/velodyne_laserscan.dir/src/velodyne_laserscan.cpp.o[0m
+[5.177s] [ 50%] [32m[1mLinking CXX shared library libvelodyne_laserscan.so[0m
+[5.390s] [ 50%] Built target velodyne_laserscan
+[5.399s] [35m[1mScanning dependencies of target velodyne_laserscan_node[0m
+[5.431s] [ 75%] [32mBuilding CXX object CMakeFiles/velodyne_laserscan_node.dir/src/node.cpp.o[0m
+[6.886s] [100%] [32m[1mLinking CXX executable velodyne_laserscan_node[0m
+[7.003s] [100%] Built target velodyne_laserscan_node

@@ -1,0 +1,32 @@
+[0.379s] Invoking command in '/home/ulugbek/dev-ws/src/build/static_tf_publisher': CMAKE_PREFIX_PATH=/home/ulugbek/dev-ws/install/velodyne_subscriber:/home/ulugbek/dev-ws/install/velodyne:/home/ulugbek/dev-ws/install/velodyne_pointcloud:/home/ulugbek/dev-ws/install/velodyne_driver:/home/ulugbek/dev-ws/install/velodyne_msgs:/home/ulugbek/dev-ws/install/velodyne_laserscan:/home/ulugbek/dev-ws/install/unity_robotics_demo:/home/ulugbek/dev-ws/install/ros_tcp_endpoint:/opt/ros/foxy:/home/ulugbek/dev-ws/install/unity_robotics_demo_msgs:/home/ulugbek/dev-ws/install/static_tf_publisher:/home/ulugbek/dev-ws/install/safe_landing:/home/ulugbek/dev-ws/install/my_package:/home/ulugbek/dev-ws/install/feature_extraction:/home/ulugbek/dev-ws/install/altitude_publisher CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/ulugbek/dev-ws/src/build/static_tf_publisher -- -j16 -l16
+[0.631s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.631s] -- Using PYTHON_EXECUTABLE: /home/ulugbek/anaconda3/bin/python3
+[0.727s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.801s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.808s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.008s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.118s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.118s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.331s] -- Found tf2: 0.13.13 (/opt/ros/foxy/share/tf2/cmake)
+[1.400s] -- Found tf2_ros: 0.13.13 (/opt/ros/foxy/share/tf2_ros/cmake)
+[1.826s] -- Found tf2_sensor_msgs: 0.13.13 (/opt/ros/foxy/share/tf2_sensor_msgs/cmake)
+[1.921s] -- Found tf2_geometry_msgs: 0.13.14 (/opt/ros/foxy/share/tf2_geometry_msgs/cmake)
+[1.942s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[1.974s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.093s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.094s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.094s] -- Configured cppcheck include dirs: 
+[2.094s] -- Configured cppcheck exclude dirs and/or files: 
+[2.094s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.094s] -- Configured cpplint exclude dirs and/or files: 
+[2.095s] -- Added test 'lint_cmake' to check CMake code style
+[2.095s] -- Added test 'uncrustify' to check C / C++ code style
+[2.095s] -- Configured uncrustify additional arguments: 
+[2.095s] -- Added test 'xmllint' to check XML markup files
+[2.098s] -- Configuring done
+[2.126s] -- Generating done
+[2.129s] -- Build files have been written to: /home/ulugbek/dev-ws/src/build/static_tf_publisher
+[2.162s] [35m[1mScanning dependencies of target static_tf_publisher_node[0m
+[2.190s] [ 50%] [32mBuilding CXX object CMakeFiles/static_tf_publisher_node.dir/src/static_tf_publisher_node.cpp.o[0m
+[5.338s] [100%] [32m[1mLinking CXX executable static_tf_publisher_node[0m
+[5.532s] [100%] Built target static_tf_publisher_node

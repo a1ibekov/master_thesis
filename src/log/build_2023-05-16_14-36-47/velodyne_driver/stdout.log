@@ -1,0 +1,42 @@
+[ 16%] Built target gtest_main
+[ 33%] Built target gtest
+[ 50%] Built target velodyne_input
+[ 66%] Built target velodyne_driver
+[ 83%] Built target time_test
+[100%] Built target velodyne_driver_node
+-- Install configuration: ""
+-- Installing: /home/ulugbek/dev-ws/src/install/velodyne_driver/lib/libvelodyne_driver.so
+-- Set runtime path of "/home/ulugbek/dev-ws/src/install/velodyne_driver/lib/libvelodyne_driver.so" to ""
+-- Installing: /home/ulugbek/dev-ws/src/install/velodyne_driver/lib/velodyne_driver/velodyne_driver_node
+-- Set runtime path of "/home/ulugbek/dev-ws/src/install/velodyne_driver/lib/velodyne_driver/velodyne_driver_node" to ""
+-- Installing: /home/ulugbek/dev-ws/src/install/velodyne_driver/include/velodyne_driver
+-- Installing: /home/ulugbek/dev-ws/src/install/velodyne_driver/include/velodyne_driver/time_conversion.hpp
+-- Installing: /home/ulugbek/dev-ws/src/install/velodyne_driver/include/velodyne_driver/input.hpp
+-- Installing: /home/ulugbek/dev-ws/src/install/velodyne_driver/include/velodyne_driver/driver.hpp
+-- Installing: /home/ulugbek/dev-ws/src/install/velodyne_driver/share/velodyne_driver/config
+-- Installing: /home/ulugbek/dev-ws/src/install/velodyne_driver/share/velodyne_driver/config/VLP16-velodyne_driver_node-params.yaml
+-- Installing: /home/ulugbek/dev-ws/src/install/velodyne_driver/share/velodyne_driver/config/VLP32C-velodyne_driver_node-params.yaml
+-- Installing: /home/ulugbek/dev-ws/src/install/velodyne_driver/share/velodyne_driver/launch
+-- Installing: /home/ulugbek/dev-ws/src/install/velodyne_driver/share/velodyne_driver/launch/velodyne_driver_node-VLP32C-composed-launch.py
+-- Installing: /home/ulugbek/dev-ws/src/install/velodyne_driver/share/velodyne_driver/launch/velodyne_driver_node-VLP32C-launch.py
+-- Installing: /home/ulugbek/dev-ws/src/install/velodyne_driver/share/velodyne_driver/launch/velodyne_driver_node-VLP16-launch.py
+-- Installing: /home/ulugbek/dev-ws/src/install/velodyne_driver/share/velodyne_driver/launch/velodyne_driver_node-VLP16-composed-launch.py
+-- Installing: /home/ulugbek/dev-ws/src/install/velodyne_driver/lib/velodyne_driver/vdump
+-- Installing: /home/ulugbek/dev-ws/src/install/velodyne_driver/share/ament_index/resource_index/package_run_dependencies/velodyne_driver
+-- Installing: /home/ulugbek/dev-ws/src/install/velodyne_driver/share/ament_index/resource_index/parent_prefix_path/velodyne_driver
+-- Installing: /home/ulugbek/dev-ws/src/install/velodyne_driver/share/velodyne_driver/environment/ament_prefix_path.sh
+-- Installing: /home/ulugbek/dev-ws/src/install/velodyne_driver/share/velodyne_driver/environment/ament_prefix_path.dsv
+-- Installing: /home/ulugbek/dev-ws/src/install/velodyne_driver/share/velodyne_driver/environment/path.sh
+-- Installing: /home/ulugbek/dev-ws/src/install/velodyne_driver/share/velodyne_driver/environment/path.dsv
+-- Installing: /home/ulugbek/dev-ws/src/install/velodyne_driver/share/velodyne_driver/local_setup.bash
+-- Installing: /home/ulugbek/dev-ws/src/install/velodyne_driver/share/velodyne_driver/local_setup.sh
+-- Installing: /home/ulugbek/dev-ws/src/install/velodyne_driver/share/velodyne_driver/local_setup.zsh
+-- Installing: /home/ulugbek/dev-ws/src/install/velodyne_driver/share/velodyne_driver/local_setup.dsv
+-- Installing: /home/ulugbek/dev-ws/src/install/velodyne_driver/share/velodyne_driver/package.dsv
+-- Installing: /home/ulugbek/dev-ws/src/install/velodyne_driver/share/ament_index/resource_index/packages/velodyne_driver
+-- Installing: /home/ulugbek/dev-ws/src/install/velodyne_driver/share/ament_index/resource_index/rclcpp_components/velodyne_driver
+-- Installing: /home/ulugbek/dev-ws/src/install/velodyne_driver/share/velodyne_driver/cmake/velodyne_driverConfig.cmake
+-- Installing: /home/ulugbek/dev-ws/src/install/velodyne_driver/share/velodyne_driver/cmake/velodyne_driverConfig-version.cmake
+-- Installing: /home/ulugbek/dev-ws/src/install/velodyne_driver/share/velodyne_driver/package.xml
+-- Installing: /home/ulugbek/dev-ws/src/install/velodyne_driver/lib/libvelodyne_input.so
+-- Set runtime path of "/home/ulugbek/dev-ws/src/install/velodyne_driver/lib/libvelodyne_input.so" to ""

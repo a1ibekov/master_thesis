@@ -1,0 +1,124 @@
+[0.343s] Invoking command in '/home/ulugbek/dev-ws/src/build/velodyne_subscriber': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ulugbek/dev-ws/install/ros_tcp_endpoint:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/ulugbek/dev-ws/src/velodyne_subscriber -DCMAKE_INSTALL_PREFIX=/home/ulugbek/dev-ws/src/install/velodyne_subscriber
+[0.372s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.427s] -- Using PYTHON_EXECUTABLE: /home/ulugbek/anaconda3/bin/python3
+[0.727s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.761s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.764s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.869s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.911s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.913s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.021s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[1.108s] -- Found pcl_conversions: 2.2.1 (/opt/ros/foxy/share/pcl_conversions/cmake)
+[1.230s] -- Found pcl_ros: 2.2.1 (/opt/ros/foxy/share/pcl_ros/cmake)
+[1.308s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[1.312s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[1.618s] -- Checking for module 'eigen3'
+[1.631s] --   Found eigen3, version 3.3.7
+[1.651s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[1.651s] -- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+[1.717s] -- Checking for module 'flann'
+[1.731s] --   Found flann, version 1.9.1
+[1.767s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[1.809s] -- The imported target "vtkParseOGLExt" references the file
+[1.809s]    "/usr/bin/vtkParseOGLExt-7.1"
+[1.809s] but this file does not exist.  Possible reasons include:
+[1.809s] * The file was deleted, renamed, or moved to another location.
+[1.809s] * An install or uninstall procedure did not complete successfully.
+[1.810s] * The installation package was faulty and contained
+[1.810s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[1.810s] but not all the files it references.
+[1.810s] 
+[1.810s] -- The imported target "vtkRenderingPythonTkWidgets" references the file
+[1.810s]    "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+[1.810s] but this file does not exist.  Possible reasons include:
+[1.810s] * The file was deleted, renamed, or moved to another location.
+[1.810s] * An install or uninstall procedure did not complete successfully.
+[1.810s] * The installation package was faulty and contained
+[1.810s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[1.810s] but not all the files it references.
+[1.810s] 
+[1.811s] -- The imported target "vtk" references the file
+[1.811s]    "/usr/bin/vtk"
+[1.811s] but this file does not exist.  Possible reasons include:
+[1.811s] * The file was deleted, renamed, or moved to another location.
+[1.811s] * An install or uninstall procedure did not complete successfully.
+[1.811s] * The installation package was faulty and contained
+[1.811s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[1.811s] but not all the files it references.
+[1.811s] 
+[1.811s] -- The imported target "pvtk" references the file
+[1.811s]    "/usr/bin/pvtk"
+[1.811s] but this file does not exist.  Possible reasons include:
+[1.811s] * The file was deleted, renamed, or moved to another location.
+[1.811s] * An install or uninstall procedure did not complete successfully.
+[1.812s] * The installation package was faulty and contained
+[1.812s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[1.812s] but not all the files it references.
+[1.812s] 
+[1.832s] -- Checking for module 'libusb-1.0'
+[1.836s] --   No package 'libusb-1.0' found
+[1.839s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[1.839s] -- OpenNI disabled because libusb-1.0 not found.
+[1.842s] -- Checking for module 'libusb-1.0'
+[1.844s] --   No package 'libusb-1.0' found
+[1.846s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[1.846s] -- OpenNI 2 disabled because libusb-1.0 not found.
+[1.855s] -- LIBUSB_1_LIBRARY (missing: LIBUSB_1_INCLUDE_DIR) 
+[1.858s] -- Checking for module 'libusb-1.0'
+[1.860s] --   No package 'libusb-1.0' found
+[1.862s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[1.862s] -- OpenNI disabled because libusb-1.0 not found.
+[1.865s] -- Checking for module 'libusb-1.0'
+[1.869s] --   No package 'libusb-1.0' found
+[1.871s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[1.871s] -- OpenNI 2 disabled because libusb-1.0 not found.
+[1.889s] -- Found Qhull: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so  
+[1.890s] -- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)
+[1.893s] -- Checking for module 'libusb-1.0'
+[1.895s] --   No package 'libusb-1.0' found
+[1.897s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[1.898s] -- OpenNI disabled because libusb-1.0 not found.
+[1.906s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[1.907s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[1.908s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[1.909s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[1.910s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[1.911s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[1.911s] -- Found PCL_2D: /usr/include/pcl-1.10  
+[1.911s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.10  
+[1.912s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[1.913s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[1.914s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[1.915s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[1.916s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[1.917s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[1.918s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[1.919s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[1.920s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[1.921s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[1.922s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[1.925s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[1.926s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.10  
+[1.926s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.10  
+[1.927s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[1.928s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[2.172s] CMake Error at CMakeLists.txt:24 (find_package):
+[2.172s]   By not providing "Findopencv.cmake" in CMAKE_MODULE_PATH this project has
+[2.172s]   asked CMake to find a package configuration file provided by "opencv", but
+[2.172s]   CMake did not find one.
+[2.172s] 
+[2.172s]   Could not find a package configuration file provided by "opencv" with any
+[2.172s]   of the following names:
+[2.172s] 
+[2.172s]     opencvConfig.cmake
+[2.172s]     opencv-config.cmake
+[2.173s] 
+[2.173s]   Add the installation prefix of "opencv" to CMAKE_PREFIX_PATH or set
+[2.173s]   "opencv_DIR" to a directory containing one of the above files.  If "opencv"
+[2.173s]   provides a separate development package or SDK, be sure it has been
+[2.173s]   installed.
+[2.173s] 
+[2.173s] 
+[2.173s] -- Configuring incomplete, errors occurred!
+[2.173s] See also "/home/ulugbek/dev-ws/src/build/velodyne_subscriber/CMakeFiles/CMakeOutput.log".
+[2.173s] See also "/home/ulugbek/dev-ws/src/build/velodyne_subscriber/CMakeFiles/CMakeError.log".

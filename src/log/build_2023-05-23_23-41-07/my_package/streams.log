@@ -1,0 +1,23 @@
+[0.070s] Invoking command in '/home/ulugbek/dev-ws/src/build/my_package': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/ulugbek/dev-ws/src/build/my_package -- -j16 -l16
+[0.281s] Invoked command in '/home/ulugbek/dev-ws/src/build/my_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/ulugbek/dev-ws/src/build/my_package -- -j16 -l16
+[0.320s] Invoking command in '/home/ulugbek/dev-ws/src/build/my_package': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/ulugbek/dev-ws/src/build/my_package
+[0.327s] -- Install configuration: ""
+[0.327s] -- Up-to-date: /home/ulugbek/dev-ws/src/install/my_package/share/my_package/launch
+[0.327s] -- Up-to-date: /home/ulugbek/dev-ws/src/install/my_package/share/my_package/launch/talker.launch.py
+[0.328s] -- Up-to-date: /home/ulugbek/dev-ws/src/install/my_package/share/my_package/launch/listener.launch.py
+[0.328s] -- Up-to-date: /home/ulugbek/dev-ws/src/install/my_package/share/ament_index/resource_index/package_run_dependencies/my_package
+[0.328s] -- Up-to-date: /home/ulugbek/dev-ws/src/install/my_package/share/ament_index/resource_index/parent_prefix_path/my_package
+[0.328s] -- Up-to-date: /home/ulugbek/dev-ws/src/install/my_package/share/my_package/environment/ament_prefix_path.sh
+[0.328s] -- Up-to-date: /home/ulugbek/dev-ws/src/install/my_package/share/my_package/environment/ament_prefix_path.dsv
+[0.328s] -- Up-to-date: /home/ulugbek/dev-ws/src/install/my_package/share/my_package/environment/path.sh
+[0.328s] -- Up-to-date: /home/ulugbek/dev-ws/src/install/my_package/share/my_package/environment/path.dsv
+[0.328s] -- Up-to-date: /home/ulugbek/dev-ws/src/install/my_package/share/my_package/local_setup.bash
+[0.330s] -- Up-to-date: /home/ulugbek/dev-ws/src/install/my_package/share/my_package/local_setup.sh
+[0.330s] -- Up-to-date: /home/ulugbek/dev-ws/src/install/my_package/share/my_package/local_setup.zsh
+[0.330s] -- Up-to-date: /home/ulugbek/dev-ws/src/install/my_package/share/my_package/local_setup.dsv
+[0.330s] -- Installing: /home/ulugbek/dev-ws/src/install/my_package/share/my_package/package.dsv
+[0.331s] -- Up-to-date: /home/ulugbek/dev-ws/src/install/my_package/share/ament_index/resource_index/packages/my_package
+[0.331s] -- Up-to-date: /home/ulugbek/dev-ws/src/install/my_package/share/my_package/cmake/my_packageConfig.cmake
+[0.331s] -- Up-to-date: /home/ulugbek/dev-ws/src/install/my_package/share/my_package/cmake/my_packageConfig-version.cmake
+[0.331s] -- Up-to-date: /home/ulugbek/dev-ws/src/install/my_package/share/my_package/package.xml
+[0.460s] Invoked command in '/home/ulugbek/dev-ws/src/build/my_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/ulugbek/dev-ws/src/build/my_package

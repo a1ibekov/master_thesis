@@ -1,0 +1,22 @@
+[0.099s] Invoking command in '/home/ulugbek/dev-ws/src/build/feature_extraction': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ulugbek/dev-ws/install/ros_tcp_endpoint:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/ulugbek/dev-ws/src/build/feature_extraction -- -j16 -l16
+[0.384s] [100%] Built target feature_extraction_node
+[0.405s] Invoked command in '/home/ulugbek/dev-ws/src/build/feature_extraction' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ulugbek/dev-ws/install/ros_tcp_endpoint:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/ulugbek/dev-ws/src/build/feature_extraction -- -j16 -l16
+[0.447s] Invoking command in '/home/ulugbek/dev-ws/src/build/feature_extraction': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ulugbek/dev-ws/install/ros_tcp_endpoint:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/ulugbek/dev-ws/src/build/feature_extraction
+[0.467s] -- Install configuration: ""
+[0.467s] -- Up-to-date: /home/ulugbek/dev-ws/src/install/feature_extraction/lib/feature_extraction/feature_extraction_node
+[0.468s] -- Up-to-date: /home/ulugbek/dev-ws/src/install/feature_extraction/share/ament_index/resource_index/package_run_dependencies/feature_extraction
+[0.468s] -- Up-to-date: /home/ulugbek/dev-ws/src/install/feature_extraction/share/ament_index/resource_index/parent_prefix_path/feature_extraction
+[0.468s] -- Up-to-date: /home/ulugbek/dev-ws/src/install/feature_extraction/share/feature_extraction/environment/ament_prefix_path.sh
+[0.468s] -- Up-to-date: /home/ulugbek/dev-ws/src/install/feature_extraction/share/feature_extraction/environment/ament_prefix_path.dsv
+[0.468s] -- Up-to-date: /home/ulugbek/dev-ws/src/install/feature_extraction/share/feature_extraction/environment/path.sh
+[0.468s] -- Up-to-date: /home/ulugbek/dev-ws/src/install/feature_extraction/share/feature_extraction/environment/path.dsv
+[0.468s] -- Up-to-date: /home/ulugbek/dev-ws/src/install/feature_extraction/share/feature_extraction/local_setup.bash
+[0.468s] -- Up-to-date: /home/ulugbek/dev-ws/src/install/feature_extraction/share/feature_extraction/local_setup.sh
+[0.468s] -- Up-to-date: /home/ulugbek/dev-ws/src/install/feature_extraction/share/feature_extraction/local_setup.zsh
+[0.472s] -- Up-to-date: /home/ulugbek/dev-ws/src/install/feature_extraction/share/feature_extraction/local_setup.dsv
+[0.473s] -- Installing: /home/ulugbek/dev-ws/src/install/feature_extraction/share/feature_extraction/package.dsv
+[0.473s] -- Up-to-date: /home/ulugbek/dev-ws/src/install/feature_extraction/share/ament_index/resource_index/packages/feature_extraction
+[0.474s] -- Up-to-date: /home/ulugbek/dev-ws/src/install/feature_extraction/share/feature_extraction/cmake/feature_extractionConfig.cmake
+[0.474s] -- Up-to-date: /home/ulugbek/dev-ws/src/install/feature_extraction/share/feature_extraction/cmake/feature_extractionConfig-version.cmake
+[0.477s] -- Up-to-date: /home/ulugbek/dev-ws/src/install/feature_extraction/share/feature_extraction/package.xml
+[0.560s] Invoked command in '/home/ulugbek/dev-ws/src/build/feature_extraction' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ulugbek/dev-ws/install/ros_tcp_endpoint:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/ulugbek/dev-ws/src/build/feature_extraction

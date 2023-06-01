@@ -1,0 +1,98 @@
+[0.369s] Invoking command in '/home/ulugbek/dev-ws/src/build/velodyne_subscriber': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ulugbek/dev-ws/src/install/ros_tcp_endpoint:/home/ulugbek/dev-ws/install/ros_tcp_endpoint:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/ulugbek/dev-ws/src/velodyne_subscriber -DCMAKE_INSTALL_PREFIX=/home/ulugbek/dev-ws/src/install/velodyne_subscriber
+[0.387s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.440s] -- Using PYTHON_EXECUTABLE: /home/ulugbek/anaconda3/bin/python3
+[0.697s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.712s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.734s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.740s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.854s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.893s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.893s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.050s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[1.158s] -- Found pcl_conversions: 2.2.1 (/opt/ros/foxy/share/pcl_conversions/cmake)
+[1.318s] -- Found pcl_ros: 2.2.1 (/opt/ros/foxy/share/pcl_ros/cmake)
+[1.411s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[1.729s] -- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+[1.791s] -- The imported target "vtkParseOGLExt" references the file
+[1.792s]    "/usr/bin/vtkParseOGLExt-7.1"
+[1.792s] but this file does not exist.  Possible reasons include:
+[1.792s] * The file was deleted, renamed, or moved to another location.
+[1.792s] * An install or uninstall procedure did not complete successfully.
+[1.792s] * The installation package was faulty and contained
+[1.792s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[1.792s] but not all the files it references.
+[1.792s] 
+[1.793s] -- The imported target "vtkRenderingPythonTkWidgets" references the file
+[1.793s]    "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+[1.793s] but this file does not exist.  Possible reasons include:
+[1.793s] * The file was deleted, renamed, or moved to another location.
+[1.793s] * An install or uninstall procedure did not complete successfully.
+[1.793s] * The installation package was faulty and contained
+[1.793s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[1.793s] but not all the files it references.
+[1.793s] 
+[1.793s] -- The imported target "vtk" references the file
+[1.793s]    "/usr/bin/vtk"
+[1.793s] but this file does not exist.  Possible reasons include:
+[1.793s] * The file was deleted, renamed, or moved to another location.
+[1.793s] * An install or uninstall procedure did not complete successfully.
+[1.794s] * The installation package was faulty and contained
+[1.794s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[1.794s] but not all the files it references.
+[1.794s] 
+[1.794s] -- The imported target "pvtk" references the file
+[1.794s]    "/usr/bin/pvtk"
+[1.794s] but this file does not exist.  Possible reasons include:
+[1.794s] * The file was deleted, renamed, or moved to another location.
+[1.794s] * An install or uninstall procedure did not complete successfully.
+[1.794s] * The installation package was faulty and contained
+[1.794s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[1.794s] but not all the files it references.
+[1.794s] 
+[1.809s] -- Checking for module 'libusb-1.0'
+[1.812s] --   No package 'libusb-1.0' found
+[1.815s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[1.815s] -- OpenNI disabled because libusb-1.0 not found.
+[1.818s] -- Checking for module 'libusb-1.0'
+[1.820s] --   No package 'libusb-1.0' found
+[1.823s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[1.823s] -- OpenNI 2 disabled because libusb-1.0 not found.
+[1.834s] -- LIBUSB_1_LIBRARY (missing: LIBUSB_1_INCLUDE_DIR) 
+[1.837s] -- Checking for module 'libusb-1.0'
+[1.840s] --   No package 'libusb-1.0' found
+[1.842s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[1.843s] -- OpenNI disabled because libusb-1.0 not found.
+[1.846s] -- Checking for module 'libusb-1.0'
+[1.849s] --   No package 'libusb-1.0' found
+[1.851s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[1.851s] -- OpenNI 2 disabled because libusb-1.0 not found.
+[1.861s] -- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)
+[1.865s] -- Checking for module 'libusb-1.0'
+[1.867s] --   No package 'libusb-1.0' found
+[1.871s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[1.871s] -- OpenNI disabled because libusb-1.0 not found.
+[2.116s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.207s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.207s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.207s] -- Configured cppcheck include dirs: 
+[2.208s] -- Configured cppcheck exclude dirs and/or files: 
+[2.208s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.208s] -- Configured cpplint exclude dirs and/or files: 
+[2.208s] -- Added test 'lint_cmake' to check CMake code style
+[2.209s] -- Added test 'uncrustify' to check C / C++ code style
+[2.209s] -- Configured uncrustify additional arguments: 
+[2.209s] -- Added test 'xmllint' to check XML markup files
+[2.212s] -- Configuring done
+[2.242s] -- Generating done
+[2.243s] -- Build files have been written to: /home/ulugbek/dev-ws/src/build/velodyne_subscriber
+[2.253s] Invoked command in '/home/ulugbek/dev-ws/src/build/velodyne_subscriber' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ulugbek/dev-ws/src/install/ros_tcp_endpoint:/home/ulugbek/dev-ws/install/ros_tcp_endpoint:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/ulugbek/dev-ws/src/velodyne_subscriber -DCMAKE_INSTALL_PREFIX=/home/ulugbek/dev-ws/src/install/velodyne_subscriber
+[2.257s] Invoking command in '/home/ulugbek/dev-ws/src/build/velodyne_subscriber': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ulugbek/dev-ws/src/install/ros_tcp_endpoint:/home/ulugbek/dev-ws/install/ros_tcp_endpoint:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/ulugbek/dev-ws/src/build/velodyne_subscriber -- -j16 -l16
+[2.315s] [ 50%] [32mBuilding CXX object CMakeFiles/velodyne_subscriber_node.dir/src/velodyne_subscriber_node.cpp.o[0m
+[2.385s] [01m[K/home/ulugbek/dev-ws/src/velodyne_subscriber/src/velodyne_subscriber_node.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Ksensor_msgs/msg/PointCloud2.hpp: No such file or directory
+[2.385s]     2 | #include [01;31m[K<sensor_msgs/msg/PointCloud2.hpp>[m[K
+[2.385s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.385s] compilation terminated.
+[2.393s] make[2]: *** [CMakeFiles/velodyne_subscriber_node.dir/build.make:63: CMakeFiles/velodyne_subscriber_node.dir/src/velodyne_subscriber_node.cpp.o] Error 1
+[2.393s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/velodyne_subscriber_node.dir/all] Error 2
+[2.394s] make: *** [Makefile:141: all] Error 2
+[2.396s] Invoked command in '/home/ulugbek/dev-ws/src/build/velodyne_subscriber' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ulugbek/dev-ws/src/install/ros_tcp_endpoint:/home/ulugbek/dev-ws/install/ros_tcp_endpoint:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/ulugbek/dev-ws/src/build/velodyne_subscriber -- -j16 -l16

@@ -1,0 +1,11 @@
+[0.218s] Invoking command in '/home/ulugbek/dev-ws/src/build/static_tf_publisher': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/ulugbek/dev-ws/src/build/static_tf_publisher -- -j16 -l16
+[0.254s] [35m[1mScanning dependencies of target static_tf_publisher_node[0m
+[0.292s] [ 50%] [32mBuilding CXX object CMakeFiles/static_tf_publisher_node.dir/src/static_tf_publisher_node.cpp.o[0m
+[2.129s] [01m[K/home/ulugbek/dev-ws/src/static_tf_publisher/src/static_tf_publisher_node.cpp:[m[K In member function ‘[01m[Kvoid StaticTfPublisher::pointCloudCallback(sensor_msgs::msg::PointCloud2_<std::allocator<void> >::SharedPtr)[m[K’:
+[2.129s] [01m[K/home/ulugbek/dev-ws/src/static_tf_publisher/src/static_tf_publisher_node.cpp:41:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2_sensor_msgs[m[K’ has not been declared
+[2.130s]    41 |     [01;31m[Ktf2_sensor_msgs[m[K::doTransform(*msg, transformed_cloud, transform_);
+[2.130s]       |     [01;31m[K^~~~~~~~~~~~~~~[m[K
+[4.009s] make[2]: *** [CMakeFiles/static_tf_publisher_node.dir/build.make:63: CMakeFiles/static_tf_publisher_node.dir/src/static_tf_publisher_node.cpp.o] Error 1
+[4.009s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/static_tf_publisher_node.dir/all] Error 2
+[4.009s] make: *** [Makefile:141: all] Error 2
+[4.011s] Invoked command in '/home/ulugbek/dev-ws/src/build/static_tf_publisher' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/ulugbek/dev-ws/src/build/static_tf_publisher -- -j16 -l16

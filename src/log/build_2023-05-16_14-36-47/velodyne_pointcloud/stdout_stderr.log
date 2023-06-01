@@ -1,0 +1,13 @@
+[ 22%] Built target gtest_main
+[ 16%] Built target gtest
+[ 38%] Built target velodyne_rawdata
+[ 55%] Built target velodyne_cloud_types
+[ 66%] Built target test_row_step
+[ 77%] Built target test_calibration
+[ 83%] [32mBuilding CXX object CMakeFiles/transform.dir/src/conversions/transform.cpp.o[0m
+[ 88%] [32m[1mLinking CXX shared library libtransform.so[0m
+[ 88%] Built target transform
+[35m[1mScanning dependencies of target velodyne_transform_node[0m
+[ 94%] [32mBuilding CXX object CMakeFiles/velodyne_transform_node.dir/src/conversions/transform_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable velodyne_transform_node[0m
+[100%] Built target velodyne_transform_node

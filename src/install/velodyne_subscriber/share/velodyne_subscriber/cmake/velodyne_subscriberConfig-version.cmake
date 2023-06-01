@@ -1,0 +1,1 @@
+/home/ulugbek/dev-ws/src/build/velodyne_subscriber/ament_cmake_core/velodyne_subscriberConfig-version.cmake
