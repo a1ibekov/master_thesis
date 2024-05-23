@@ -15,14 +15,9 @@ This repository presents an onboard perception-assisted high-fidelity simulation
 - **Visual Odometer**: Processes the visual feed from the onboard RGB camera through a gradient extraction-based perception system to provide visual odometry.
 - **Safe Landing Site Identification**: Identifies safe landing sites to avoid potential risks of landing on uneven terrain.
 
-## Installation
-
-1. **Prerequisites**:
+**Prerequisites**:
    - Unity Game Engine
    - ROS2
    - UnitySensors provided by [Field-Robotics-Japan](https://github.com/Field-Robotics-Japan/UnitySensors)
 
-2. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/yourusername/planetary-landing-simulation.git
-   cd planetary-landing-simulation
+
