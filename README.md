@@ -20,7 +20,7 @@ This repository presents an onboard perception-assisted high-fidelity simulation
 1. **Prerequisites**:
    - Unity Game Engine
    - ROS2
-   - [Other dependencies if any]
+   - UnitySensors provided by [Field-Robotics-Japan](https://github.com/Field-Robotics-Japan/UnitySensors)
 
 2. **Clone the Repository**:
    ```bash
