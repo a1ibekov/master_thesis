@@ -21,3 +21,11 @@ This repository presents an onboard perception-assisted high-fidelity simulation
    - UnitySensors provided by [Field-Robotics-Japan](https://github.com/Field-Robotics-Japan/UnitySensors)
 
 
+First start python script
+- python start.py
+
+Then run nodes in seperate window as:
+- ros2 run safe_landing safe_landing_node 
+- ros2 run pixel_to_world pixel_to_world_node
+- ros2 run cube_navigation cube_navigation_node
+
